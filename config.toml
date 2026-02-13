@@ -1,7 +1,6 @@
 baseURL = "https://aitoolsdaily.org/"
 languageCode = "en-us"
 title = "AI Tools Daily - Automate Your Work with AI"
-theme = "aitoolsdaily"
 
 [params]
   description = "Discover the best AI tools for automation, productivity, and getting more done. Reviews, tutorials, and comparisons."
