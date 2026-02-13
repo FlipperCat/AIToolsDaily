@@ -5,7 +5,7 @@ description: "Privacy policy for AI Tools Daily."
 
 # Privacy Policy
 
-*Last updated: February 2024*
+*Last updated: February 2026*
 
 ## Overview
 

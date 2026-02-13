@@ -1,7 +1,7 @@
 ---
-title: "How to Automate Social Media Posting (2024 Guide)"
+title: "How to Automate Social Media Posting (2026 Guide)"
 description: "Learn how to automate your social media posts across platforms. Includes tool recommendations, scheduling strategies, and AI content generation."
-date: 2024-02-12
+date: 2026-02-12
 categories: ["Tutorials"]
 tags: ["social media", "automation", "scheduling", "content creation"]
 affiliate_disclosure: true

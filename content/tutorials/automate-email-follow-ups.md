@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Email Follow-Ups (Step-by-Step Guide)"
 description: "Learn how to set up automated email follow-up sequences using Zapier, Make.com, or Gmail. Save hours on manual follow-ups."
-date: 2024-02-09
+date: 2026-02-09
 categories: ["Tutorials"]
 tags: ["email automation", "follow-ups", "zapier", "gmail", "productivity"]
 affiliate_disclosure: true

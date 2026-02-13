@@ -1,7 +1,7 @@
 ---
 title: "Zapier for Beginners: Complete Getting Started Guide"
 description: "Learn how to use Zapier from scratch. Step-by-step tutorial covering your first Zap, triggers, actions, and automation basics."
-date: 2024-02-14
+date: 2026-02-14
 categories: ["Tutorials"]
 tags: ["zapier", "automation", "beginner", "tutorial"]
 affiliate_disclosure: true
