@@ -1,0 +1,30 @@
+baseURL = "https://aitoolsdaily.org/"
+languageCode = "en-us"
+title = "AI Tools Daily - Automate Your Work with AI"
+theme = "aitoolsdaily"
+
+[params]
+  description = "Discover the best AI tools for automation, productivity, and getting more done. Reviews, tutorials, and comparisons."
+  author = "AI Tools Daily"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  posts = "/:slug/"
+  reviews = "/reviews/:slug/"
+  tutorials = "/tutorials/:slug/"
+  comparisons = "/compare/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

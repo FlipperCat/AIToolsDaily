@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <p class="meta">
+        {{ .Date.Format "January 2, 2006" }}
+        {{ if .Params.updated }} &middot; Updated: {{ .Params.updated }}{{ end }}
+        {{ if .ReadingTime }} &middot; {{ .ReadingTime }} min read{{ end }}
+    </p>
+
+    {{ .Content }}
+
+    {{ if .Params.affiliate_disclosure }}
+    <p style="margin-top: 40px; padding: 15px; background: #f9fafb; border-radius: 6px; font-size: 0.85rem; color: #6b7280;">
+        <strong>Disclosure:</strong> This post contains affiliate links. If you click through and make a purchase, we may earn a commission at no extra cost to you. We only recommend tools we genuinely believe in.
+    </p>
+    {{ end }}
+</article>
+
+{{ if .Params.tags }}
+<div style="margin-top: 30px;">
+    <strong>Tags:</strong>
+    {{ range .Params.tags }}
+        <a href="/tags/{{ . | urlize }}/" style="margin-left: 8px;">#{{ . }}</a>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
