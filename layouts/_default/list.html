@@ -44,32 +44,23 @@
             {{ $category := "Article" }}
             {{ with .Params.categories }}{{ $category = index . 0 }}{{ end }}
 
+            {{ $imageKeyword := "technology" }}
+            {{ if eq $category "Reviews" }}{{ $imageKeyword = "software,app" }}
+            {{ else if eq $category "Tutorials" }}{{ $imageKeyword = "computer,learning" }}
+            {{ else if eq $category "Comparisons" }}{{ $imageKeyword = "comparison,choice" }}
+            {{ else if eq $category "Lists" }}{{ $imageKeyword = "tools,productivity" }}
+            {{ else if eq $category "Guides" }}{{ $imageKeyword = "guide,book" }}
+            {{ else if eq $category "Tips" }}{{ $imageKeyword = "tips,ideas" }}
+            {{ else if eq $category "Workflows" }}{{ $imageKeyword = "workflow,automation" }}
+            {{ end }}
+            {{ $imageUrl := .Params.image | default (printf "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop&q=80") }}
+            {{ if not .Params.image }}
+                {{ $hash := md5 .Title }}
+                {{ $imageUrl = printf "https://source.unsplash.com/600x400/?%s&sig=%s" $imageKeyword $hash }}
+            {{ end }}
             <article class="article-card animate-on-scroll" data-category="{{ $category }}">
                 <div class="article-card-image">
-                    <div style="width:100%;height:100%;background:linear-gradient(135deg, var(--color-accent-subtle) 0%, var(--color-bg-alt) 100%);display:flex;align-items:center;justify-content:center;">
-                        {{ if eq $category "Reviews" }}
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                        </svg>
-                        {{ else if eq $category "Tutorials" }}
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
-                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                        </svg>
-                        {{ else if eq $category "Comparisons" }}
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                        {{ else }}
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
-                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                            <polyline points="21 15 16 10 5 21"></polyline>
-                        </svg>
-                        {{ end }}
-                    </div>
+                    <img src="{{ $imageUrl }}" alt="{{ .Title }}" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
                     <span class="article-card-category">{{ $category }}</span>
                 </div>
                 <div class="article-card-content">
