@@ -1,22 +1,13 @@
 {{ define "main" }}
 <article class="article">
     <div class="container">
-        <!-- Featured Image -->
-        {{ $category := "Article" }}
-        {{ with .Params.categories }}{{ $category = index . 0 }}{{ end }}
-        {{ $imageKeyword := "technology" }}
-        {{ if eq $category "Reviews" }}{{ $imageKeyword = "software,app" }}
-        {{ else if eq $category "Tutorials" }}{{ $imageKeyword = "computer,learning" }}
-        {{ else if eq $category "Comparisons" }}{{ $imageKeyword = "comparison,choice" }}
-        {{ else if eq $category "Lists" }}{{ $imageKeyword = "tools,productivity" }}
-        {{ else if eq $category "Guides" }}{{ $imageKeyword = "guide,book" }}
-        {{ else if eq $category "Tips" }}{{ $imageKeyword = "tips,ideas" }}
-        {{ else if eq $category "Workflows" }}{{ $imageKeyword = "workflow,automation" }}
-        {{ end }}
-        {{ $hash := md5 .Title }}
-        {{ $imageUrl := .Params.image | default (printf "https://source.unsplash.com/1200x600/?%s&sig=%s" $imageKeyword $hash) }}
+        <!-- Featured Image - Picsum Photos (free for commercial use) -->
+        {{ $seed := "default" }}
+        {{ with .File }}{{ $seed = .UniqueID }}{{ end }}
+        {{ $imageUrl := printf "https://picsum.photos/seed/%s/1200/600" $seed }}
+        {{ with .Params.image }}{{ $imageUrl = . }}{{ end }}
         <div class="article-featured-image" style="margin-bottom:var(--space-8);border-radius:var(--radius-xl);overflow:hidden;aspect-ratio:2/1;">
-            <img src="{{ $imageUrl }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;" loading="eager">
+            <img src="{{ $imageUrl }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;" loading="eager" onerror="this.src='https://picsum.photos/1200/600?random=1'">
         </div>
 
         <!-- Article Header -->
