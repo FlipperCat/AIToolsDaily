@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Title -->
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    <!-- Meta Description -->
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+    <!-- Canonical URL -->
     <link rel="canonical" href="{{ .Permalink }}">
 
     <!-- Open Graph -->
@@ -12,252 +19,193 @@
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ if .Params.image }}
+    <meta property="og:image" content="{{ .Params.image | absURL }}">
+    {{ end }}
 
-    <style>
-        :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --text: #1f2937;
-            --text-light: #6b7280;
-            --bg: #ffffff;
-            --bg-alt: #f9fafb;
-            --border: #e5e7eb;
-        }
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            color: var(--text);
-            line-height: 1.7;
-            background: var(--bg);
-        }
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+    <!-- Fuse.js for Search -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 
-        header {
-            border-bottom: 1px solid var(--border);
-            padding: 20px 0;
-            margin-bottom: 40px;
-        }
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            text-decoration: none;
-        }
+    <!-- RSS -->
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 
-        nav {
-            margin-top: 15px;
-        }
-
-        nav a {
-            color: var(--text-light);
-            text-decoration: none;
-            margin-right: 20px;
-            font-size: 0.95rem;
-        }
-
-        nav a:hover {
-            color: var(--primary);
-        }
-
-        article {
-            margin-bottom: 60px;
-        }
-
-        h1 {
-            font-size: 2.2rem;
-            margin-bottom: 15px;
-            line-height: 1.3;
-        }
-
-        h2 {
-            font-size: 1.6rem;
-            margin: 40px 0 20px;
-        }
-
-        h3 {
-            font-size: 1.3rem;
-            margin: 30px 0 15px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        a {
-            color: var(--primary);
-        }
-
-        .meta {
-            color: var(--text-light);
-            font-size: 0.9rem;
-            margin-bottom: 30px;
-        }
-
-        .post-list {
-            list-style: none;
-        }
-
-        .post-list li {
-            padding: 25px 0;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .post-list h2 {
-            font-size: 1.4rem;
-            margin: 0 0 10px;
-        }
-
-        .post-list h2 a {
-            color: var(--text);
-            text-decoration: none;
-        }
-
-        .post-list h2 a:hover {
-            color: var(--primary);
-        }
-
-        .post-list .excerpt {
-            color: var(--text-light);
-            font-size: 0.95rem;
-        }
-
-        .cta-box {
-            background: var(--bg-alt);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 25px;
-            margin: 30px 0;
-        }
-
-        .cta-box h4 {
-            margin-bottom: 10px;
-        }
-
-        .btn {
-            display: inline-block;
-            background: var(--primary);
-            color: white;
-            padding: 12px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 500;
-            margin-top: 10px;
-        }
-
-        .btn:hover {
-            background: var(--primary-dark);
-            color: white;
-        }
-
-        ul, ol {
-            margin: 0 0 20px 25px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        code {
-            background: var(--bg-alt);
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.9em;
-        }
-
-        pre {
-            background: #1f2937;
-            color: #e5e7eb;
-            padding: 20px;
-            border-radius: 8px;
-            overflow-x: auto;
-            margin: 20px 0;
-        }
-
-        pre code {
-            background: none;
-            padding: 0;
-        }
-
-        blockquote {
-            border-left: 4px solid var(--primary);
-            padding-left: 20px;
-            margin: 20px 0;
-            color: var(--text-light);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-
-        th, td {
-            border: 1px solid var(--border);
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background: var(--bg-alt);
-        }
-
-        footer {
-            border-top: 1px solid var(--border);
-            padding: 40px 0;
-            margin-top: 60px;
-            color: var(--text-light);
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-
-            .container {
-                padding: 0 15px;
-            }
-        }
-    </style>
+    <!-- Theme Script (Prevent Flash) -->
+    <script>
+      (function() {
+        const saved = localStorage.getItem('aitoolsdaily-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="/" class="logo">AI Tools Daily</a>
-            <nav>
-                <a href="/reviews/">Reviews</a>
-                <a href="/tutorials/">Tutorials</a>
-                <a href="/compare/">Comparisons</a>
-                <a href="/categories/">Categories</a>
+    <!-- Reading Progress Bar -->
+    {{ if .IsPage }}
+    <div class="reading-progress" style="position:fixed;top:0;left:0;width:100%;height:3px;background:var(--gradient-primary);transform-origin:left;transform:scaleX(0);z-index:9999;"></div>
+    {{ end }}
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <!-- Logo -->
+            <a href="/" class="logo">
+                <span class="logo-icon">AI</span>
+                <span>AI Tools Daily</span>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="nav">
+                <a href="/reviews/" class="nav-link{{ if eq .Section "reviews" }} active{{ end }}">Reviews</a>
+                <a href="/tutorials/" class="nav-link{{ if eq .Section "tutorials" }} active{{ end }}">Tutorials</a>
+                <a href="/comparisons/" class="nav-link{{ if eq .Section "comparisons" }} active{{ end }}">Comparisons</a>
+                <a href="/categories/" class="nav-link">Categories</a>
             </nav>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <!-- Search Button -->
+                <button class="search-btn" aria-label="Search">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span>Search</span>
+                    <kbd>⌘K</kbd>
+                </button>
+
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
 
-    <main class="container">
+    <!-- Main Content -->
+    <main class="main-content">
         {{ block "main" . }}{{ end }}
     </main>
 
-    <footer>
+    <!-- Newsletter Section -->
+    {{ if not .Params.hide_newsletter }}
+    <section class="newsletter-section">
         <div class="container">
-            <p>&copy; {{ now.Year }} AI Tools Daily. All rights reserved.</p>
-            <p style="margin-top: 10px;">
-                <a href="/privacy/">Privacy</a> &middot;
-                <a href="/about/">About</a> &middot;
-                <a href="/contact/">Contact</a>
-            </p>
+            <div class="newsletter-box">
+                <h3>Stay Ahead with AI</h3>
+                <p>Get weekly insights on the best AI tools, automation strategies, and productivity tips.</p>
+                <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="newsletter">
+                    <p class="hidden"><input name="bot-field"></p>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-icon">AI</span>
+                        <span>AI Tools Daily</span>
+                    </a>
+                    <p>Your guide to the best AI tools for automation, productivity, and getting more done.</p>
+                </div>
+
+                <!-- Content Column -->
+                <div class="footer-column">
+                    <h4>Content</h4>
+                    <ul class="footer-links">
+                        <li><a href="/reviews/">Reviews</a></li>
+                        <li><a href="/tutorials/">Tutorials</a></li>
+                        <li><a href="/comparisons/">Comparisons</a></li>
+                        <li><a href="/posts/">All Articles</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories Column -->
+                <div class="footer-column">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="/tags/automation/">Automation</a></li>
+                        <li><a href="/tags/ai-writing/">AI Writing</a></li>
+                        <li><a href="/tags/productivity/">Productivity</a></li>
+                        <li><a href="/tags/chatgpt/">ChatGPT</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Column -->
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                        <li><a href="/privacy/">Privacy</a></li>
+                        <li><a href="/index.xml">RSS Feed</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; {{ now.Year }} AI Tools Daily. All rights reserved.</p>
+                <p>Made for humans who want to work smarter.</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Search Modal -->
+    <div class="search-modal">
+        <div class="search-modal-content">
+            <div class="search-input-wrapper">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" class="search-input" placeholder="Search articles..." autocomplete="off">
+            </div>
+            <div class="search-results"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
 </body>
 </html>

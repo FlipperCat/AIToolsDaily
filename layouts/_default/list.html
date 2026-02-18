@@ -1,19 +1,131 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<section class="articles-section" style="padding-top:calc(var(--header-height) + var(--space-12));">
+    <div class="container">
+        <!-- Section Header -->
+        <header style="margin-bottom:var(--space-10);">
+            <h1 style="font-size:var(--text-4xl);margin-bottom:var(--space-4);">
+                {{ .Title }}
+            </h1>
+            {{ if .Content }}
+            <div style="max-width:var(--content-width);color:var(--color-text-secondary);font-size:var(--text-lg);">
+                {{ .Content }}
+            </div>
+            {{ else }}
+            <p style="color:var(--color-text-secondary);font-size:var(--text-lg);">
+                {{ if eq .Section "reviews" }}In-depth reviews of the best AI and automation tools.
+                {{ else if eq .Section "tutorials" }}Step-by-step guides to automate your work.
+                {{ else if eq .Section "comparisons" }}Side-by-side tool comparisons to help you choose.
+                {{ else }}Browse all articles in this category.{{ end }}
+            </p>
+            {{ end }}
+        </header>
 
-{{ if .Content }}
-<div style="margin-bottom: 30px;">
-    {{ .Content }}
-</div>
-{{ end }}
+        <!-- Category Filter (for main sections) -->
+        {{ if or (eq .Section "posts") (.IsHome) }}
+        <div class="section-header">
+            <div class="category-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Reviews">Reviews</button>
+                <button class="filter-btn" data-filter="Tutorials">Tutorials</button>
+                <button class="filter-btn" data-filter="Comparisons">Comparisons</button>
+                <button class="filter-btn" data-filter="Lists">Lists</button>
+            </div>
+        </div>
+        {{ end }}
 
-<ul class="post-list">
-{{ range .Pages }}
-    <li>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p class="meta">{{ .Date.Format "January 2, 2006" }}</p>
-        <p class="excerpt">{{ .Summary | truncate 160 }}</p>
-    </li>
-{{ end }}
-</ul>
+        <!-- Articles Grid -->
+        <div class="articles-grid layout-grid">
+            {{ $pages := .Pages }}
+            {{ if not $pages }}
+                {{ $pages = .Site.RegularPages }}
+            {{ end }}
+
+            {{ range $pages }}
+            {{ $category := "Article" }}
+            {{ with .Params.categories }}{{ $category = index . 0 }}{{ end }}
+
+            <article class="article-card animate-on-scroll" data-category="{{ $category }}">
+                <div class="article-card-image">
+                    <div style="width:100%;height:100%;background:linear-gradient(135deg, var(--color-accent-subtle) 0%, var(--color-bg-alt) 100%);display:flex;align-items:center;justify-content:center;">
+                        {{ if eq $category "Reviews" }}
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                        </svg>
+                        {{ else if eq $category "Tutorials" }}
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        {{ else if eq $category "Comparisons" }}
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                        {{ else }}
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        {{ end }}
+                    </div>
+                    <span class="article-card-category">{{ $category }}</span>
+                </div>
+                <div class="article-card-content">
+                    <div class="article-card-meta">
+                        <span>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            {{ .Date.Format "Jan 2, 2006" }}
+                        </span>
+                        <span>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            {{ .ReadingTime }} min read
+                        </span>
+                    </div>
+                    <h2 class="article-card-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
+                    <p class="article-card-excerpt">
+                        {{ .Description | default .Summary | truncate 150 }}
+                    </p>
+                    <div class="article-card-footer">
+                        <div class="article-card-tags">
+                            {{ with .Params.tags }}{{ range first 2 . }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}{{ end }}
+                        </div>
+                        <a href="{{ .Permalink }}" class="read-more">
+                            Read more
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+
+        <!-- Empty State -->
+        {{ if not .Pages }}
+        <div style="text-align:center;padding:var(--space-16);color:var(--color-text-secondary);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="margin:0 auto var(--space-4);opacity:0.5;">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <p>No articles found in this category yet.</p>
+            <a href="/" class="btn btn-primary" style="margin-top:var(--space-4);">Back to Home</a>
+        </div>
+        {{ end }}
+    </div>
+</section>
 {{ end }}
