@@ -1,0 +1,48 @@
+{{/*
+  Pricing Table Partial
+  Usage: {{ partial "pricing-table.html" (dict "tiers" $tiers) }}
+
+  Tiers format:
+  $tiers := slice
+    (dict "name" "Free" "price" "$0" "period" "forever" "features" (slice "Feature 1" "Feature 2") "cta" "Get Started" "url" "#")
+    (dict "name" "Pro" "price" "$20" "period" "/month" "features" (slice "Everything in Free" "Feature 3") "cta" "Start Trial" "url" "#" "featured" true)
+*/}}
+{{ $tiers := .tiers | default (slice) }}
+
+<div class="pricing-table">
+  {{ range $tiers }}
+    <div class="pricing-tier {{ if .featured }}featured{{ end }}">
+      {{ if .featured }}
+        <div class="pricing-tier-badge">Most Popular</div>
+      {{ end }}
+
+      <div class="pricing-tier-header">
+        <h4 class="pricing-tier-name">{{ .name }}</h4>
+        <div class="pricing-tier-price">
+          <span class="price-amount">{{ .price }}</span>
+          <span class="price-period">{{ .period }}</span>
+        </div>
+      </div>
+
+      <ul class="pricing-tier-features">
+        {{ range .features }}
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            {{ . }}
+          </li>
+        {{ end }}
+      </ul>
+
+      <div class="pricing-tier-cta">
+        {{ partial "cta-button.html" (dict
+          "text" .cta
+          "url" .url
+          "style" (cond .featured "primary" "secondary")
+          "newTab" true
+        ) }}
+      </div>
+    </div>
+  {{ end }}
+</div>

@@ -1,0 +1,68 @@
+{{/*
+  Tool Quick Info Sidebar Partial
+  Usage: {{ partial "tool-quick-info.html" . }}
+  Expects a tool page as context
+*/}}
+{{ $pricing := .Params.pricing | default (dict) }}
+
+<div class="tool-quick-info">
+  <div class="tool-quick-header">
+    {{ if .Params.logo }}
+      <img src="{{ .Params.logo }}" alt="{{ .Title }} logo" class="tool-quick-logo">
+    {{ else }}
+      <div class="tool-quick-logo-placeholder">
+        {{ substr .Title 0 2 | upper }}
+      </div>
+    {{ end }}
+    <div>
+      <h3 class="tool-quick-title">{{ .Title }}</h3>
+      {{ partial "rating-stars.html" (dict "rating" .Params.rating "showNumber" true "size" "sm") }}
+    </div>
+  </div>
+
+  <div class="tool-quick-details">
+    <div class="tool-quick-row">
+      <span class="tool-quick-label">Pricing</span>
+      <span class="tool-quick-value">
+        {{ with $pricing.starting_price }}{{ . }}{{ else }}Free{{ end }}
+        {{ if $pricing.free_tier }}<span class="free-badge">Free tier</span>{{ end }}
+      </span>
+    </div>
+
+    <div class="tool-quick-row">
+      <span class="tool-quick-label">Model</span>
+      <span class="tool-quick-value">{{ $pricing.pricing_model | default "N/A" }}</span>
+    </div>
+
+    {{ with .Params.best_for }}
+    <div class="tool-quick-row">
+      <span class="tool-quick-label">Best For</span>
+      <span class="tool-quick-value">{{ delimit . ", " }}</span>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="tool-quick-cta">
+    {{ if .Params.affiliate_link }}
+      {{ partial "cta-button.html" (dict "text" (printf "Try %s" .Title) "url" .Params.affiliate_link "style" "primary") }}
+    {{ else if .Params.website }}
+      {{ partial "cta-button.html" (dict "text" "Visit Website" "url" .Params.website "style" "secondary") }}
+    {{ end }}
+  </div>
+
+  {{ with .Params.alternatives }}
+  <div class="tool-quick-alternatives">
+    <span class="tool-quick-label">Alternatives</span>
+    <div class="tool-alternatives-list">
+      {{ range . }}
+        {{ $alt := $.Site.GetPage (printf "/tools/%s" (. | urlize)) }}
+        {{ if $alt }}
+          <a href="{{ $alt.Permalink }}" class="tool-alt-link">{{ . }}</a>
+        {{ else }}
+          <span class="tool-alt-text">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>

@@ -1,0 +1,66 @@
+{{/*
+  Review Schema Markup (for tool pages with ratings)
+  Usage: {{ partial "schema-review.html" . }}
+*/}}
+{{ if and .IsPage .Params.rating }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "SoftwareApplication",
+    "name": {{ .Title | jsonify }},
+    "applicationCategory": "{{ with .Params.categories }}{{ index . 0 }}{{ else }}Productivity{{ end }}",
+    {{ with .Params.website }}"url": {{ . | jsonify }},{{ end }}
+    "operatingSystem": "Web, iOS, Android",
+    "offers": {
+      "@type": "Offer",
+      "price": {{ if .Params.pricing.starting_price }}"{{ .Params.pricing.starting_price | replaceRE "[^0-9.]" "" }}"{{ else }}"0"{{ end }},
+      "priceCurrency": "USD"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": {{ .Params.rating }},
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "AI Tools Daily"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Tools Daily"
+  },
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  "reviewBody": {{ .Description | default .Summary | truncate 300 | jsonify }}
+}
+</script>
+
+{{/* Aggregate Rating for product */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ .Title | jsonify }},
+  "applicationCategory": "{{ with .Params.categories }}{{ index . 0 }}{{ else }}Productivity{{ end }}",
+  {{ with .Params.website }}"url": {{ . | jsonify }},{{ end }}
+  {{ with .Params.logo }}"image": {{ . | absURL | jsonify }},{{ end }}
+  "description": {{ .Description | jsonify }},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ .Params.rating }},
+    "bestRating": 5,
+    "worstRating": 1,
+    "ratingCount": 1
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": {{ if .Params.pricing.starting_price }}"{{ .Params.pricing.starting_price | replaceRE "[^0-9.]" "" }}"{{ else }}"0"{{ end }},
+    "priceCurrency": "USD"{{ if .Params.pricing.free_tier }},
+    "availability": "https://schema.org/InStock"{{ end }}
+  }
+}
+</script>
+{{ end }}

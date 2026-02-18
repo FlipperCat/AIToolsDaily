@@ -1,0 +1,22 @@
+{{/*
+  CTA Button Partial
+  Usage: {{ partial "cta-button.html" (dict "text" "Try It Free" "url" "https://..." "style" "primary") }}
+*/}}
+{{ $text := .text | default "Get Started" }}
+{{ $url := .url | default "#" }}
+{{ $style := .style | default "primary" }}
+{{ $newTab := .newTab | default true }}
+{{ $icon := .icon | default true }}
+
+<a href="{{ $url }}"
+   class="cta-affiliate cta-{{ $style }}"
+   {{ if $newTab }}target="_blank" rel="noopener noreferrer sponsored"{{ end }}>
+  <span>{{ $text }}</span>
+  {{ if $icon }}
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+    <polyline points="15 3 21 3 21 9"/>
+    <line x1="10" y1="14" x2="21" y2="3"/>
+  </svg>
+  {{ end }}
+</a>

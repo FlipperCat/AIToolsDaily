@@ -1,0 +1,59 @@
+{{/*
+  Tool Card Partial
+  Usage: {{ partial "tool-card.html" . }}
+  Expects a tool page as context
+*/}}
+{{ $tool := . }}
+{{ $rating := .Params.rating | default 0 }}
+{{ $categories := .Params.categories | default (slice) }}
+{{ $pricing := .Params.pricing | default (dict) }}
+
+<article class="tool-card animate-on-scroll"
+         data-categories="{{ delimit $categories "," }}"
+         data-rating="{{ $rating }}"
+         data-pricing="{{ if $pricing.free_tier }}free{{ else }}paid{{ end }}">
+  <div class="tool-card-header">
+    <div class="tool-card-logo">
+      {{ if .Params.logo }}
+        <img src="{{ .Params.logo }}" alt="{{ .Title }} logo" loading="lazy">
+      {{ else }}
+        <div class="tool-card-logo-placeholder">
+          {{ substr .Title 0 2 | upper }}
+        </div>
+      {{ end }}
+    </div>
+    <div class="tool-card-info">
+      <h3 class="tool-card-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+      {{ partial "rating-stars.html" (dict "rating" $rating "showNumber" true "size" "sm") }}
+    </div>
+  </div>
+
+  <p class="tool-card-description">
+    {{ .Description | truncate 120 }}
+  </p>
+
+  <div class="tool-card-categories">
+    {{ range first 3 $categories }}
+      <span class="tool-category-tag">{{ . }}</span>
+    {{ end }}
+  </div>
+
+  <div class="tool-card-footer">
+    <div class="tool-card-pricing">
+      {{ if $pricing.free_tier }}
+        <span class="pricing-badge free">Free tier</span>
+      {{ end }}
+      {{ with $pricing.starting_price }}
+        <span class="pricing-amount">{{ . }}</span>
+      {{ end }}
+    </div>
+    <a href="{{ .Permalink }}" class="tool-card-link">
+      View Details
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</article>

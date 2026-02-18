@@ -1,0 +1,40 @@
+{{/*
+  Rating Shortcode
+  Usage: {{< rating score="4.5" >}}
+  Usage: {{< rating score="4.5" size="lg" >}}
+*/}}
+{{ $rating := .Get "score" | default "0" | float }}
+{{ $size := .Get "size" | default "md" }}
+{{ $showNumber := .Get "showNumber" | default "true" }}
+
+{{ $sizeClass := "" }}
+{{ if eq $size "sm" }}{{ $sizeClass = "rating-stars-sm" }}{{ end }}
+{{ if eq $size "lg" }}{{ $sizeClass = "rating-stars-lg" }}{{ end }}
+
+<div class="rating-stars {{ $sizeClass }}" aria-label="Rating: {{ $rating }} out of 5 stars">
+  {{ range $i := seq 1 5 }}
+    {{ $diff := sub $rating (sub $i 1) }}
+    {{ if ge $diff 1 }}
+      <svg class="rating-star filled" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+      </svg>
+    {{ else if gt $diff 0 }}
+      <svg class="rating-star half" viewBox="0 0 24 24">
+        <defs>
+          <linearGradient id="half-sc-{{ $i }}">
+            <stop offset="50%" stop-color="currentColor"/>
+            <stop offset="50%" stop-color="transparent"/>
+          </linearGradient>
+        </defs>
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="url(#half-sc-{{ $i }})" stroke="currentColor" stroke-width="1"/>
+      </svg>
+    {{ else }}
+      <svg class="rating-star empty" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+      </svg>
+    {{ end }}
+  {{ end }}
+  {{ if ne $showNumber "false" }}
+    <span class="rating-number">{{ $rating }}</span>
+  {{ end }}
+</div>

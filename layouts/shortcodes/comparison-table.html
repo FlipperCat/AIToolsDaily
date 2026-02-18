@@ -1,0 +1,73 @@
+{{/*
+  Comparison Table Shortcode
+  Usage:
+  {{< comparison-table >}}
+  | Feature | ChatGPT | Claude | Gemini |
+  |---------|---------|--------|--------|
+  | Price | $20/mo | $20/mo | Free |
+  | Speed | Medium | Fast | Fast |
+  | Quality | Excellent | Excellent | Good |
+  {{< /comparison-table >}}
+*/}}
+{{ $inner := .Inner }}
+{{ $lines := split $inner "\n" }}
+{{ $headers := slice }}
+{{ $rows := slice }}
+{{ $headerParsed := false }}
+
+{{ range $i, $line := $lines }}
+  {{ $trimmed := strings.TrimSpace $line }}
+  {{ if and $trimmed (hasPrefix $trimmed "|") }}
+    {{ $cells := split $trimmed "|" }}
+    {{ $cleanCells := slice }}
+    {{ range $cells }}
+      {{ $cell := strings.TrimSpace . }}
+      {{ if $cell }}
+        {{ $cleanCells = $cleanCells | append $cell }}
+      {{ end }}
+    {{ end }}
+
+    {{ if not $headerParsed }}
+      {{ $headers = $cleanCells }}
+      {{ $headerParsed = true }}
+    {{ else if not (findRE "^-+$" (index $cleanCells 0)) }}
+      {{ $rows = $rows | append $cleanCells }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="comparison-table-wrapper">
+  <table class="comparison-table">
+    {{ if $headers }}
+    <thead>
+      <tr>
+        {{ range $headers }}
+          <th>{{ . }}</th>
+        {{ end }}
+      </tr>
+    </thead>
+    {{ end }}
+    <tbody>
+      {{ range $rows }}
+        <tr>
+          {{ range $j, $cell := . }}
+            <td class="{{ if eq $cell "Yes" }}cell-yes{{ else if eq $cell "No" }}cell-no{{ end }}">
+              {{ if eq $cell "Yes" }}
+                <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              {{ else if eq $cell "No" }}
+                <svg class="x-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"/>
+                  <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              {{ else }}
+                {{ $cell }}
+              {{ end }}
+            </td>
+          {{ end }}
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>

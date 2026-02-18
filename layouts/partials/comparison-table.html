@@ -1,0 +1,90 @@
+{{/*
+  Comparison Table Partial
+  Usage: {{ partial "comparison-table.html" (dict "tools" (slice "ChatGPT" "Claude" "Gemini") "features" $features) }}
+
+  Or pass tool pages directly:
+  {{ partial "comparison-table.html" (dict "toolPages" $toolPages "features" (slice "Price" "Speed" "Quality")) }}
+*/}}
+{{ $tools := .tools | default (slice) }}
+{{ $toolPages := .toolPages | default (slice) }}
+{{ $features := .features | default (slice) }}
+
+<div class="comparison-table-wrapper">
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        {{ if $toolPages }}
+          {{ range $toolPages }}
+            <th>
+              <div class="comparison-tool-header">
+                {{ if .Params.logo }}
+                  <img src="{{ .Params.logo }}" alt="{{ .Title }}" class="comparison-logo">
+                {{ end }}
+                <span>{{ .Title }}</span>
+              </div>
+            </th>
+          {{ end }}
+        {{ else }}
+          {{ range $tools }}
+            <th>{{ . }}</th>
+          {{ end }}
+        {{ end }}
+      </tr>
+    </thead>
+    <tbody>
+      {{ if $toolPages }}
+        <tr>
+          <td>Rating</td>
+          {{ range $toolPages }}
+            <td>{{ partial "rating-stars.html" (dict "rating" .Params.rating "showNumber" true "size" "sm") }}</td>
+          {{ end }}
+        </tr>
+        <tr>
+          <td>Starting Price</td>
+          {{ range $toolPages }}
+            <td>
+              {{ if .Params.pricing.free_tier }}<span class="check-badge">Free tier</span> {{ end }}
+              {{ .Params.pricing.starting_price | default "Free" }}
+            </td>
+          {{ end }}
+        </tr>
+        <tr>
+          <td>Pricing Model</td>
+          {{ range $toolPages }}
+            <td>{{ .Params.pricing.pricing_model | default "N/A" }}</td>
+          {{ end }}
+        </tr>
+        <tr>
+          <td>Best For</td>
+          {{ range $toolPages }}
+            <td>{{ delimit .Params.best_for ", " | default "General use" }}</td>
+          {{ end }}
+        </tr>
+      {{ else }}
+        {{/* Manual features - requires passing feature data */}}
+        {{ range $features }}
+          <tr>
+            <td>{{ .name }}</td>
+            {{ range .values }}
+              <td class="{{ if eq . "Yes" }}cell-yes{{ else if eq . "No" }}cell-no{{ end }}">
+                {{ if eq . "Yes" }}
+                  <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                {{ else if eq . "No" }}
+                  <svg class="x-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                {{ else }}
+                  {{ . }}
+                {{ end }}
+              </td>
+            {{ end }}
+          </tr>
+        {{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+</div>

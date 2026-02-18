@@ -1,0 +1,123 @@
+{{/*
+  Pricing Table Shortcode
+  Usage:
+  {{< pricing-table >}}
+  [Free]
+  price: $0
+  period: forever
+  features: Basic features, Community support, 10 requests/day
+  cta: Get Started
+  url: https://example.com/free
+
+  [Pro]
+  price: $20
+  period: /month
+  features: Everything in Free, Priority support, Unlimited requests, API access
+  cta: Start Free Trial
+  url: https://example.com/pro
+  featured: true
+
+  [Enterprise]
+  price: Custom
+  period: /year
+  features: Everything in Pro, Dedicated support, Custom integrations, SLA
+  cta: Contact Sales
+  url: https://example.com/enterprise
+  {{< /pricing-table >}}
+*/}}
+{{ $inner := .Inner }}
+{{ $tierBlocks := findRE "(?s)\\[([^\\]]+)\\][^\\[]*" $inner }}
+{{ $tiers := slice }}
+
+{{ range $tierBlocks }}
+  {{ $block := . }}
+  {{ $nameMatch := findRE "\\[([^\\]]+)\\]" $block 1 }}
+  {{ $name := "" }}
+  {{ if $nameMatch }}
+    {{ $name = replaceRE "\\[|\\]" "" (index $nameMatch 0) }}
+  {{ end }}
+
+  {{ $price := "" }}
+  {{ $priceMatch := findRE "price:\\s*([^\\n]+)" $block 1 }}
+  {{ if $priceMatch }}
+    {{ $price = replaceRE "price:\\s*" "" (index $priceMatch 0) | strings.TrimSpace }}
+  {{ end }}
+
+  {{ $period := "" }}
+  {{ $periodMatch := findRE "period:\\s*([^\\n]+)" $block 1 }}
+  {{ if $periodMatch }}
+    {{ $period = replaceRE "period:\\s*" "" (index $periodMatch 0) | strings.TrimSpace }}
+  {{ end }}
+
+  {{ $features := slice }}
+  {{ $featuresMatch := findRE "features:\\s*([^\\n]+)" $block 1 }}
+  {{ if $featuresMatch }}
+    {{ $featuresStr := replaceRE "features:\\s*" "" (index $featuresMatch 0) }}
+    {{ $features = split $featuresStr "," }}
+  {{ end }}
+
+  {{ $cta := "Get Started" }}
+  {{ $ctaMatch := findRE "cta:\\s*([^\\n]+)" $block 1 }}
+  {{ if $ctaMatch }}
+    {{ $cta = replaceRE "cta:\\s*" "" (index $ctaMatch 0) | strings.TrimSpace }}
+  {{ end }}
+
+  {{ $url := "#" }}
+  {{ $urlMatch := findRE "url:\\s*([^\\n]+)" $block 1 }}
+  {{ if $urlMatch }}
+    {{ $url = replaceRE "url:\\s*" "" (index $urlMatch 0) | strings.TrimSpace }}
+  {{ end }}
+
+  {{ $featured := false }}
+  {{ if findRE "featured:\\s*true" $block }}
+    {{ $featured = true }}
+  {{ end }}
+
+  {{ if $name }}
+    {{ $tier := dict "name" $name "price" $price "period" $period "features" $features "cta" $cta "url" $url "featured" $featured }}
+    {{ $tiers = $tiers | append $tier }}
+  {{ end }}
+{{ end }}
+
+<div class="pricing-table">
+  {{ range $tiers }}
+    <div class="pricing-tier {{ if .featured }}featured{{ end }}">
+      {{ if .featured }}
+        <div class="pricing-tier-badge">Most Popular</div>
+      {{ end }}
+
+      <div class="pricing-tier-header">
+        <h4 class="pricing-tier-name">{{ .name }}</h4>
+        <div class="pricing-tier-price">
+          <span class="price-amount">{{ .price }}</span>
+          <span class="price-period">{{ .period }}</span>
+        </div>
+      </div>
+
+      <ul class="pricing-tier-features">
+        {{ range .features }}
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            {{ strings.TrimSpace . }}
+          </li>
+        {{ end }}
+      </ul>
+
+      <div class="pricing-tier-cta">
+        <a href="{{ .url }}"
+           class="cta-affiliate cta-{{ if .featured }}primary{{ else }}secondary{{ end }}"
+           target="_blank"
+           rel="noopener noreferrer sponsored">
+          <span>{{ .cta }}</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  {{ end }}
+</div>

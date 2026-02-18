@@ -1,0 +1,185 @@
+{{ define "main" }}
+{{ $pricing := .Params.pricing | default (dict) }}
+
+<!-- Breadcrumb -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container">
+        <ol class="breadcrumb-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/tools/">Tools</a></li>
+            <li aria-current="page">{{ .Title }}</li>
+        </ol>
+    </div>
+</nav>
+
+<article class="tool-page">
+    <div class="container">
+        <div class="tool-layout">
+            <!-- Main Content -->
+            <div class="tool-main">
+                <!-- Tool Header -->
+                <header class="tool-header">
+                    <div class="tool-header-top">
+                        <div class="tool-logo-large">
+                            {{ if .Params.logo }}
+                                <img src="{{ .Params.logo }}" alt="{{ .Title }} logo">
+                            {{ else }}
+                                <div class="tool-logo-placeholder-large">
+                                    {{ substr .Title 0 2 | upper }}
+                                </div>
+                            {{ end }}
+                        </div>
+                        <div class="tool-header-info">
+                            <h1 class="tool-title">{{ .Title }}</h1>
+                            <p class="tool-tagline">{{ .Description }}</p>
+                            <div class="tool-meta">
+                                {{ partial "rating-stars.html" (dict "rating" .Params.rating "showNumber" true "size" "lg") }}
+                                <span class="tool-meta-divider">•</span>
+                                <span class="tool-updated">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-header-actions">
+                        {{ if .Params.affiliate_link }}
+                            {{ partial "cta-button.html" (dict "text" (printf "Try %s" .Title) "url" .Params.affiliate_link "style" "primary") }}
+                        {{ end }}
+                        {{ if .Params.website }}
+                            {{ partial "cta-button.html" (dict "text" "Visit Website" "url" .Params.website "style" "secondary") }}
+                        {{ end }}
+                    </div>
+                </header>
+
+                <!-- Quick Stats -->
+                <div class="tool-quick-stats">
+                    <div class="stat-card">
+                        <span class="stat-label">Pricing</span>
+                        <span class="stat-value">
+                            {{ if $pricing.free_tier }}
+                                <span class="free-badge">Free tier</span>
+                            {{ end }}
+                            {{ with $pricing.starting_price }}{{ . }}{{ else }}Free{{ end }}
+                        </span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Model</span>
+                        <span class="stat-value">{{ $pricing.pricing_model | default "N/A" }}</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Rating</span>
+                        <span class="stat-value">{{ .Params.rating }}/5</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Categories</span>
+                        <span class="stat-value">{{ delimit .Params.categories ", " }}</span>
+                    </div>
+                </div>
+
+                <!-- Tool Content -->
+                <div class="tool-content article-content">
+                    {{ .Content }}
+                </div>
+
+                <!-- Features Section -->
+                {{ with .Params.features }}
+                <section class="tool-section">
+                    <h2>Key Features</h2>
+                    <ul class="tool-features-list">
+                        {{ range . }}
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                {{ . }}
+                            </li>
+                        {{ end }}
+                    </ul>
+                </section>
+                {{ end }}
+
+                <!-- Pros & Cons -->
+                {{ if or .Params.pros .Params.cons }}
+                <section class="tool-section">
+                    <h2>Pros & Cons</h2>
+                    {{ partial "pros-cons.html" (dict "pros" .Params.pros "cons" .Params.cons) }}
+                </section>
+                {{ end }}
+
+                <!-- Best For -->
+                {{ with .Params.best_for }}
+                <section class="tool-section">
+                    <h2>Best For</h2>
+                    <div class="tool-best-for">
+                        {{ range . }}
+                            <span class="best-for-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </section>
+                {{ end }}
+
+                <!-- Alternatives -->
+                {{ with .Params.alternatives }}
+                <section class="tool-section">
+                    <h2>Alternatives to {{ $.Title }}</h2>
+                    <div class="tool-alternatives-grid">
+                        {{ range . }}
+                            {{ $alt := $.Site.GetPage (printf "/tools/%s" (. | urlize)) }}
+                            {{ if $alt }}
+                                {{ partial "tool-card.html" $alt }}
+                            {{ else }}
+                                <div class="tool-alt-placeholder">
+                                    <span>{{ . }}</span>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </section>
+                {{ end }}
+
+                <!-- Affiliate Disclosure -->
+                {{ if .Params.affiliate_link }}
+                <div class="affiliate-disclosure">
+                    <strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. We may earn a commission if you make a purchase through these links, at no extra cost to you. This helps support our content. We only recommend tools we believe in.
+                </div>
+                {{ end }}
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="tool-sidebar">
+                <div class="tool-sidebar-sticky">
+                    {{ partial "tool-quick-info.html" . }}
+
+                    <!-- Related Tools -->
+                    {{ $related := where .Site.RegularPages "Section" "tools" | first 4 }}
+                    {{ if gt (len $related) 1 }}
+                    <div class="sidebar-section">
+                        <h4>Related Tools</h4>
+                        <div class="sidebar-tools-list">
+                            {{ range $related }}
+                                {{ if ne .Permalink $.Permalink }}
+                                <a href="{{ .Permalink }}" class="sidebar-tool-item">
+                                    {{ if .Params.logo }}
+                                        <img src="{{ .Params.logo }}" alt="{{ .Title }}" class="sidebar-tool-logo">
+                                    {{ else }}
+                                        <div class="sidebar-tool-logo-placeholder">{{ substr .Title 0 2 | upper }}</div>
+                                    {{ end }}
+                                    <div>
+                                        <span class="sidebar-tool-name">{{ .Title }}</span>
+                                        <span class="sidebar-tool-rating">{{ .Params.rating }}/5</span>
+                                    </div>
+                                </a>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </aside>
+        </div>
+    </div>
+</article>
+
+<!-- Schema Markup -->
+{{ partial "schema-review.html" . }}
+{{ partial "schema-breadcrumb.html" . }}
+{{ end }}
