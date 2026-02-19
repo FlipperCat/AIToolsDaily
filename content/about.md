@@ -3,6 +3,8 @@ title: "About AI Tools Daily"
 description: "Learn about AI Tools Daily - your source for AI automation tools, productivity tips, and honest reviews."
 ---
 
+Impact-Site-Verification: 81a9ba7f-f99d-4648-ae8d-041dc70af1c4
+
 # About AI Tools Daily
 
 AI Tools Daily helps you work smarter with AI. We review tools, create tutorials, and share strategies for automating your work.
