@@ -24,11 +24,11 @@
   {{ range $headings }}
     {{ $parts := split . "\n" }}
     {{ if ge (len $parts) 2 }}
-      {{ $question := index $parts 0 | replaceRE "^##\\s+" "" | strings.TrimSpace }}
+      {{ $question := index $parts 0 | replaceRE "^##\\s+" "" | trim " \t\n\r" }}
       {{ $answer := slice }}
       {{ range $i, $p := $parts }}
         {{ if gt $i 0 }}
-          {{ $trimmed := strings.TrimSpace $p }}
+          {{ $trimmed := trim $p " \t\n\r" }}
           {{ if and $trimmed (not (hasPrefix $trimmed "#")) }}
             {{ $answer = $answer | append $trimmed }}
           {{ end }}
