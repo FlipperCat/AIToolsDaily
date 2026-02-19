@@ -7,11 +7,21 @@
 {{ $rating := .Params.rating | default 0 }}
 {{ $categories := .Params.categories | default (slice) }}
 {{ $pricing := .Params.pricing | default (dict) }}
+{{ $featured := .Params.featured | default false }}
 
-<article class="tool-card animate-on-scroll"
+<article class="tool-card animate-on-scroll{{ if $featured }} tool-card-featured{{ end }}"
          data-categories="{{ delimit $categories "," }}"
          data-rating="{{ $rating }}"
-         data-pricing="{{ if $pricing.free_tier }}free{{ else }}paid{{ end }}">
+         data-pricing="{{ if $pricing.free_tier }}free{{ else }}paid{{ end }}"
+         data-featured="{{ $featured }}">
+  {{ if $featured }}
+  <div class="tool-featured-badge">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+    </svg>
+    Featured
+  </div>
+  {{ end }}
   <div class="tool-card-header">
     <div class="tool-card-logo">
       {{ if .Params.logo }}

@@ -6,6 +6,7 @@ website: "https://chat.openai.com"
 affiliate_link: "https://chat.openai.com"
 logo: "/images/tools/chatgpt.svg"
 rating: 4.8
+featured: true
 pricing:
   free_tier: true
   starting_price: "$20/month"

@@ -1548,6 +1548,27 @@ p {
   transform: translateY(-4px);
 }
 
+.tool-card-featured {
+  position: relative;
+  border-color: var(--color-warning);
+  background: linear-gradient(135deg, var(--color-bg-elevated) 0%, rgba(251, 191, 36, 0.05) 100%);
+}
+
+.tool-featured-badge {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-2);
+  background: var(--color-warning);
+  color: #1a1a1a;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+}
+
 .tool-card-header {
   display: flex;
   align-items: flex-start;

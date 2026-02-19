@@ -6,6 +6,7 @@ website: "https://jasper.ai"
 affiliate_link: "https://jasper.ai"
 logo: "/images/tools/jasper.svg"
 rating: 4.4
+featured: true
 pricing:
   free_tier: true
   starting_price: "$49/month"
