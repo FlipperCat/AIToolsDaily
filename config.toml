@@ -6,8 +6,8 @@ title = "AI Tools Daily - Automate Your Work with AI"
   description = "Discover the best AI tools for automation, productivity, and getting more done. Reviews, tutorials, and comparisons."
   author = "AI Tools Daily"
 
-  # Analytics - Add your Google Analytics ID here
-  # googleAnalytics = "G-XXXXXXXXXX"
+  # Analytics
+  googleAnalytics = "G-JEMF60L4PM"
 
   # Social links
   twitter = "https://twitter.com/aitoolsdaily"
