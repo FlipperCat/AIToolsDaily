@@ -5,6 +5,15 @@ date: 2026-02-15
 categories: ["Reviews"]
 tags: ["perplexity", "ai search", "research", "productivity"]
 affiliate_disclosure: true
+faqs:
+  - question: "Is Perplexity AI free to use?"
+    answer: "Yes, Perplexity has a generous free tier with unlimited basic searches and 5 Pro searches per day. No credit card required. Pro costs $20/month for 600 daily Pro searches, file uploads, and API access."
+  - question: "Is Perplexity better than Google for search?"
+    answer: "For research and complex questions, yes - Perplexity gives direct answers with sources instead of links to click. For local search, images, navigation, and simple queries, Google is still better. Many users use both."
+  - question: "Can Perplexity replace ChatGPT?"
+    answer: "No, they serve different purposes. Perplexity excels at search and research with real-time information and citations. ChatGPT is better for conversation, creative work, coding, and tasks that don't require current information."
+  - question: "Is Perplexity accurate?"
+    answer: "Perplexity is more verifiable than other AI tools because it cites sources for every claim. However, it can still misinterpret sources or cite unreliable ones. Always verify important claims by clicking through to the original sources."
 ---
 
 Perplexity AI combines search engines with AI to answer questions with sources. Instead of giving you links to click, it reads the sources and gives you a direct answer.

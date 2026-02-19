@@ -5,6 +5,15 @@ date: 2026-02-17
 categories: ["Reviews"]
 tags: ["claude", "anthropic", "ai assistant", "writing"]
 affiliate_disclosure: true
+faqs:
+  - question: "Is Claude better than ChatGPT?"
+    answer: "Claude is better for writing quality and handling long documents. ChatGPT is better for coding, versatility, and image generation. Many professionals use both, choosing based on the task. Claude's free tier is also more generous."
+  - question: "Is Claude AI free?"
+    answer: "Yes, Claude has a free tier with access to Claude 3.5 Sonnet and reasonable usage limits. Pro costs $20/month for priority access, more usage, and Claude 3 Opus. The free tier is sufficient for most casual and moderate users."
+  - question: "What is Claude AI best for?"
+    answer: "Claude excels at writing (articles, emails, reports), document analysis (can handle 200K tokens), research synthesis, and thoughtful reasoning. It produces more natural, less 'AI-sounding' prose than competitors."
+  - question: "Who makes Claude AI?"
+    answer: "Claude is made by Anthropic, an AI safety company founded by former OpenAI researchers. Anthropic focuses on building AI that is helpful, harmless, and honest. The company was founded in 2021 and has raised significant funding."
 ---
 
 Claude, made by Anthropic, has quietly become the AI many professionals prefer for serious work. It doesn't have ChatGPT's brand recognition, but users often find Claude produces better writing and more thoughtful responses.

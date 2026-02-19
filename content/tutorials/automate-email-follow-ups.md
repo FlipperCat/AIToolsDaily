@@ -5,6 +5,15 @@ date: 2026-02-09
 categories: ["Tutorials"]
 tags: ["email automation", "follow-ups", "zapier", "gmail", "productivity"]
 affiliate_disclosure: true
+faqs:
+  - question: "How do I automate follow-up emails in Gmail?"
+    answer: "Create a Gmail label 'Needs Follow-up', then use Zapier to watch for labeled emails, add a 3-day delay, check if no reply exists, and automatically send your follow-up message. Setup takes 15-30 minutes."
+  - question: "How many follow-up emails should I send?"
+    answer: "Send 3-4 follow-ups maximum. First at 3 days (gentle reminder), second at 7 days (show persistence), final at 14 days (last attempt). After that, stop - more messages just annoy recipients."
+  - question: "What's the best tool for email follow-up automation?"
+    answer: "Zapier is easiest for beginners. Make.com offers more power with automatic reply detection. For sales teams, dedicated tools like Streak, Boomerang, or Mixmax ($10-50/month) provide more features."
+  - question: "How much time does automated follow-up save?"
+    answer: "About 6.5 hours per month for average users. Manual follow-ups take ~5 minutes each. With 20 follow-ups weekly, that's 100 minutes/week. Automation reduces this to seconds (just label the email once)."
 ---
 
 Following up on emails is essential but tedious. Studies show that 80% of sales require 5+ follow-ups, yet most people give up after one.

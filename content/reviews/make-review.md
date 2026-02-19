@@ -5,6 +5,15 @@ date: 2026-02-03
 categories: ["Reviews"]
 tags: ["make", "automation", "workflow", "integromat"]
 affiliate_disclosure: true
+faqs:
+  - question: "Is Make.com the same as Integromat?"
+    answer: "Yes, Integromat rebranded to Make.com in 2022. Same product, same team, new name. Existing Integromat users were migrated automatically. All features and functionality remained the same."
+  - question: "Is Make.com free?"
+    answer: "Yes, Make.com offers 1,000 operations/month free with 2 active scenarios. This is 10x more than Zapier's free tier (100 tasks). The free plan is surprisingly capable for basic automation needs."
+  - question: "Is Make.com better than Zapier?"
+    answer: "For complex, high-volume automation - yes. Make.com is ~75% cheaper, has a superior visual builder, and handles advanced logic better. For beginners or rare integrations, Zapier's easier interface and 6,000+ apps may be better."
+  - question: "Can I migrate from Zapier to Make.com?"
+    answer: "Yes, but you'll need to rebuild your workflows manually - there's no automatic migration tool. Most users find Make.com's visual builder makes recreating Zaps straightforward once you learn the interface."
 ---
 
 Make.com (formerly Integromat) is the automation tool power users love. It's more flexible than Zapier, significantly cheaper, and handles complex workflows better.

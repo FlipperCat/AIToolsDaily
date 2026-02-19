@@ -5,6 +5,15 @@ date: 2026-02-17
 categories: ["Tutorials"]
 tags: ["AI Art", "Midjourney", "Image Generation", "Creative AI", "Design"]
 affiliate_disclosure: true
+faqs:
+  - question: "How much does Midjourney cost?"
+    answer: "Midjourney costs $10/month (Basic), $30/month (Standard), $60/month (Pro), or $120/month (Mega). The Basic plan includes 3.3 hours of fast GPU time. Standard and above include unlimited relax mode generation."
+  - question: "Do I need Discord to use Midjourney?"
+    answer: "Yes, Midjourney operates exclusively through Discord. You interact with the Midjourney Bot in private or public channels. A free Discord account is required. There's no standalone web interface."
+  - question: "What makes a good Midjourney prompt?"
+    answer: "A good prompt includes: subject (what you want), style (watercolor, photography), composition, lighting (soft, cinematic), mood (serene, dramatic), and technical settings (--ar 16:9, --quality 2). Aim for 15-25 descriptive words."
+  - question: "Can I use Midjourney images commercially?"
+    answer: "Yes, with a paid subscription. All paid plans include commercial usage rights for images you generate. The free tier (if available) does not include commercial rights. Always check current terms for your plan."
 ---
 
 # How to Create AI Art with Midjourney (Step-by-Step Guide)
