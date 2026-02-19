@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aitoolsdaily.org/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Block admin/draft paths if any
+Disallow: /admin/
+Disallow: /drafts/

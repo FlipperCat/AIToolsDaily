@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="22" fill="#1A1A1A"/>
+  <rect x="25" y="25" width="20" height="20" rx="4" fill="#FF6B6B"/>
+  <rect x="55" y="25" width="20" height="20" rx="4" fill="#4ECDC4"/>
+  <rect x="25" y="55" width="20" height="20" rx="4" fill="#45B7D1"/>
+  <rect x="55" y="55" width="20" height="20" rx="4" fill="#96E6A1"/>
+  <text x="50" y="58" font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Aa</text>
+</svg>
