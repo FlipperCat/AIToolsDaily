@@ -1,64 +1,33 @@
 {{/*
-  FAQ Schema Markup (auto-detects Q&A patterns in content)
+  FAQ Schema Markup
   Usage: {{ partial "schema-faq.html" . }}
 
-  Detects patterns like:
-  ## Question here?
-  Answer paragraph...
-
-  Or explicit FAQ blocks in front matter:
+  Add FAQs in front matter:
   faqs:
     - question: "What is X?"
       answer: "X is..."
 */}}
 {{ if .IsPage }}
-{{ $faqs := slice }}
-
-{{/* Check for explicit FAQs in front matter */}}
 {{ with .Params.faqs }}
-  {{ $faqs = . }}
-{{ else }}
-  {{/* Auto-detect Q&A patterns from content */}}
-  {{ $content := .RawContent }}
-  {{ $headings := findRE "(?m)^##\\s+([^\\n]+\\?)\\s*\\n+([^#]+)" $content }}
-  {{ range $headings }}
-    {{ $parts := split . "\n" }}
-    {{ if ge (len $parts) 2 }}
-      {{ $question := index $parts 0 | replaceRE "^##\\s+" "" | trim " \t\n\r" }}
-      {{ $answer := slice }}
-      {{ range $i, $p := $parts }}
-        {{ if gt $i 0 }}
-          {{ $trimmed := trim $p " \t\n\r" }}
-          {{ if and $trimmed (not (hasPrefix $trimmed "#")) }}
-            {{ $answer = $answer | append $trimmed }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ if and $question (gt (len $answer) 0) }}
-        {{ $faqs = $faqs | append (dict "question" $question "answer" (delimit $answer " ")) }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-
-{{ if gt (len $faqs) 0 }}
+{{ if gt (len .) 0 }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {{ range $i, $faq := $faqs }}{{ if $i }},{{ end }}
+    {{ range $i, $faq := . }}{{ if $i }},{{ end }}
     {
       "@type": "Question",
       "name": {{ $faq.question | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.answer | plainify | truncate 500 | jsonify }}
+        "text": {{ $faq.answer | jsonify }}
       }
     }
     {{ end }}
   ]
 }
 </script>
+{{ end }}
 {{ end }}
 {{ end }}
