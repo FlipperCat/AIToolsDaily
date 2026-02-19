@@ -75,10 +75,12 @@
 
             <!-- Navigation -->
             <nav class="nav">
+                <a href="/tools/" class="nav-link{{ if eq .Section "tools" }} active{{ end }}">Tools</a>
                 <a href="/reviews/" class="nav-link{{ if eq .Section "reviews" }} active{{ end }}">Reviews</a>
                 <a href="/tutorials/" class="nav-link{{ if eq .Section "tutorials" }} active{{ end }}">Tutorials</a>
-                <a href="/comparisons/" class="nav-link{{ if eq .Section "comparisons" }} active{{ end }}">Comparisons</a>
-                <a href="/categories/" class="nav-link">Categories</a>
+                <a href="/news/" class="nav-link{{ if eq .Section "news" }} active{{ end }}">News</a>
+                <a href="/industry/" class="nav-link{{ if eq .Section "industry" }} active{{ end }}">Industry</a>
+                <a href="/case-studies/" class="nav-link{{ if eq .Section "case-studies" }} active{{ end }}">Case Studies</a>
             </nav>
 
             <!-- Header Actions -->
@@ -154,10 +156,21 @@
                 <div class="footer-column">
                     <h4>Content</h4>
                     <ul class="footer-links">
+                        <li><a href="/tools/">AI Tools</a></li>
                         <li><a href="/reviews/">Reviews</a></li>
                         <li><a href="/tutorials/">Tutorials</a></li>
+                        <li><a href="/news/">News</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Column -->
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="/industry/">Industry AI</a></li>
+                        <li><a href="/case-studies/">Case Studies</a></li>
                         <li><a href="/comparisons/">Comparisons</a></li>
-                        <li><a href="/posts/">All Articles</a></li>
+                        <li><a href="/categories/">Categories</a></li>
                     </ul>
                 </div>
 
@@ -204,6 +217,11 @@
             <div class="search-results"></div>
         </div>
     </div>
+
+    <!-- Schema Markup -->
+    {{ partial "schema-article.html" . }}
+    {{ partial "schema-breadcrumb.html" . }}
+    {{ partial "schema-faq.html" . }}
 
     <!-- Scripts -->
     <script src="/js/main.js"></script>

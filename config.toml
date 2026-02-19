@@ -15,6 +15,10 @@ title = "AI Tools Daily - Automate Your Work with AI"
   reviews = "/reviews/:slug/"
   tutorials = "/tutorials/:slug/"
   comparisons = "/compare/:slug/"
+  tools = "/tools/:slug/"
+  news = "/news/:slug/"
+  case-studies = "/case-studies/:slug/"
+  industry = "/industry/:slug/"
 
 [markup]
   [markup.goldmark]

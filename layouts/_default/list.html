@@ -44,11 +44,8 @@
             {{ $category := "Article" }}
             {{ with $page.Params.categories }}{{ $category = index . 0 }}{{ end }}
 
-            {{/* Generate unique image ID - Picsum provides free commercial images */}}
-            {{ $seed := printf "article%d" $index }}
-            {{ with $page.File }}{{ $seed = .UniqueID }}{{ end }}
-            {{ $imageUrl := printf "https://picsum.photos/seed/%s/600/400" $seed }}
-            {{ with $page.Params.image }}{{ $imageUrl = . }}{{ end }}
+            {{/* Smart contextual images based on article topic */}}
+            {{ $imageUrl := partial "article-image.html" (dict "page" $page "width" 600 "height" 400 "index" $index) }}
 
             <article class="article-card animate-on-scroll" data-category="{{ $category }}">
                 <div class="article-card-image">

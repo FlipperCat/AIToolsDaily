@@ -489,6 +489,200 @@
   };
 
   // ============================================================
+  // TOOL DIRECTORY FILTERS
+  // ============================================================
+
+  const ToolFilterManager = {
+    grid: null,
+    cards: [],
+    filters: {
+      category: 'all',
+      pricing: 'all',
+      rating: 'all'
+    },
+    sortBy: 'rating',
+
+    init() {
+      this.grid = document.getElementById('tools-grid');
+      if (!this.grid) return;
+
+      this.cards = Array.from(this.grid.querySelectorAll('.tool-card'));
+      this.resultsCount = document.getElementById('results-count');
+      this.emptyState = document.getElementById('tools-empty');
+
+      this.bindCategoryFilters();
+      this.bindPricingFilters();
+      this.bindRatingFilters();
+      this.bindSort();
+      this.bindClearFilters();
+      this.bindCategoryCards();
+    },
+
+    bindCategoryFilters() {
+      const buttons = document.querySelectorAll('#category-filters .filter-btn');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          this.filters.category = btn.dataset.filter;
+          this.applyFilters();
+        });
+      });
+    },
+
+    bindPricingFilters() {
+      const buttons = document.querySelectorAll('#pricing-filters .filter-btn');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          this.filters.pricing = btn.dataset.pricing;
+          this.applyFilters();
+        });
+      });
+    },
+
+    bindRatingFilters() {
+      const buttons = document.querySelectorAll('#rating-filters .filter-btn');
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          this.filters.rating = btn.dataset.rating;
+          this.applyFilters();
+        });
+      });
+    },
+
+    bindSort() {
+      const select = document.getElementById('sort-select');
+      if (!select) return;
+
+      select.addEventListener('change', () => {
+        this.sortBy = select.value;
+        this.applyFilters();
+      });
+    },
+
+    bindClearFilters() {
+      const clearBtn = document.getElementById('clear-filters');
+      if (!clearBtn) return;
+
+      clearBtn.addEventListener('click', () => {
+        // Reset all filters
+        this.filters = { category: 'all', pricing: 'all', rating: 'all' };
+
+        // Reset UI
+        document.querySelectorAll('.tools-filters .filter-btn').forEach(btn => {
+          btn.classList.remove('active');
+          if (btn.dataset.filter === 'all' || btn.dataset.pricing === 'all' || btn.dataset.rating === 'all') {
+            btn.classList.add('active');
+          }
+        });
+
+        this.applyFilters();
+      });
+    },
+
+    bindCategoryCards() {
+      const categoryCards = document.querySelectorAll('.tools-category-card');
+      categoryCards.forEach(card => {
+        card.addEventListener('click', (e) => {
+          e.preventDefault();
+          const category = card.dataset.category;
+
+          // Update filter
+          this.filters.category = category;
+
+          // Update UI
+          const categoryBtns = document.querySelectorAll('#category-filters .filter-btn');
+          categoryBtns.forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.dataset.filter === category) {
+              btn.classList.add('active');
+            }
+          });
+
+          // Apply and scroll
+          this.applyFilters();
+          document.querySelector('.tools-filters').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    },
+
+    applyFilters() {
+      let visibleCount = 0;
+
+      // Filter cards
+      const filteredCards = this.cards.filter(card => {
+        const categories = (card.dataset.categories || '').split(',');
+        const rating = parseFloat(card.dataset.rating) || 0;
+        const pricing = card.dataset.pricing || 'paid';
+
+        // Category filter
+        if (this.filters.category !== 'all' && !categories.includes(this.filters.category)) {
+          return false;
+        }
+
+        // Pricing filter
+        if (this.filters.pricing !== 'all') {
+          if (this.filters.pricing === 'free' && pricing !== 'free') return false;
+          if (this.filters.pricing === 'paid' && pricing === 'free') return false;
+        }
+
+        // Rating filter
+        if (this.filters.rating !== 'all') {
+          const minRating = parseFloat(this.filters.rating);
+          if (rating < minRating) return false;
+        }
+
+        return true;
+      });
+
+      // Sort cards
+      filteredCards.sort((a, b) => {
+        if (this.sortBy === 'rating') {
+          return (parseFloat(b.dataset.rating) || 0) - (parseFloat(a.dataset.rating) || 0);
+        } else if (this.sortBy === 'name') {
+          const nameA = a.querySelector('.tool-card-title')?.textContent || '';
+          const nameB = b.querySelector('.tool-card-title')?.textContent || '';
+          return nameA.localeCompare(nameB);
+        } else if (this.sortBy === 'newest') {
+          // Newest would need a date attribute, fallback to original order
+          return 0;
+        }
+        return 0;
+      });
+
+      // Update DOM
+      this.cards.forEach(card => {
+        card.style.display = 'none';
+        card.classList.remove('visible');
+      });
+
+      filteredCards.forEach((card, index) => {
+        card.style.display = '';
+        card.style.order = index;
+        setTimeout(() => card.classList.add('visible'), index * 50);
+        visibleCount++;
+      });
+
+      // Update count
+      if (this.resultsCount) {
+        this.resultsCount.textContent = visibleCount;
+      }
+
+      // Show/hide empty state
+      if (this.emptyState) {
+        this.emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+      if (this.grid) {
+        this.grid.style.display = visibleCount === 0 ? 'none' : 'grid';
+      }
+    }
+  };
+
+  // ============================================================
   // INITIALIZE ALL MODULES
   // ============================================================
 
@@ -505,6 +699,7 @@
     CodeCopyManager.init();
     LazyLoadManager.init();
     SmoothScrollManager.init();
+    ToolFilterManager.init();
   });
 
 })();

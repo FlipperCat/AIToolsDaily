@@ -1,0 +1,65 @@
+---
+title: "Midjourney"
+type: "tool"
+description: "Industry-leading AI art generator known for stunning, artistic image generation through Discord."
+website: "https://midjourney.com"
+affiliate_link: "https://midjourney.com"
+logo: "/images/tools/midjourney.svg"
+rating: 4.9
+pricing:
+  free_tier: false
+  starting_price: "$10/month"
+  pricing_model: "Subscription"
+categories: ["Image Generation", "AI Art", "Creative"]
+features:
+  - "Best-in-class image quality"
+  - "Multiple artistic styles"
+  - "Upscaling and variations"
+  - "Pan and zoom features"
+  - "Style reference images"
+  - "Character consistency tools"
+  - "V6 model capabilities"
+  - "Discord-based interface"
+pros:
+  - "Highest quality AI art"
+  - "Excellent artistic aesthetics"
+  - "Active community"
+  - "Consistent character generation"
+  - "Fast generation times"
+cons:
+  - "No free tier"
+  - "Discord-only interface"
+  - "Learning curve for prompts"
+  - "Queue times during peak hours"
+best_for: ["Artists", "Designers", "Content Creators", "Marketing Teams"]
+alternatives: ["DALL-E 3", "Stable Diffusion", "Leonardo AI"]
+date: 2026-02-17
+updated: 2026-02-17
+---
+
+Midjourney produces the most visually stunning AI-generated images available. Its artistic quality and aesthetic consistency make it the top choice for professional creative work.
+
+## Why Midjourney Leads
+
+The images Midjourney produces have a distinctive artistic quality that other tools struggle to match. It excels at creating images with excellent composition, lighting, and style consistency.
+
+## Key Capabilities
+
+- **Photorealism**: Incredibly realistic imagery
+- **Artistic Styles**: Anime, painting, illustration
+- **Character Design**: Consistent character generation
+- **Architecture**: Detailed architectural renders
+- **Product Shots**: Professional product imagery
+
+## Pricing Tiers
+
+| Plan | Price | Fast Hours | Relax Mode |
+|------|-------|------------|------------|
+| Basic | $10/mo | 3.3 hrs | No |
+| Standard | $30/mo | 15 hrs | Yes |
+| Pro | $60/mo | 30 hrs | Yes |
+| Mega | $120/mo | 60 hrs | Yes |
+
+## The Discord Experience
+
+Unlike web-based tools, Midjourney runs through Discord. While this creates a learning curve, it also fosters an active community where you can see others' creations and learn from their prompts.

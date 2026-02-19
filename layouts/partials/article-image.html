@@ -1,0 +1,84 @@
+{{/*
+  Smart Article Image Partial
+  Generates contextually relevant images based on article category and tags
+  Usage: {{ partial "article-image.html" (dict "page" . "width" 600 "height" 400) }}
+*/}}
+{{ $page := .page }}
+{{ $width := .width | default 600 }}
+{{ $height := .height | default 400 }}
+{{ $index := .index | default 0 }}
+
+{{/* If article has a custom image, use it */}}
+{{ if $page.Params.image }}
+  {{ $page.Params.image }}
+{{ else }}
+  {{/* Build search terms based on category and tags */}}
+  {{ $category := "Article" }}
+  {{ with $page.Params.categories }}{{ $category = index . 0 }}{{ end }}
+
+  {{/* Map categories to image search terms */}}
+  {{ $searchTerms := "technology,digital" }}
+
+  {{ if eq $category "Reviews" }}
+    {{ $searchTerms = "software,app,technology" }}
+  {{ else if eq $category "Tutorials" }}
+    {{ $searchTerms = "learning,computer,workspace" }}
+  {{ else if eq $category "Comparisons" }}
+    {{ $searchTerms = "comparison,analysis,data" }}
+  {{ else if eq $category "Lists" }}
+    {{ $searchTerms = "collection,tools,digital" }}
+  {{ else if eq $category "Guides" }}
+    {{ $searchTerms = "guide,education,learning" }}
+  {{ else if eq $category "Tips" }}
+    {{ $searchTerms = "productivity,tips,office" }}
+  {{ else if eq $category "Workflows" }}
+    {{ $searchTerms = "workflow,automation,process" }}
+  {{ else if eq $category "News" }}
+    {{ $searchTerms = "news,technology,innovation" }}
+  {{ else if eq $category "Case Studies" }}
+    {{ $searchTerms = "business,success,growth" }}
+  {{ else if eq $category "Industry" }}
+    {{ $searchTerms = "industry,professional,business" }}
+  {{ end }}
+
+  {{/* Enhance with specific tag-based terms */}}
+  {{ $tags := $page.Params.tags | default slice }}
+  {{ $tagTerms := "" }}
+
+  {{ range first 2 $tags }}
+    {{ $tag := . | lower }}
+    {{ if in $tag "ai" }}{{ $tagTerms = "artificial-intelligence" }}
+    {{ else if in $tag "chatgpt" }}{{ $tagTerms = "ai,chat" }}
+    {{ else if in $tag "image" }}{{ $tagTerms = "digital-art,creative" }}
+    {{ else if in $tag "video" }}{{ $tagTerms = "video,film" }}
+    {{ else if in $tag "audio" }}{{ $tagTerms = "audio,sound,music" }}
+    {{ else if in $tag "writing" }}{{ $tagTerms = "writing,typing,keyboard" }}
+    {{ else if in $tag "coding" }}{{ $tagTerms = "coding,programming,developer" }}
+    {{ else if in $tag "automation" }}{{ $tagTerms = "automation,robot,machine" }}
+    {{ else if in $tag "marketing" }}{{ $tagTerms = "marketing,business,growth" }}
+    {{ else if in $tag "productivity" }}{{ $tagTerms = "productivity,workspace,desk" }}
+    {{ else if in $tag "design" }}{{ $tagTerms = "design,creative,art" }}
+    {{ else if in $tag "finance" }}{{ $tagTerms = "finance,money,investment" }}
+    {{ else if in $tag "healthcare" }}{{ $tagTerms = "healthcare,medical,doctor" }}
+    {{ else if in $tag "education" }}{{ $tagTerms = "education,learning,school" }}
+    {{ else if in $tag "real-estate" }}{{ $tagTerms = "real-estate,house,property" }}
+    {{ else if in $tag "ecommerce" }}{{ $tagTerms = "ecommerce,shopping,store" }}
+    {{ else if in $tag "social-media" }}{{ $tagTerms = "social-media,phone,communication" }}
+    {{ else if in $tag "seo" }}{{ $tagTerms = "seo,search,analytics" }}
+    {{ else if in $tag "email" }}{{ $tagTerms = "email,inbox,communication" }}
+    {{ else if in $tag "meeting" }}{{ $tagTerms = "meeting,conference,team" }}
+    {{ else if in $tag "note" }}{{ $tagTerms = "notes,writing,notebook" }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Combine terms */}}
+  {{ if $tagTerms }}
+    {{ $searchTerms = $tagTerms }}
+  {{ end }}
+
+  {{/* Generate unique seed from page title for consistency */}}
+  {{ $seed := $page.Title | urlize }}
+
+  {{/* Use Unsplash Source API for topic-based images */}}
+  https://source.unsplash.com/{{ $width }}x{{ $height }}/?{{ $searchTerms }}&sig={{ $seed }}
+{{ end }}

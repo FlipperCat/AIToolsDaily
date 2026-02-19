@@ -17,17 +17,40 @@
                 Honest reviews, practical tutorials, and strategies to save hours every week.
             </p>
             <div class="hero-cta">
-                <a href="/posts/" class="btn btn-primary btn-lg">
-                    Explore Articles
+                <a href="/tools/" class="btn btn-primary btn-lg">
+                    Browse AI Tools
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </a>
-                <a href="/reviews/" class="btn btn-secondary btn-lg">View Reviews</a>
+                <a href="/posts/" class="btn btn-secondary btn-lg">Read Articles</a>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Featured Tools -->
+{{ $tools := where .Site.RegularPages "Section" "tools" }}
+{{ if gt (len $tools) 0 }}
+<section class="featured-tools-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Top Rated AI Tools</h2>
+            <a href="/tools/" class="btn btn-secondary">
+                View All Tools
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="featured-tools-grid">
+            {{ range first 6 ($tools.ByParam "rating").Reverse }}
+                {{ partial "tool-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
 
 <!-- Featured Articles -->
 <section class="articles-section">
@@ -49,9 +72,8 @@
             {{ $category := "Article" }}
             {{ with $page.Params.categories }}{{ $category = index . 0 }}{{ end }}
 
-            {{/* Picsum Photos - free for commercial use, no attribution required */}}
-            {{ $imageUrl := printf "https://picsum.photos/seed/home%d/600/400" $index }}
-            {{ with $page.Params.image }}{{ $imageUrl = . }}{{ end }}
+            {{/* Smart contextual images based on article topic */}}
+            {{ $imageUrl := partial "article-image.html" (dict "page" $page "width" 600 "height" 400 "index" $index) }}
 
             <article class="article-card animate-on-scroll" data-category="{{ $category }}">
                 <div class="article-card-image">
@@ -112,14 +134,138 @@
     </div>
 </section>
 
-<!-- Categories Section -->
+<!-- Latest News Section -->
+{{ $news := where .Site.RegularPages "Section" "news" }}
+{{ if gt (len $news) 0 }}
 <section class="articles-section" style="background: var(--color-bg-alt);">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Latest AI News</h2>
+            <a href="/news/" class="btn btn-secondary">
+                All News
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="grid grid-3">
+            {{ range first 3 $news.ByDate.Reverse }}
+            <article class="article-card animate-on-scroll">
+                <div class="article-card-content">
+                    <span class="article-card-category" style="position:static;margin-bottom:var(--space-3);display:inline-block;">News</span>
+                    <h3 class="article-card-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h3>
+                    <p class="article-card-excerpt">{{ .Description | truncate 120 }}</p>
+                    <div class="article-card-meta">
+                        <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- Case Studies Section -->
+{{ $cases := where .Site.RegularPages "Section" "case-studies" }}
+{{ if gt (len $cases) 0 }}
+<section class="articles-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Real-World AI Success Stories</h2>
+            <a href="/case-studies/" class="btn btn-secondary">
+                All Case Studies
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="grid grid-3">
+            {{ range first 3 $cases.ByDate.Reverse }}
+            <article class="article-card animate-on-scroll">
+                <div class="article-card-content">
+                    <div style="display:flex;gap:var(--space-2);margin-bottom:var(--space-3);">
+                        <span class="tag" style="background:var(--color-success);color:white;">{{ .Params.company }}</span>
+                        <span class="tag">{{ .Params.industry }}</span>
+                    </div>
+                    <h3 class="article-card-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h3>
+                    {{ with .Params.results }}
+                    <ul style="list-style:none;padding:0;margin:var(--space-3) 0;font-size:var(--text-sm);">
+                        {{ range first 2 . }}
+                        <li style="display:flex;align-items:center;gap:var(--space-2);margin-bottom:var(--space-1);">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            {{ . }}
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                    <a href="{{ .Permalink }}" class="read-more">
+                        Read case study
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- Industry AI Section -->
+{{ $industry := where .Site.RegularPages "Section" "industry" }}
+{{ if gt (len $industry) 0 }}
+<section class="articles-section" style="background: var(--color-bg-alt);">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">AI by Industry</h2>
+            <a href="/industry/" class="btn btn-secondary">
+                All Industries
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="grid grid-3">
+            {{ range first 6 $industry.ByDate.Reverse }}
+            <a href="{{ .Permalink }}" class="article-card animate-on-scroll" style="text-decoration:none;">
+                <div class="article-card-content">
+                    <span class="tag" style="margin-bottom:var(--space-3);display:inline-block;">{{ .Params.industry }}</span>
+                    <h3 class="article-card-title" style="font-size:var(--text-base);">{{ .Title }}</h3>
+                    <p class="article-card-excerpt" style="font-size:var(--text-sm);">{{ .Description | truncate 100 }}</p>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- Categories Section -->
+<section class="articles-section">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title">Browse by Category</h2>
         </div>
 
         <div class="grid grid-4">
+            <a href="/tools/" class="article-card animate-on-scroll" style="text-align:center;padding:var(--space-8);">
+                <div style="width:64px;height:64px;margin:0 auto var(--space-4);background:var(--color-accent-subtle);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                    </svg>
+                </div>
+                <h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2);">AI Tools</h3>
+                <p style="color:var(--color-text-secondary);font-size:var(--text-sm);margin:0;">50+ tools rated & reviewed</p>
+            </a>
+
             <a href="/reviews/" class="article-card animate-on-scroll" style="text-align:center;padding:var(--space-8);">
                 <div style="width:64px;height:64px;margin:0 auto var(--space-4);background:var(--color-accent-subtle);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;">
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2">
@@ -141,31 +287,15 @@
                 <p style="color:var(--color-text-secondary);font-size:var(--text-sm);margin:0;">Step-by-step guides</p>
             </a>
 
-            <a href="/comparisons/" class="article-card animate-on-scroll" style="text-align:center;padding:var(--space-8);">
+            <a href="/case-studies/" class="article-card animate-on-scroll" style="text-align:center;padding:var(--space-8);">
                 <div style="width:64px;height:64px;margin:0 auto var(--space-4);background:var(--color-accent-subtle);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;">
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2">
-                        <line x1="18" y1="20" x2="18" y2="10"></line>
-                        <line x1="12" y1="20" x2="12" y2="4"></line>
-                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                 </div>
-                <h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2);">Comparisons</h3>
-                <p style="color:var(--color-text-secondary);font-size:var(--text-sm);margin:0;">Tool vs tool breakdowns</p>
-            </a>
-
-            <a href="/posts/" class="article-card animate-on-scroll" style="text-align:center;padding:var(--space-8);">
-                <div style="width:64px;height:64px;margin:0 auto var(--space-4);background:var(--color-accent-subtle);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2">
-                        <line x1="8" y1="6" x2="21" y2="6"></line>
-                        <line x1="8" y1="12" x2="21" y2="12"></line>
-                        <line x1="8" y1="18" x2="21" y2="18"></line>
-                        <line x1="3" y1="6" x2="3.01" y2="6"></line>
-                        <line x1="3" y1="12" x2="3.01" y2="12"></line>
-                        <line x1="3" y1="18" x2="3.01" y2="18"></line>
-                    </svg>
-                </div>
-                <h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2);">All Articles</h3>
-                <p style="color:var(--color-text-secondary);font-size:var(--text-sm);margin:0;">Browse everything</p>
+                <h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2);">Case Studies</h3>
+                <p style="color:var(--color-text-secondary);font-size:var(--text-sm);margin:0;">Real success stories</p>
             </a>
         </div>
     </div>
