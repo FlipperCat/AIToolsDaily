@@ -16,12 +16,12 @@
 {{ $headerParsed := false }}
 
 {{ range $i, $line := $lines }}
-  {{ $trimmed := strings.TrimSpace $line }}
+  {{ $trimmed := $line | trim " \t\n\r" }}
   {{ if and $trimmed (hasPrefix $trimmed "|") }}
     {{ $cells := split $trimmed "|" }}
     {{ $cleanCells := slice }}
     {{ range $cells }}
-      {{ $cell := strings.TrimSpace . }}
+      {{ $cell := . | trim " \t\n\r" }}
       {{ if $cell }}
         {{ $cleanCells = $cleanCells | append $cell }}
       {{ end }}

@@ -40,13 +40,13 @@
   {{ $price := "" }}
   {{ $priceMatch := findRE "price:\\s*([^\\n]+)" $block 1 }}
   {{ if $priceMatch }}
-    {{ $price = replaceRE "price:\\s*" "" (index $priceMatch 0) | strings.TrimSpace }}
+    {{ $price = replaceRE "price:\\s*" "" (index $priceMatch 0) | trim " " }}
   {{ end }}
 
   {{ $period := "" }}
   {{ $periodMatch := findRE "period:\\s*([^\\n]+)" $block 1 }}
   {{ if $periodMatch }}
-    {{ $period = replaceRE "period:\\s*" "" (index $periodMatch 0) | strings.TrimSpace }}
+    {{ $period = replaceRE "period:\\s*" "" (index $periodMatch 0) | trim " " }}
   {{ end }}
 
   {{ $features := slice }}
@@ -59,13 +59,13 @@
   {{ $cta := "Get Started" }}
   {{ $ctaMatch := findRE "cta:\\s*([^\\n]+)" $block 1 }}
   {{ if $ctaMatch }}
-    {{ $cta = replaceRE "cta:\\s*" "" (index $ctaMatch 0) | strings.TrimSpace }}
+    {{ $cta = replaceRE "cta:\\s*" "" (index $ctaMatch 0) | trim " " }}
   {{ end }}
 
   {{ $url := "#" }}
   {{ $urlMatch := findRE "url:\\s*([^\\n]+)" $block 1 }}
   {{ if $urlMatch }}
-    {{ $url = replaceRE "url:\\s*" "" (index $urlMatch 0) | strings.TrimSpace }}
+    {{ $url = replaceRE "url:\\s*" "" (index $urlMatch 0) | trim " " }}
   {{ end }}
 
   {{ $featured := false }}
@@ -100,7 +100,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="20 6 9 17 4 12"/>
             </svg>
-            {{ strings.TrimSpace . }}
+            {{ . | trim " " }}
           </li>
         {{ end }}
       </ul>
