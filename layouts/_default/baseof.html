@@ -48,6 +48,9 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
+    <!-- Impact Radius Verification -->
+    <meta name="impact-site-verification" value="81a9ba7f-f99d-4648-ae8d-041dc70af1c4">
+
     <!-- RSS -->
     {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
