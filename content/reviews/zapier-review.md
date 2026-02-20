@@ -106,7 +106,7 @@ New users often underestimate task usage. That "simple" 5-step Zap running 100x/
 | Visual Builder | Linear | Visual flowchart |
 | Complex Logic | Good | Better |
 
-**My take:** Start with Zapier for simplicity. Switch to Make.com when costs get painful.
+**My take:** Start with Zapier for simplicity. Switch to [Make.com](/reviews/make-review/) when costs get painful. See our full [Zapier vs Make.com comparison](/comparisons/zapier-vs-make/) for a detailed breakdown.
 
 ## Verdict: Is Zapier Worth It?
 
@@ -122,6 +122,11 @@ New users often underestimate task usage. That "simple" 5-step Zap running 100x/
 - You're on a tight budget
 
 For most small businesses and solopreneurs, Zapier's free or Starter plan is a good starting point. You'll save hours of manual work, which easily justifies the cost.
+
+**Related guides:**
+- [How to automate email follow-ups](/tutorials/automate-email-follow-ups/)
+- [How to automate lead generation](/tutorials/11-automate-lead-generation/)
+- [Best AI tools for small business](/posts/ai-tools-small-business/)
 
 <div class="cta-box">
 <h4>Try Zapier Free</h4>

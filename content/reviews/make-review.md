@@ -140,7 +140,7 @@ This runs for every order, costs me ~$15/month, and would be significantly more 
 - You need a specific integration only Zapier has
 - Your automations are simple and low-volume
 
-For anyone doing serious automation work, Make offers better value than Zapier. The learning curve is worth it.
+For anyone doing serious automation work, Make offers better value than [Zapier](/reviews/zapier-review/). The learning curve is worth it. See our detailed [Zapier vs Make.com comparison](/comparisons/zapier-vs-make/) for a full breakdown.
 
 <div class="cta-box">
 <h4>Try Make.com Free</h4>
@@ -161,3 +161,8 @@ Yes, but you'll need to rebuild your workflows. There's no automatic migration t
 
 **Which is better, Make or Zapier?**
 Depends on your needs. Make is better for complex, high-volume automation. Zapier is better for beginners and rare integrations.
+
+**Related tutorials:**
+- [How to automate email follow-ups](/tutorials/automate-email-follow-ups/)
+- [How to automate lead generation](/tutorials/11-automate-lead-generation/)
+- [Best AI tools for small business](/posts/ai-tools-small-business/)

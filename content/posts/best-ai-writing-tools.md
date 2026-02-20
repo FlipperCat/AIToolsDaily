@@ -32,11 +32,11 @@ I've tested over 15 AI writing tools. Here are the 7 best, ranked by real-world 
 | Rytr | Budget option | $9/mo | Yes (10,000 chars) |
 | Notion AI | Note-taking | $10/mo add-on | No |
 
-## 1. Claude — Best for Long-Form & Analysis
+## 1. [Claude](/tools/claude/) — Best for Long-Form & Analysis
 
 **Price:** Free tier available, Pro at $20/month
 
-Claude (by Anthropic) has become my go-to for serious writing work. It handles long documents better than any competitor and produces more natural, less "AI-sounding" text.
+[Claude](/reviews/claude-review/) (by Anthropic) has become my go-to for serious writing work. It handles long documents better than any competitor and produces more natural, less "AI-sounding" text.
 
 **What it does well:**
 - Long-form content (10,000+ words)
@@ -51,11 +51,11 @@ Claude (by Anthropic) has become my go-to for serious writing work. It handles l
 
 **Best for:** Writers, researchers, professionals who need quality over speed.
 
-## 2. ChatGPT — Best All-Rounder
+## 2. [ChatGPT](/tools/chatgpt/) — Best All-Rounder
 
 **Price:** Free tier, Plus at $20/month
 
-ChatGPT is the most versatile option. It handles everything from coding to creative writing to research. The GPT-4 model (Plus plan) is significantly better than the free version.
+[ChatGPT](/reviews/chatgpt-review/) is the most versatile option. It handles everything from coding to creative writing to research. The GPT-4 model (Plus plan) is significantly better than the free version.
 
 **What it does well:**
 - Wide range of tasks
@@ -185,7 +185,7 @@ If you already use Notion, the AI add-on integrates seamlessly. It's not as powe
 | Cheapest option | Rytr |
 | Note-taking workflows | Notion AI |
 
-**My recommendation:** Start with ChatGPT or Claude's free tiers. Both are excellent and free. Only pay for specialized tools like Jasper when you have specific needs the free options don't cover.
+**My recommendation:** Start with ChatGPT or Claude's free tiers. Both are excellent and free — see our [ChatGPT vs Claude comparison](/comparisons/chatgpt-vs-claude/) for detailed differences. Only pay for specialized tools like Jasper when you have specific needs the free options don't cover. Check our [free AI tools guide](/posts/free-ai-tools/) for more no-cost options.
 
 ## Tips for Better AI Writing
 

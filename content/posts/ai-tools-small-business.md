@@ -20,12 +20,12 @@ AI isn't just for big tech companies anymore. Small businesses can now access po
 
 Here are 10 AI tools that deliver real value for small businesses.
 
-## 1. ChatGPT — General AI Assistant
+## 1. [ChatGPT](/tools/chatgpt/) — General AI Assistant
 
 **Cost:** Free / $20 month for Plus
 **Best for:** Writing, brainstorming, research, customer email drafts
 
-ChatGPT handles dozens of tasks that used to require hiring someone or doing yourself:
+[ChatGPT](/reviews/chatgpt-review/) handles dozens of tasks that used to require hiring someone or doing yourself:
 - Draft customer emails
 - Write marketing copy
 - Brainstorm product ideas
@@ -35,12 +35,12 @@ ChatGPT handles dozens of tasks that used to require hiring someone or doing you
 
 **ROI example:** Saving 1 hour/day on writing tasks = 20+ hours/month = $500+ in time at $25/hour.
 
-## 2. Zapier — Workflow Automation
+## 2. [Zapier](/tools/zapier/) — Workflow Automation
 
 **Cost:** Free tier / $19.99+ month
 **Best for:** Connecting apps, eliminating manual data entry
 
-Zapier connects your business tools and automates repetitive tasks:
+[Zapier](/reviews/zapier-review/) connects your business tools and automates repetitive tasks:
 - New lead from website → Add to CRM + Send welcome email + Notify sales team
 - New order → Update inventory + Create shipping label + Notify warehouse
 - New review → Post to social media + Send thank you email
@@ -111,12 +111,12 @@ Tidio combines live chat with AI chatbots:
 
 **ROI example:** AI handles 60% of inquiries automatically = hire 1 support person instead of 2.
 
-## 7. Grammarly — Writing Quality
+## 7. [Grammarly](/tools/grammarly/) — Writing Quality
 
 **Cost:** Free tier / $12/month
 **Best for:** Anyone who writes emails, documents, or content
 
-Grammarly catches errors and improves writing:
+[Grammarly](/reviews/grammarly-review/) catches errors and improves writing:
 - Grammar and spelling
 - Tone adjustments
 - Clarity improvements
@@ -224,6 +224,8 @@ Track time saved and quality improvements. This justifies continued investment.
 2. **Install Grammarly** (free) — Instant improvement to all writing
 3. **Try Zapier** (free) — Automate one repetitive task
 
-These three free tools will demonstrate AI's value in your business within a week. Then expand based on what saves you the most time.
+These three free tools will demonstrate AI's value in your business within a week. Then expand based on what saves you the most time. See our [free AI tools guide](/posts/free-ai-tools/) for more no-cost options.
+
+For automation workflows, check out our tutorials on [automating email follow-ups](/tutorials/automate-email-follow-ups/) and [automating lead generation](/tutorials/11-automate-lead-generation/).
 
 The small businesses winning today aren't necessarily the biggest — they're the ones using AI to operate like they're 10x their actual size.

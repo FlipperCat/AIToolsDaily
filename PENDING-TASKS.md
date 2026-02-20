@@ -14,12 +14,41 @@
 - [x] Write 20 new SEO-targeted articles (all complete)
 
 ### In Progress
-- [ ] Optimize meta titles across all 287 articles (3 done, ~284 remaining)
-- [ ] Add FAQ sections to key articles (32 done - reviews, comparisons, tutorials)
+- [ ] Optimize meta titles across all 287 articles (19 done this session, ~268 remaining)
+- [ ] Add FAQ sections to key articles (52 done - reviews, comparisons, tutorials, list posts)
+- [ ] Improve internal linking across content (26+ articles done, including 7 tool pages)
 
 ### Pending
 - [ ] Improve meta descriptions for all pages
-- [ ] Improve internal linking across content
+
+---
+
+## Internal Linking Progress (This Session)
+
+**Content Articles Updated:**
+- best-ai-writing-tools.md
+- claude-review.md
+- ai-tools-small-business.md
+- perplexity-review.md
+- zapier-review.md
+- 10-best-ai-image-generators.md
+- grammarly-review.md
+- make-review.md
+- chatgpt-vs-claude.md
+- zapier-vs-make.md
+- jasper-vs-copyai.md
+- midjourney-vs-dalle3.md
+- 02-write-blog-posts-chatgpt.md
+- 01-create-ai-art-midjourney.md
+
+**Tool Pages Updated:**
+- chatgpt.md
+- claude.md
+- zapier.md
+- midjourney.md
+- make.md
+- grammarly.md
+- perplexity.md
 
 ---
 

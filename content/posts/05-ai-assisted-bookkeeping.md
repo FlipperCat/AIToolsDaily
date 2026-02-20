@@ -1,10 +1,19 @@
 ---
-title: "How to Set Up AI-Assisted Bookkeeping"
+title: "How to Set Up AI-Assisted Bookkeeping (80% Less Manual Work)"
 description: "Automate bookkeeping tasks with AI to categorize expenses, reconcile accounts, and generate financial reports efficiently."
 date: 2026-02-17
 categories: ["Workflows"]
 tags: ["automation", "workflow", "bookkeeping", "ai-tools", "finance"]
 affiliate_disclosure: true
+faqs:
+  - question: "Can AI do my bookkeeping?"
+    answer: "AI can automate 80% of bookkeeping tasks: transaction categorization, receipt scanning, invoice matching, and report generation. You still need human review for accuracy and strategic decisions. Tools like QuickBooks + Zapier + ChatGPT create a powerful automated system."
+  - question: "How accurate is AI transaction categorization?"
+    answer: "AI categorizes transactions with 90-95% accuracy after initial training. Accuracy improves as you correct mistakes and create rules for repeat vendors. Merchant category codes boost accuracy further. Always review flagged unusual transactions manually."
+  - question: "What's the best AI bookkeeping tool?"
+    answer: "QuickBooks Online with AI features is best for most small businesses. Add Expensify for receipt scanning and Zapier for automation. For advanced needs, combine with ChatGPT for intelligent categorization and analysis. Total cost: $50-100/month."
+  - question: "How long does bookkeeping automation setup take?"
+    answer: "Basic setup (receipt scanning + auto-categorization) takes 2-3 hours. Full automation with invoice matching and reporting takes 1-2 days. ROI typically appears within the first month as manual bookkeeping time drops 80%."
 ---
 
 ## How to Set Up AI-Assisted Bookkeeping

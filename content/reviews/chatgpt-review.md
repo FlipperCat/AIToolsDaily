@@ -122,7 +122,7 @@ Ask the same question twice, get different answers. This is inherent to AI but c
 | Image features | Yes (DALL-E) | No |
 | Free tier | More limited | More generous |
 
-**My take:** ChatGPT for versatility and coding. Claude for writing and analysis.
+**My take:** ChatGPT for versatility and coding. Claude for writing and analysis. See our full [ChatGPT vs Claude comparison](/comparisons/chatgpt-vs-claude/) and [Claude review](/reviews/claude-review/) for more details.
 
 ### ChatGPT vs Gemini
 
@@ -140,11 +140,11 @@ Ask the same question twice, get different answers. This is inherent to AI but c
 
 **Highly effective:**
 - Coding assistance and debugging
-- Writing first drafts (emails, content, copy)
+- Writing first drafts (emails, content, copy) — see [how to write blog posts with ChatGPT](/tutorials/02-write-blog-posts-chatgpt/)
 - Brainstorming and ideation
 - Learning new topics
 - Data analysis (CSV/Excel files)
-- Image generation
+- Image generation — explore [best AI image generators](/posts/10-best-ai-image-generators/)
 
 **Moderately effective:**
 - Research (verify everything)
@@ -212,10 +212,10 @@ ChatGPT remains the most versatile AI tool available. It's not the best at every
 
 **My recommendation:**
 - Start with ChatGPT Plus for general AI needs
-- Add Claude if you do heavy writing or analysis
+- Add [Claude](/tools/claude/) if you do heavy writing or analysis
 - Add specialized tools only when ChatGPT doesn't cover your use case
 
-For most people, ChatGPT is still the AI tool to start with in 2024.
+For most people, ChatGPT is still the AI tool to start with. See our [best AI writing tools](/posts/best-ai-writing-tools/) and [free AI tools list](/posts/free-ai-tools/) for more options.
 
 <div class="cta-box">
 <h4>Try ChatGPT</h4>

@@ -1,10 +1,19 @@
 ---
-title: "What is AI? A Simple Explanation"
+title: "What is AI? A Simple Explanation for Beginners (2026)"
 description: "Learn what AI really is in plain English. Discover how artificial intelligence works, what it can and cannot do, and why it matters to you."
 date: 2026-02-17
 categories: ["Guides"]
 tags: ["beginner", "guide", "artificial intelligence", "what is ai"]
 affiliate_disclosure: true
+faqs:
+  - question: "What is AI in simple words?"
+    answer: "AI is software that learns patterns from examples and uses those patterns to make decisions or predictions. Like teaching a dog tricks - you show it examples, and it learns to respond to similar situations on its own."
+  - question: "What can AI actually do?"
+    answer: "AI can write text, generate images, recognize faces, translate languages, recommend products, drive cars, detect fraud, and automate repetitive tasks. It excels at pattern recognition and processing large amounts of data quickly."
+  - question: "Will AI take my job?"
+    answer: "AI will change jobs more than replace them. Routine, repetitive tasks are most at risk. Creative, strategic, and interpersonal work remains human-centric. The best approach: learn to use AI tools to become more valuable, not replaced."
+  - question: "Is AI dangerous?"
+    answer: "Like any powerful technology, AI has risks and benefits. Current AI can spread misinformation, enable surveillance, and displace workers. However, it also accelerates research, improves healthcare, and increases productivity. Responsible development and use are key."
 ---
 
 # What is AI? A Simple Explanation

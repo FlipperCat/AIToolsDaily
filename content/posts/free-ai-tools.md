@@ -22,18 +22,18 @@ Here are 15 free AI tools worth using, organized by category.
 
 ## Writing & Content
 
-### 1. Claude (Free Tier)
+### 1. [Claude](/tools/claude/) (Free Tier)
 **What it's for:** Writing, analysis, research
 
-Claude's free tier is the most generous among premium AI assistants. You get access to Claude 3.5 Sonnet — the same model paid users get — with reasonable usage limits.
+Claude's free tier is the most generous among premium AI assistants. You get access to Claude 3.5 Sonnet — the same model paid users get — with reasonable usage limits. See our full [Claude review](/reviews/claude-review/) for more details.
 
 **Best for:** Long-form writing, document analysis, thoughtful responses
 **Limit:** Rate-limited but generous for most users
 
-### 2. ChatGPT (Free Tier)
+### 2. [ChatGPT](/tools/chatgpt/) (Free Tier)
 **What it's for:** General AI assistance
 
-ChatGPT free gives you access to GPT-3.5 plus limited GPT-4o access. Good for quick tasks, brainstorming, and simple writing.
+ChatGPT free gives you access to GPT-3.5 plus limited GPT-4o access. Good for quick tasks, brainstorming, and simple writing. Check out our [ChatGPT review](/reviews/chatgpt-review/) and see how it [compares to Claude](/comparisons/chatgpt-vs-claude/).
 
 **Best for:** Quick questions, simple writing tasks, brainstorming
 **Limit:** Limited GPT-4o messages, no image generation
@@ -48,18 +48,18 @@ Gemini connects to Google Search, so it has access to current information. Free 
 
 ## Automation
 
-### 4. Zapier (Free Plan)
+### 4. [Zapier](/tools/zapier/) (Free Plan)
 **What it's for:** Connecting apps, automating workflows
 
-Zapier's free plan includes 100 tasks/month and 5 Zaps. Enough to automate a few key workflows.
+Zapier's free plan includes 100 tasks/month and 5 Zaps. Enough to automate a few key workflows. Read our [Zapier review](/reviews/zapier-review/) and learn [how to automate email follow-ups](/tutorials/automate-email-follow-ups/).
 
 **Best for:** Testing automation, simple workflows
 **Limit:** 100 tasks/month, 5 Zaps, 15-minute trigger delay
 
-### 5. Make.com (Free Plan)
+### 5. [Make.com](/tools/make/) (Free Plan)
 **What it's for:** Visual workflow automation
 
-Make's free tier offers 1,000 operations/month — 10x more than Zapier's free plan.
+Make's free tier offers 1,000 operations/month — 10x more than Zapier's free plan. See our [Make.com review](/reviews/make-review/) and [Zapier vs Make comparison](/comparisons/zapier-vs-make/).
 
 **Best for:** Complex automations, visual workflow building
 **Limit:** 1,000 operations, 2 active scenarios
@@ -82,18 +82,18 @@ Notion offers a trial of AI features. After that, it's $10/month, but you can do
 **Best for:** Note-taking, document drafting, summarization
 **Limit:** Trial period, then paid
 
-### 8. Perplexity (Free Tier)
+### 8. [Perplexity](/tools/perplexity/) (Free Tier)
 **What it's for:** AI-powered search
 
-Perplexity combines AI with search, providing sourced answers. Free tier includes 5 Pro searches per day plus unlimited basic searches.
+Perplexity combines AI with search, providing sourced answers. Free tier includes 5 Pro searches per day plus unlimited basic searches. See our [Perplexity review](/reviews/perplexity-review/) and [Perplexity vs ChatGPT comparison](/comparisons/perplexity-vs-chatgpt/).
 
 **Best for:** Research, fact-checking, sourced answers
 **Limit:** 5 Pro searches/day (unlimited basic)
 
-### 9. Otter.ai (Free Plan)
+### 9. [Otter.ai](/tools/otter-ai/) (Free Plan)
 **What it's for:** Transcription and meeting notes
 
-Otter transcribes audio and generates meeting summaries. Free plan includes 300 minutes/month.
+Otter transcribes audio and generates meeting summaries. Free plan includes 300 minutes/month. Learn [how to transcribe meetings automatically](/tutorials/09-transcribe-meetings-automatically/).
 
 **Best for:** Meeting transcription, interview notes, lectures
 **Limit:** 300 minutes/month, 30 min per conversation
@@ -116,10 +116,10 @@ Microsoft's free design tool includes DALL-E image generation. No cost, integrat
 **Best for:** Quick image generation, social media graphics
 **Limit:** Daily generation limits
 
-### 12. Leonardo.ai (Free Tier)
+### 12. [Leonardo.ai](/tools/leonardo-ai/) (Free Tier)
 **What it's for:** AI image generation
 
-Leonardo offers 150 free credits daily for AI image generation. Quality is excellent.
+Leonardo offers 150 free credits daily for AI image generation. Quality is excellent. See our list of [best AI image generators](/posts/10-best-ai-image-generators/) for more options.
 
 **Best for:** High-quality AI art, consistent style generation
 **Limit:** 150 credits/day (refreshes daily)
@@ -134,10 +134,10 @@ Copilot is free for students and open-source maintainers. Otherwise $10/month.
 **Best for:** Code completion, function generation, learning
 **Limit:** Free only for students/open-source
 
-### 14. Codeium (Free)
+### 14. [Codeium](/tools/codeium/) (Free)
 **What it's for:** AI code completion (free alternative to Copilot)
 
-Codeium offers free AI code completion for individuals. Works in most IDEs.
+Codeium offers free AI code completion for individuals. Works in most IDEs. See our [GitHub Copilot vs Codeium comparison](/comparisons/github-copilot-vs-codeium/).
 
 **Best for:** Code completion, completely free
 **Limit:** None for individual use

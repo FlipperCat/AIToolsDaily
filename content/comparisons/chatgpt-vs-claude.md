@@ -18,7 +18,7 @@ faqs:
 
 ChatGPT and Claude are the two leading AI assistants. Both are excellent, but they have different strengths.
 
-I've used both extensively for writing, coding, research, and analysis. Here's an honest comparison to help you choose.
+I've used both extensively for writing, coding, research, and analysis. Here's an honest comparison to help you choose. For detailed reviews, see our [ChatGPT review](/reviews/chatgpt-review/) and [Claude review](/reviews/claude-review/).
 
 ## Quick Summary
 
@@ -237,7 +237,7 @@ Both interfaces are good. ChatGPT has more features; Claude is more focused.
 Use Claude for writing and analysis, ChatGPT for coding and multimodal tasks. The $40/month total is worth it for serious productivity work.
 
 **If you're budget-conscious:**
-Start with Claude's free tier — it's more generous and the quality is excellent.
+Start with Claude's free tier — it's more generous and the quality is excellent. See our [free AI tools guide](/posts/free-ai-tools/) for more no-cost options.
 
 <div class="cta-box">
 <h4>Try Both Free</h4>

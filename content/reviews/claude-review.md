@@ -116,18 +116,20 @@ ChatGPT has voice conversation on mobile. Claude is text-only.
 | Free tier | More generous | Limited |
 | Voice | No | Yes |
 
-**My take:** Use Claude for writing and analysis. Use ChatGPT for coding and multimodal tasks.
+**My take:** Use Claude for writing and analysis. Use [ChatGPT](/reviews/chatgpt-review/) for coding and multimodal tasks. See our full [ChatGPT vs Claude comparison](/comparisons/chatgpt-vs-claude/) for a detailed breakdown.
 
 ## Best Use Cases for Claude
 
 ### Writing & Editing
 
 Claude excels at:
-- Blog posts and articles
+- Blog posts and articles — see [how to write blog posts with ChatGPT](/tutorials/02-write-blog-posts-chatgpt/) for AI writing tips
 - Professional emails
 - Reports and documentation
 - Editing for clarity and tone
 - Creative writing
+
+For more AI writing options, see our [best AI writing tools](/posts/best-ai-writing-tools/) guide.
 
 ### Analysis
 
@@ -203,7 +205,7 @@ Claude is the best AI for writing-heavy work. The quality difference in prose is
 
 The free tier is generous enough for most users to get real value without paying. If writing is core to your work, the Pro plan at $20/month is well worth it.
 
-If you've only used ChatGPT, give Claude a try. Many users who switch prefer it for most of their work.
+If you've only used ChatGPT, give Claude a try. Many users who switch prefer it for most of their work. Also check our [free AI tools guide](/posts/free-ai-tools/) to see how Claude's free tier compares.
 
 <div class="cta-box">
 <h4>Try Claude Free</h4>

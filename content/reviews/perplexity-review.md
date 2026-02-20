@@ -148,7 +148,7 @@ It pulls from whatever ranks on the web. Sometimes that includes low-quality or 
 | Code | No | Yes |
 | Accuracy | More verifiable | Trust-based |
 
-**My take:** Perplexity for research and facts. ChatGPT for creative work, coding, and conversation.
+**My take:** Perplexity for research and facts. [ChatGPT](/reviews/chatgpt-review/) for creative work, coding, and conversation. See our full [Perplexity vs ChatGPT comparison](/comparisons/perplexity-vs-chatgpt/) for more details.
 
 ## Best Use Cases
 
@@ -184,9 +184,11 @@ Ask Perplexity to explain concepts. Get clear explanations with sources to dive 
 
 **Not necessary for:**
 - Casual users (Google is fine)
-- Creative work (use ChatGPT)
-- Code writing (use ChatGPT/Copilot)
+- Creative work (use [ChatGPT](/tools/chatgpt/) or [Claude](/tools/claude/))
+- Code writing (use ChatGPT or [GitHub Copilot](/comparisons/github-copilot-vs-codeium/))
 - Simple navigation ("pizza near me")
+
+For other research and productivity tools, see our [free AI tools guide](/posts/free-ai-tools/).
 
 ## Tips for Better Results
 
