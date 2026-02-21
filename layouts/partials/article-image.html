@@ -1,84 +1,93 @@
 {{/*
-  Smart Article Image Partial
-  Generates contextually relevant images based on article category and tags
+  Dynamic Article Image Generator
+  Creates unique SVG images with article title and category-based gradients
   Usage: {{ partial "article-image.html" (dict "page" . "width" 600 "height" 400) }}
 */}}
 {{ $page := .page }}
 {{ $width := .width | default 600 }}
 {{ $height := .height | default 400 }}
-{{ $index := .index | default 0 }}
 
 {{/* If article has a custom image, use it */}}
 {{ if $page.Params.image }}
   {{ $page.Params.image }}
 {{ else }}
-  {{/* Build search terms based on category and tags */}}
+  {{/* Generate data URI SVG based on article content */}}
   {{ $category := "Article" }}
   {{ with $page.Params.categories }}{{ $category = index . 0 }}{{ end }}
 
-  {{/* Map categories to image search terms */}}
-  {{ $searchTerms := "technology,digital" }}
+  {{/* Category-based gradient colors */}}
+  {{ $gradientStart := "#6366f1" }}
+  {{ $gradientEnd := "#8b5cf6" }}
+  {{ $accentColor := "#a5b4fc" }}
 
   {{ if eq $category "Reviews" }}
-    {{ $searchTerms = "software,app,technology" }}
+    {{ $gradientStart = "#3b82f6" }}
+    {{ $gradientEnd = "#06b6d4" }}
+    {{ $accentColor = "#7dd3fc" }}
   {{ else if eq $category "Tutorials" }}
-    {{ $searchTerms = "learning,computer,workspace" }}
+    {{ $gradientStart = "#10b981" }}
+    {{ $gradientEnd = "#059669" }}
+    {{ $accentColor = "#6ee7b7" }}
   {{ else if eq $category "Comparisons" }}
-    {{ $searchTerms = "comparison,analysis,data" }}
+    {{ $gradientStart = "#f59e0b" }}
+    {{ $gradientEnd = "#d97706" }}
+    {{ $accentColor = "#fcd34d" }}
   {{ else if eq $category "Lists" }}
-    {{ $searchTerms = "collection,tools,digital" }}
+    {{ $gradientStart = "#8b5cf6" }}
+    {{ $gradientEnd = "#a855f7" }}
+    {{ $accentColor = "#c4b5fd" }}
   {{ else if eq $category "Guides" }}
-    {{ $searchTerms = "guide,education,learning" }}
-  {{ else if eq $category "Tips" }}
-    {{ $searchTerms = "productivity,tips,office" }}
-  {{ else if eq $category "Workflows" }}
-    {{ $searchTerms = "workflow,automation,process" }}
+    {{ $gradientStart = "#ec4899" }}
+    {{ $gradientEnd = "#db2777" }}
+    {{ $accentColor = "#f9a8d4" }}
+  {{ else if eq $category "Industry Guides" }}
+    {{ $gradientStart = "#14b8a6" }}
+    {{ $gradientEnd = "#0d9488" }}
+    {{ $accentColor = "#5eead4" }}
   {{ else if eq $category "News" }}
-    {{ $searchTerms = "news,technology,innovation" }}
-  {{ else if eq $category "Case Studies" }}
-    {{ $searchTerms = "business,success,growth" }}
-  {{ else if eq $category "Industry" }}
-    {{ $searchTerms = "industry,professional,business" }}
+    {{ $gradientStart = "#ef4444" }}
+    {{ $gradientEnd = "#dc2626" }}
+    {{ $accentColor = "#fca5a5" }}
   {{ end }}
 
-  {{/* Enhance with specific tag-based terms */}}
-  {{ $tags := $page.Params.tags | default slice }}
-  {{ $tagTerms := "" }}
+  {{/* Get shortened title for display */}}
+  {{ $title := $page.Title }}
+  {{ $displayTitle := $title | truncate 50 "..." }}
 
-  {{ range first 2 $tags }}
-    {{ $tag := . | lower }}
-    {{ if in $tag "ai" }}{{ $tagTerms = "artificial-intelligence" }}
-    {{ else if in $tag "chatgpt" }}{{ $tagTerms = "ai,chat" }}
-    {{ else if in $tag "image" }}{{ $tagTerms = "digital-art,creative" }}
-    {{ else if in $tag "video" }}{{ $tagTerms = "video,film" }}
-    {{ else if in $tag "audio" }}{{ $tagTerms = "audio,sound,music" }}
-    {{ else if in $tag "writing" }}{{ $tagTerms = "writing,typing,keyboard" }}
-    {{ else if in $tag "coding" }}{{ $tagTerms = "coding,programming,developer" }}
-    {{ else if in $tag "automation" }}{{ $tagTerms = "automation,robot,machine" }}
-    {{ else if in $tag "marketing" }}{{ $tagTerms = "marketing,business,growth" }}
-    {{ else if in $tag "productivity" }}{{ $tagTerms = "productivity,workspace,desk" }}
-    {{ else if in $tag "design" }}{{ $tagTerms = "design,creative,art" }}
-    {{ else if in $tag "finance" }}{{ $tagTerms = "finance,money,investment" }}
-    {{ else if in $tag "healthcare" }}{{ $tagTerms = "healthcare,medical,doctor" }}
-    {{ else if in $tag "education" }}{{ $tagTerms = "education,learning,school" }}
-    {{ else if in $tag "real-estate" }}{{ $tagTerms = "real-estate,house,property" }}
-    {{ else if in $tag "ecommerce" }}{{ $tagTerms = "ecommerce,shopping,store" }}
-    {{ else if in $tag "social-media" }}{{ $tagTerms = "social-media,phone,communication" }}
-    {{ else if in $tag "seo" }}{{ $tagTerms = "seo,search,analytics" }}
-    {{ else if in $tag "email" }}{{ $tagTerms = "email,inbox,communication" }}
-    {{ else if in $tag "meeting" }}{{ $tagTerms = "meeting,conference,team" }}
-    {{ else if in $tag "note" }}{{ $tagTerms = "notes,writing,notebook" }}
-    {{ end }}
+  {{/* Get first tag for icon hint */}}
+  {{ $iconTag := "ai" }}
+  {{ with $page.Params.tags }}
+    {{ $iconTag = index . 0 | lower }}
   {{ end }}
 
-  {{/* Combine terms */}}
-  {{ if $tagTerms }}
-    {{ $searchTerms = $tagTerms }}
+  {{/* Icon based on tag */}}
+  {{ $iconPath := "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" }}
+  {{ if in $iconTag "chatgpt" }}
+    {{ $iconPath = "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" }}
+  {{ else if in $iconTag "writing" }}
+    {{ $iconPath = "M12 19l7-7 3 3-7 7-3-3z M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z M2 2l7.586 7.586" }}
+  {{ else if in $iconTag "image" }}
+    {{ $iconPath = "M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" }}
+  {{ else if in $iconTag "video" }}
+    {{ $iconPath = "M23 7l-7 5 7 5V7z M16 5H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z" }}
+  {{ else if in $iconTag "code" }}
+    {{ $iconPath = "M16 18l6-6-6-6 M8 6l-6 6 6 6" }}
+  {{ else if in $iconTag "productivity" }}
+    {{ $iconPath = "M22 11.08V12a10 10 0 1 1-5.93-9.14 M22 4L12 14.01l-3-3" }}
+  {{ else if in $iconTag "comparison" }}
+    {{ $iconPath = "M16 3h5v5 M8 3H3v5 M21 3l-7 7 M3 3l7 7 M3 21l7-7 M21 21l-7-7 M16 21h5v-5 M8 21H3v-5" }}
+  {{ else if in $iconTag "review" }}
+    {{ $iconPath = "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" }}
+  {{ else if in $iconTag "tutorial" }}
+    {{ $iconPath = "M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" }}
+  {{ else if in $iconTag "automation" }}
+    {{ $iconPath = "M12 2v4 M12 18v4 M4.93 4.93l2.83 2.83 M16.24 16.24l2.83 2.83 M2 12h4 M18 12h4 M4.93 19.07l2.83-2.83 M16.24 7.76l2.83-2.83" }}
   {{ end }}
 
-  {{/* Generate unique seed from page title for consistency */}}
-  {{ $seed := $page.Title | urlize }}
+  {{/* Generate hash for unique pattern */}}
+  {{ $hash := $page.Title | md5 }}
+  {{ $patternId := printf "pattern-%s" (substr $hash 0 8) }}
 
-  {{/* Use Unsplash Source API for topic-based images */}}
-  https://source.unsplash.com/{{ $width }}x{{ $height }}/?{{ $searchTerms }}&sig={{ $seed }}
+  {{/* Build the SVG as a data URI */}}
+  data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{{ $width }}' height='{{ $height }}' viewBox='0 0 {{ $width }} {{ $height }}'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:{{ $gradientStart }}'/%3E%3Cstop offset='100%25' style='stop-color:{{ $gradientEnd }}'/%3E%3C/linearGradient%3E%3Cpattern id='{{ $patternId }}' width='40' height='40' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='20' cy='20' r='1.5' fill='{{ $accentColor }}' opacity='0.3'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23{{ $patternId }})'/%3E%3Cg transform='translate({{ div $width 2 }},{{ sub (div $height 2) 30 }})'%3E%3Ccircle cx='0' cy='0' r='45' fill='white' opacity='0.15'/%3E%3Csvg x='-20' y='-20' width='40' height='40' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='{{ $iconPath }}'/%3E%3C/svg%3E%3C/g%3E%3Crect x='30' y='{{ sub $height 70 }}' width='{{ sub $width 60 }}' height='50' rx='8' fill='white' opacity='0.95'/%3E%3Ctext x='{{ div $width 2 }}' y='{{ sub $height 38 }}' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-size='14' font-weight='600' fill='%23374151' text-anchor='middle'%3E{{ $displayTitle | htmlEscape }}%3C/text%3E%3Ctext x='{{ div $width 2 }}' y='{{ sub $height 55 }}' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-size='11' fill='{{ $gradientStart }}' text-anchor='middle' font-weight='500'%3E{{ $category | upper }}%3C/text%3E%3C/svg%3E
 {{ end }}
