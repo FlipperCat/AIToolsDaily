@@ -1,6 +1,9 @@
 {{ define "main" }}
 <article class="article">
     <div class="container">
+        <!-- Breadcrumb Navigation -->
+        {{ partial "breadcrumb.html" . }}
+
         <!-- Featured Image - Dynamic SVG based on article title -->
         {{ $imageUrl := partial "article-image.html" (dict "page" . "width" 1200 "height" 600) }}
         <div class="article-featured-image" style="margin-bottom:var(--space-8);border-radius:var(--radius-xl);overflow:hidden;aspect-ratio:2/1;">
