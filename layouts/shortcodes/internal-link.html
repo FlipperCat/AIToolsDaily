@@ -1,0 +1,9 @@
+{{/*
+  Internal Link Shortcode
+  Usage: {{< internal-link "/chatgpt-tips-tricks-nobody-talks-about/" "ChatGPT power tips" >}}
+  Creates SEO-friendly internal links
+*/}}
+{{ $url := .Get 0 }}
+{{ $text := .Get 1 | default $url }}
+
+<a href="{{ $url }}" class="internal-link" style="color:var(--color-accent);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;">{{ $text }}</a>

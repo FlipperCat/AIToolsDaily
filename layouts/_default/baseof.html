@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Title -->
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <!-- SEO-Optimized Title -->
+    {{- $category := "" }}
+    {{- with .Params.categories }}{{ $category = index . 0 }}{{ end }}
+    <title>{{ if .IsHome }}{{ .Site.Title }} - Best AI Tools Reviews & Tutorials 2026{{ else }}{{ .Title }}{{ if $category }} - {{ $category }}{{ end }} | {{ .Site.Title }}{{ end }}</title>
 
     <!-- Meta Description -->
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    {{ if .IsPage }}
+    <meta name="author" content="AI Tools Daily">
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ if .Params.updated }}<meta property="article:modified_time" content="{{ .Params.updated }}">{{ end }}
+    {{ end }}
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ .Permalink }}">
@@ -20,6 +30,7 @@
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="en_US">
     {{ if .Params.image }}
     <meta property="og:image" content="{{ .Params.image | absURL }}">
     {{ else if .Site.Params.ogImage }}
@@ -31,19 +42,24 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aitoolsdaily">
     <meta name="twitter:title" content="{{ .Title }}">
     <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-    <!-- Fonts -->
+    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+    <!-- Critical Font Preload -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
 
-    <!-- Fuse.js for Search -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <!-- Fuse.js for Search (Deferred) -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0" defer></script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">

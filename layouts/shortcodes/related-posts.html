@@ -1,0 +1,46 @@
+{{/*
+  Related Posts Shortcode
+  Usage: {{< related-posts tags="chatgpt,ai writing" limit="3" >}}
+  Or: {{< related-posts category="Reviews" >}}
+*/}}
+{{ $limit := .Get "limit" | default 3 }}
+{{ $tags := .Get "tags" | default "" }}
+{{ $category := .Get "category" | default "" }}
+
+{{ $pages := slice }}
+
+{{ if $tags }}
+  {{/* Get pages matching any of the specified tags */}}
+  {{ $tagList := split $tags "," }}
+  {{ range $tagList }}
+    {{ $tag := . | trim }}
+    {{ $tagPages := where $.Site.RegularPages "Params.tags" "intersect" (slice $tag) }}
+    {{ $pages = $pages | append $tagPages }}
+  {{ end }}
+  {{ $pages = $pages | uniq }}
+{{ else if $category }}
+  {{/* Get pages in the specified category */}}
+  {{ $pages = where $.Site.RegularPages "Params.categories" "intersect" (slice $category) }}
+{{ else }}
+  {{/* Default: use related pages based on current page */}}
+  {{ $pages = $.Site.RegularPages.Related $.Page }}
+{{ end }}
+
+{{/* Exclude current page and limit */}}
+{{ $pages = $pages | complement (slice $.Page) | first (int $limit) }}
+
+{{ if $pages }}
+<div class="related-posts-inline" style="margin:var(--space-8) 0;padding:var(--space-6);background:var(--color-bg-alt);border-radius:var(--radius-lg);border:1px solid var(--color-border);">
+  <h4 style="font-size:var(--text-sm);text-transform:uppercase;letter-spacing:0.05em;color:var(--color-text-tertiary);margin-bottom:var(--space-4);">Related Articles</h4>
+  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:var(--space-3);">
+    {{ range $pages }}
+    <li>
+      <a href="{{ .Permalink }}" style="display:flex;gap:var(--space-3);text-decoration:none;color:inherit;">
+        <span style="color:var(--color-accent);">→</span>
+        <span style="font-weight:500;">{{ .Title }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
