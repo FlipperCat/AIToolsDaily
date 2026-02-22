@@ -1,7 +1,7 @@
 ---
-title: "10 Best AI Tools for Students in 2026 (Boost Your Grades)"
+title: "10 Best AI Tools for Students in 2025 (Boost Your Grades)"
 description: "Enhance learning and productivity with AI tools for studying, writing essays, research, note-taking, and academic success."
-date: 2026-02-17
+date: 2025-06-20
 categories: ["Lists"]
 tags: ["education", "students", "learning", "productivity", "academic"]
 affiliate_disclosure: true

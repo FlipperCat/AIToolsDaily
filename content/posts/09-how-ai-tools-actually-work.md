@@ -1,7 +1,7 @@
 ---
 title: "How AI Tools Actually Work"
 description: "Beginner's guide to how AI tools work behind the scenes. Simple explanations of the technology without complex jargon."
-date: 2026-02-17
+date: 2025-05-12
 categories: ["Guides"]
 tags: ["beginner", "guide", "how it works", "ai technology"]
 affiliate_disclosure: true

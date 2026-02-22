@@ -1,7 +1,7 @@
 ---
 title: "15 ChatGPT Prompts for Better Writing"
 description: "Master ChatGPT with 15 proven prompts to enhance your writing quality, clarity, and style."
-date: 2026-02-17
+date: 2024-10-11
 categories: ["Tips"]
 tags: ["chatgpt", "writing", "prompts", "productivity"]
 affiliate_disclosure: true

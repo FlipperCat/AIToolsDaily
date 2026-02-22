@@ -1,7 +1,7 @@
 ---
 title: "10 Tips for Writing Better AI Prompts (Get 10x Better Results)"
 description: "Master AI prompt engineering with 10 proven techniques for better results."
-date: 2026-02-17
+date: 2024-04-19
 categories: ["Tips"]
 tags: ["prompts", "ai", "chatgpt", "techniques"]
 affiliate_disclosure: true

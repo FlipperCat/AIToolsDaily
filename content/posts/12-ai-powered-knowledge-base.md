@@ -1,7 +1,7 @@
 ---
 title: "Create an AI-Powered Knowledge Base"
 description: "Build a self-learning knowledge base using AI to auto-generate, organize, and keep documentation current automatically."
-date: 2026-02-17
+date: 2024-07-22
 categories: ["Workflows"]
 tags: ["automation", "workflow", "knowledge-management", "ai-tools", "documentation"]
 affiliate_disclosure: true

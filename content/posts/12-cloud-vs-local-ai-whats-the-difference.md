@@ -1,7 +1,7 @@
 ---
 title: "Cloud vs Local AI: What's the Difference"
 description: "Understand cloud-based and local AI tools. Learn the pros, cons, and which option is best for your needs."
-date: 2026-02-17
+date: 2025-08-22
 categories: ["Guides"]
 tags: ["beginner", "guide", "cloud", "local"]
 affiliate_disclosure: true

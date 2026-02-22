@@ -1,7 +1,7 @@
 ---
 title: "AI for Podcasters: Audio Tools Complete Guide"
 description: "Master AI tools for podcast editing, transcription, distribution, and growth. Produce better episodes faster and grow your audience."
-date: 2026-02-17
+date: 2025-02-07
 categories: ["Guides"]
 tags: ["podcasting", "ai", "audio", "production", "growth"]
 affiliate_disclosure: true

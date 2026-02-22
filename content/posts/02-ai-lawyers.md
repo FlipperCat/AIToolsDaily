@@ -1,7 +1,7 @@
 ---
-title: "AI for Lawyers: Add 8+ Billable Hours Weekly (2026 Guide)"
+title: "AI for Lawyers: Add 8+ Billable Hours Weekly (2024 Guide)"
 description: "Discover AI tools for legal research, contract analysis, document automation, and case management. Increase billing hours by 8+ per week."
-date: 2026-02-17
+date: 2024-04-30
 categories: ["Guides"]
 tags: ["legal", "ai", "contract-analysis", "legal-tech", "automation"]
 affiliate_disclosure: true

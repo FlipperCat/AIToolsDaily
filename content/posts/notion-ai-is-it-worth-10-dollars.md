@@ -1,7 +1,7 @@
 ---
 title: "Notion AI: Is It Worth $10/Month? (3 Months Later)"
 description: "I've been using Notion AI for 3 months. Here's my honest assessment of whether it's worth the add-on price or just a gimmick."
-date: 2026-02-18
+date: 2025-06-09
 categories: ["Reviews"]
 tags: ["notion", "notion ai", "productivity", "writing", "tools review"]
 affiliate_disclosure: true

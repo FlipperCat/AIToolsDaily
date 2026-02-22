@@ -1,7 +1,7 @@
 ---
 title: "10 Ways to Verify AI-Generated Content"
 description: "Learn 10 techniques to fact-check AI content and maintain credibility."
-date: 2026-02-17
+date: 2024-05-24
 categories: ["Tips"]
 tags: ["ai-content", "fact-checking", "verification", "credibility"]
 affiliate_disclosure: true

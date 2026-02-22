@@ -1,7 +1,7 @@
 ---
 title: "Create an AI-Powered Newsletter System"
 description: "Build an automated newsletter workflow with AI content curation, personalization, and send optimization."
-date: 2026-02-17
+date: 2025-08-27
 categories: ["Workflows"]
 tags: ["automation", "workflow", "email-marketing", "ai-tools", "content-distribution"]
 affiliate_disclosure: true

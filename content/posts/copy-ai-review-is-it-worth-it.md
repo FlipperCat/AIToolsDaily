@@ -1,7 +1,7 @@
 ---
 title: "Copy.ai Review: I Paid for 6 Months - Here's My Honest Take"
 description: "After 6 months using Copy.ai for marketing content, here's whether it's actually worth the subscription."
-date: 2026-02-19
+date: 2025-04-23
 categories: ["Reviews"]
 tags: ["copy.ai", "ai writing", "copywriting", "marketing", "content creation"]
 affiliate_disclosure: true

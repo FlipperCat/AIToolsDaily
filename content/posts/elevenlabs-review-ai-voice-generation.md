@@ -1,7 +1,7 @@
 ---
 title: "ElevenLabs Review: AI Voices That Don't Sound Like Robots"
 description: "I've used ElevenLabs for 6 months for video narration and podcasts. Here's whether the AI voice generation is actually good."
-date: 2026-02-19
+date: 2025-07-18
 categories: ["Reviews"]
 tags: ["elevenlabs", "ai voice", "text to speech", "voiceover", "audio ai"]
 affiliate_disclosure: true

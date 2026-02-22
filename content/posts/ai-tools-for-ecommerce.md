@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for E-commerce: What Top Sellers Actually Use"
 description: "Running an e-commerce store? These AI tools handle product descriptions, customer service, inventory, and marketing."
-date: 2026-02-21
+date: 2025-05-09
 categories: ["Industry Tools"]
 tags: ["ecommerce", "ai tools", "shopify", "amazon", "online selling"]
 affiliate_disclosure: true

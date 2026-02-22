@@ -1,7 +1,7 @@
 ---
 title: "Gemini vs ChatGPT: Google's AI vs OpenAI (Honest Comparison)"
 description: "I use Gemini and ChatGPT daily. Here's how Google's AI actually compares - where it wins, where it loses, and which to use."
-date: 2026-02-21
+date: 2024-07-19
 categories: ["Comparisons"]
 tags: ["gemini", "chatgpt", "google ai", "openai", "ai comparison"]
 affiliate_disclosure: true

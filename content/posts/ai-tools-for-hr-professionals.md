@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for HR: What Actually Helps With Hiring and Management"
 description: "HR professionals share which AI tools actually save time. From resume screening to employee communications."
-date: 2026-02-19
+date: 2025-05-30
 categories: ["Industry Guides"]
 tags: ["hr", "hiring", "ai tools", "recruiting", "human resources"]
 affiliate_disclosure: true

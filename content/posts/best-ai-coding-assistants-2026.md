@@ -1,7 +1,7 @@
 ---
-title: "Best AI Coding Assistants 2026: GitHub Copilot vs Cursor vs Alternatives"
+title: "Best AI Coding Assistants 2024: GitHub Copilot vs Cursor vs Alternatives"
 description: "I write code 8 hours a day with AI assistants. Here's which ones actually make you faster—and which are overhyped."
-date: 2026-02-13
+date: 2024-03-04
 categories: ["Lists"]
 tags: ["coding", "github-copilot", "cursor", "ai-development", "best-of", "programming"]
 ---

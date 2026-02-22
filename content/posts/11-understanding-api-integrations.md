@@ -1,7 +1,7 @@
 ---
 title: "Understanding API Integrations"
 description: "Beginner's guide to APIs and API integrations. Learn how apps talk to each other and how to use APIs without coding."
-date: 2026-02-17
+date: 2025-07-11
 categories: ["Guides"]
 tags: ["beginner", "guide", "api", "integration"]
 affiliate_disclosure: true

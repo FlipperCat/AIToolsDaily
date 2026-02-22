@@ -1,7 +1,7 @@
 ---
 title: "Automation 101: What You Need to Know"
 description: "Complete beginner's guide to automation. Learn what it is, why it matters, and how AI is changing automation forever."
-date: 2026-02-17
+date: 2024-09-30
 categories: ["Guides"]
 tags: ["beginner", "guide", "automation", "workflow"]
 affiliate_disclosure: true

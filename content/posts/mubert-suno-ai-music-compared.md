@@ -1,7 +1,7 @@
 ---
 title: "AI Music Generation: Mubert vs Suno vs Soundraw Compared"
 description: "I created the same music track with 3 AI tools. Here's what actually sounds good and where AI music still fails."
-date: 2026-02-19
+date: 2024-10-08
 categories: ["Comparisons"]
 tags: ["ai music", "mubert", "suno", "soundraw", "music generation"]
 affiliate_disclosure: true

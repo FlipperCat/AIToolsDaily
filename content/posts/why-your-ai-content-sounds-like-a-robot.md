@@ -1,7 +1,7 @@
 ---
 title: "Why Your AI Content Sounds Like a Robot (And How to Fix It)"
 description: "AI writing sounds robotic for specific, fixable reasons. Here's exactly why and how to make it sound human."
-date: 2026-02-18
+date: 2024-06-26
 categories: ["Tips"]
 tags: ["ai writing", "content creation", "prompts", "human writing", "chatgpt"]
 affiliate_disclosure: true

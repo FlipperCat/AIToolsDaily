@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT vs Claude: I've Used Both Daily for 8 Months (Honest Comparison)"
 description: "After 8 months of daily use, here's when ChatGPT wins, when Claude wins, and which one you should actually pay for."
-date: 2026-02-18
+date: 2024-12-12
 categories: ["Comparisons"]
 tags: ["chatgpt", "claude", "comparison", "ai tools", "openai", "anthropic"]
 affiliate_disclosure: true

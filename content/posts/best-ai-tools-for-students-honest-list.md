@@ -1,7 +1,7 @@
 ---
 title: "Best AI Tools for Students: What Actually Helps (And What Gets You in Trouble)"
 description: "AI tools that help students learn vs. AI tools that just do your homework. Here's how to use AI without tanking your education."
-date: 2026-02-19
+date: 2025-01-29
 categories: ["Guides"]
 tags: ["students", "ai tools", "education", "studying", "college"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
-title: "AI Tools for Writers: The Complete 2026 Guide"
+title: "AI Tools for Writers: The Complete 2025 Guide"
 description: "Every writing tool I've tested as a professional writer. What actually helps with drafts, editing, research, and publishing."
-date: 2026-02-21
+date: 2025-07-04
 categories: ["Lists"]
 tags: ["ai writing", "writing tools", "chatgpt", "claude", "content creation"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
-title: "10 Best Free AI Image Generators in 2026"
+title: "10 Best Free AI Image Generators in 2024"
 description: "Create AI images without paying. These free image generators rival paid tools. Compare features, quality, and daily limits."
-date: 2026-02-19
+date: 2024-12-19
 categories: ["Lists"]
 tags: ["ai image generators", "free ai tools", "ai art", "image generation"]
 affiliate_disclosure: true

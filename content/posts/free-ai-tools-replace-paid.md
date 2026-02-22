@@ -1,7 +1,7 @@
 ---
 title: "10 Free AI Tools That Replace $200/Month Subscriptions"
 description: "Stop overpaying for AI tools. These free alternatives deliver the same value as expensive subscriptions. Save $200+/month."
-date: 2026-02-18
+date: 2025-04-09
 categories: ["Lists"]
 tags: ["free ai tools", "ai alternatives", "save money", "productivity"]
 affiliate_disclosure: true

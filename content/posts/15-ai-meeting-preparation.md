@@ -1,7 +1,7 @@
 ---
 title: "Create an AI Meeting Preparation System"
 description: "Build an intelligent system to auto-prepare for meetings with participant research, agenda generation, and talking points."
-date: 2026-02-17
+date: 2024-03-18
 categories: ["Workflows"]
 tags: ["automation", "workflow", "productivity", "ai-tools", "meetings"]
 affiliate_disclosure: true

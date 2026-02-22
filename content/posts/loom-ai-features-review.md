@@ -1,7 +1,7 @@
 ---
 title: "Loom AI Features: Are They Worth the Upgrade?"
 description: "Loom added AI features to justify higher pricing. After 3 months, here's whether they're actually useful."
-date: 2026-02-19
+date: 2025-01-08
 categories: ["Reviews"]
 tags: ["loom", "video messaging", "ai tools", "productivity", "screen recording"]
 affiliate_disclosure: true

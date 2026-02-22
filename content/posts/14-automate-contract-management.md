@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Contract Management"
 description: "Streamline contract workflows using AI to generate, review, store, and track contracts with automatic renewal alerts."
-date: 2026-02-17
+date: 2025-08-25
 categories: ["Workflows"]
 tags: ["automation", "workflow", "legal", "ai-tools", "business-operations"]
 affiliate_disclosure: true

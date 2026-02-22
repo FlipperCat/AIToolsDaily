@@ -1,7 +1,7 @@
 ---
 title: "How to Build a Content Calendar with AI"
 description: "Learn to create a smart content calendar using AI tools for planning, scheduling, and organizing your content strategy efficiently."
-date: 2026-02-17
+date: 2025-06-23
 categories: ["Workflows"]
 tags: ["automation", "workflow", "content-planning", "ai-tools", "scheduling"]
 affiliate_disclosure: true

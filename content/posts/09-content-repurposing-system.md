@@ -1,7 +1,7 @@
 ---
 title: "Create an AI Content Repurposing System (10x Your Content)"
 description: "Maximize content ROI by automatically transforming one piece of content into multiple formats for different platforms."
-date: 2026-02-17
+date: 2024-04-26
 categories: ["Workflows"]
 tags: ["automation", "workflow", "content-marketing", "ai-tools", "efficiency"]
 affiliate_disclosure: true

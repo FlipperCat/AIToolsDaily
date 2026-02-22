@@ -1,7 +1,7 @@
 ---
-title: "10 Best AI Research Tools in 2026 (Read 100 Papers in Hours)"
+title: "10 Best AI Research Tools in 2025 (Read 100 Papers in Hours)"
 description: "Accelerate research with AI tools for literature analysis, paper summarization, data synthesis, and academic insights."
-date: 2026-02-17
+date: 2025-06-11
 categories: ["Lists"]
 tags: ["research", "academic", "literature", "data-analysis", "science"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Memory: How to Use It Effectively (And When to Disable It)"
 description: "ChatGPT now remembers past conversations. Here's how to make memory work for you and avoid the pitfalls."
-date: 2026-02-19
+date: 2024-11-18
 categories: ["Guides"]
 tags: ["chatgpt", "memory", "productivity", "openai", "tutorial"]
 affiliate_disclosure: true

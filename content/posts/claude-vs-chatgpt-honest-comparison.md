@@ -1,7 +1,7 @@
 ---
 title: "Claude vs ChatGPT: After 6 Months Using Both Daily"
 description: "I use Claude and ChatGPT every day for work. Here's the honest comparison - which is actually better for what."
-date: 2026-02-21
+date: 2025-06-27
 categories: ["Comparisons"]
 tags: ["claude", "chatgpt", "ai comparison", "anthropic", "openai"]
 affiliate_disclosure: true

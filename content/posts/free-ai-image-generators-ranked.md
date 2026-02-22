@@ -1,7 +1,7 @@
 ---
 title: "Free AI Image Generators Ranked: I Tested 12 (Most Are Trash)"
 description: "I generated 200+ images across 12 free AI image tools. Here's which ones are actually usable and which waste your time."
-date: 2026-02-19
+date: 2024-09-13
 categories: ["Lists"]
 tags: ["ai images", "free tools", "image generation", "dall-e", "midjourney alternatives"]
 affiliate_disclosure: true

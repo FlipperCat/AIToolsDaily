@@ -1,7 +1,7 @@
 ---
 title: "Build an Automated Sales Pipeline (Close 40% More Deals)"
 description: "Streamline your sales process with AI automation to qualify leads, nurture prospects, and accelerate deal closure consistently."
-date: 2026-02-17
+date: 2025-05-19
 categories: ["Workflows"]
 tags: ["automation", "workflow", "sales", "ai-tools", "lead-generation"]
 affiliate_disclosure: true

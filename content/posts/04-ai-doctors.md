@@ -1,7 +1,7 @@
 ---
-title: "AI for Doctors: Healthcare AI Tools Complete Guide (2026)"
+title: "AI for Doctors: Healthcare AI Tools Complete Guide (2025)"
 description: "Discover AI diagnostic tools, patient management systems, and clinical decision support. Improve patient outcomes while reducing admin burden."
-date: 2026-02-17
+date: 2025-03-07
 categories: ["Guides"]
 tags: ["healthcare", "ai", "medical", "diagnostics", "patient-care"]
 affiliate_disclosure: true

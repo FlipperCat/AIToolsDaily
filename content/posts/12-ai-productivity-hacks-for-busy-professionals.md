@@ -1,7 +1,7 @@
 ---
 title: "12 AI Productivity Hacks for Busy Professionals (2x Your Output)"
 description: "12 advanced AI techniques busy professionals use to double productivity without burnout."
-date: 2026-02-17
+date: 2025-03-21
 categories: ["Tips"]
 tags: ["productivity", "ai", "hacks", "professionals"]
 affiliate_disclosure: true
