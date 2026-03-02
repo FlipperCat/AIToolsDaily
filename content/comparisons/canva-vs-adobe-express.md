@@ -1,7 +1,6 @@
 ---
 title: "Canva vs Adobe Express (2026): Design Tool Comparison"
-description: "Compare Canva and Adobe Express for graphic design. Evaluate features, pricing, templates, and which design tool is best for your needs."
-
+date: 2023-03-10
 updated: 2026-01-03
 categories: ["Comparisons"]
 tags: ["canva", "adobe-express", "design-tools", "graphic-design"]

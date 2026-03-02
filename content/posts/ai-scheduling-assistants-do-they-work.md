@@ -1,7 +1,6 @@
 ---
 title: "AI Scheduling Assistants: Do They Actually Work? (I Tested 5)"
-description: "I tested Reclaim, Clockwise, Motion, and others to see if AI scheduling is useful or overhyped."
-
+date: 2023-05-13
 updated: 2025-12-29
 categories: ["Reviews"]
 tags: ["scheduling", "ai calendar", "productivity", "reclaim ai", "motion", "time management"]

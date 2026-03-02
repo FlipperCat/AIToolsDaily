@@ -1,7 +1,6 @@
 ---
 title: "How to Build an AI-Powered Resume Scanner (Step-by-Step Guide)"
-description: "Create a resume screening system using AI to automate candidate evaluation and save hiring teams hours of work"
-
+date: 2023-11-27
 updated: 2026-01-06
 categories: ["Tutorials"]
 tags: ["AI hiring", "resume screening", "recruitment automation", "talent acquisition"]

@@ -1,7 +1,6 @@
 ---
 title: "10 Best AI Coding Assistants in 2025 (Write Code 10x Faster)"
-description: "Discover the top 10 AI coding assistants transforming software development with intelligent code generation, debugging, and development workflows."
-
+date: 2024-07-06
 updated: 2026-01-22
 categories: ["Lists"]
 tags: ["coding", "development", "ai-assistants", "programming", "productivity"]

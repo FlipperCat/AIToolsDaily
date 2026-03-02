@@ -1,7 +1,6 @@
 ---
 title: "7 Best AI Voice Generators in 2025 (Sound Like a Pro)"
-description: "Create natural-sounding voiceovers with AI voice generators. Text-to-speech, voice cloning, and voice synthesis tools for content creators."
-
+date: 2023-05-30
 updated: 2026-01-23
 categories: ["Lists"]
 tags: ["voice", "audio", "text-to-speech", "content-creation", "accessibility"]

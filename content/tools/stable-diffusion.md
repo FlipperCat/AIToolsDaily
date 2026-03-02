@@ -1,7 +1,7 @@
 ---
 title: "Stable Diffusion"
 type: "tool"
-description: "Open-source AI image generator offering unlimited local generation and extensive customization."
+date: 2025-05-31
 website: "https://stability.ai"
 affiliate_link: "https://stability.ai"
 logo: "/images/tools/stable-diffusion.svg"
@@ -33,7 +33,6 @@ cons:
   - "Variable output quality"
 best_for: ["Technical Users", "Developers", "Researchers", "Power Users"]
 alternatives: ["Midjourney", "DALL-E 3", "Leonardo AI"]
-
 updated: 2026-01-05
 updated: 2026-02-17
 ---

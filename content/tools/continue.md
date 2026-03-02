@@ -1,7 +1,7 @@
 ---
 title: "Continue"
 type: "tool"
-description: "Open-source AI code assistant that lets you choose your model and runs locally or in cloud."
+date: 2024-09-25
 website: "https://continue.dev"
 affiliate_link: "https://continue.dev"
 logo: "/images/tools/continue.svg"
@@ -32,7 +32,6 @@ cons:
   - "Model costs if using APIs"
 best_for: ["Privacy-Focused Developers", "Open Source Enthusiasts", "Self-Hosters", "Experimenters"]
 alternatives: ["GitHub Copilot", "Codeium", "Cursor"]
-
 updated: 2026-01-24
 updated: 2026-02-17
 ---

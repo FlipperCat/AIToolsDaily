@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT Plugins and GPTs: Which Ones Are Actually Useful?"
-description: "I tested dozens of ChatGPT plugins and custom GPTs. Most are garbage. Here are the few worth your time."
-
+date: 2025-06-15
 updated: 2026-01-26
 categories: ["Guides"]
 tags: ["chatgpt", "gpts", "chatgpt plugins", "ai tools", "productivity"]

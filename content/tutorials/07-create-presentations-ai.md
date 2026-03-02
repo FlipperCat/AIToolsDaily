@@ -1,7 +1,6 @@
 ---
 title: "How to Create AI-Generated Presentations (Step-by-Step Guide)"
-description: "Create professional presentations in minutes using AI. Learn to design slides, add visuals, and present with confidence."
-
+date: 2025-02-09
 updated: 2026-01-20
 categories: ["Tutorials"]
 tags: ["AI Presentations", "Slide Design", "Productivity", "Business Tools", "Content Creation"]

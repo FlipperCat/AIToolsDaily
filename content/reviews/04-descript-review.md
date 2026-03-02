@@ -1,7 +1,6 @@
 ---
 title: "Descript Review 2026: The Easiest Way to Edit Audio and Video"
-description: "Descript simplifies audio and video editing with transcription-based editing. Perfect for podcasters, creators, and businesses."
-
+date: 2023-05-11
 updated: 2026-01-28
 categories: ["Reviews"]
 tags: ["descript", "audio-editing", "video-editing", "transcription"]

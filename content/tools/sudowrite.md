@@ -1,7 +1,7 @@
 ---
 title: "Sudowrite"
 type: "tool"
-description: "AI writing partner designed specifically for fiction authors, screenwriters, and creative storytellers."
+date: 2024-08-03
 website: "https://sudowrite.com"
 affiliate_link: "https://sudowrite.com"
 logo: "/images/tools/sudowrite.svg"
@@ -32,7 +32,6 @@ cons:
   - "Can sometimes produce clichés"
 best_for: ["Novelists", "Screenwriters", "Creative Writers", "Hobbyist Authors"]
 alternatives: ["NovelAI", "ChatGPT", "Jasper"]
-
 updated: 2025-12-28
 updated: 2026-02-17
 ---

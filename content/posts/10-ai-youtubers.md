@@ -1,7 +1,6 @@
 ---
 title: "AI for YouTubers: Video Production Tools Complete Guide"
-description: "Master AI tools for scripting, editing, thumbnails, SEO, and growth. Produce more videos faster and grow your channel 10x."
-
+date: 2026-01-22
 updated: 2026-01-13
 categories: ["Guides"]
 tags: ["youtube", "ai", "video", "production", "growth"]

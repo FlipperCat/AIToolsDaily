@@ -1,7 +1,6 @@
 ---
 title: "AI Workflow Automation: Connect Your Tools Without Code"
-description: "How to use Zapier, Make, and AI to automate repetitive tasks. Practical workflows anyone can build."
-
+date: 2025-07-27
 updated: 2026-02-24
 categories: ["Workflows"]
 tags: ["automation", "zapier", "make", "productivity", "no-code"]

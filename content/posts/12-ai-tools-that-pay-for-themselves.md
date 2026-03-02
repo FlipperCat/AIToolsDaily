@@ -1,7 +1,6 @@
 ---
 title: "12 AI Tools That Pay for Themselves (1000%+ ROI)"
-description: "AI tools generating ROI: 12 paid solutions that save more money than they cost."
-
+date: 2025-03-13
 updated: 2026-01-08
 categories: ["Tips"]
 tags: ["ai-tools", "roi", "productivity", "business-tools"]

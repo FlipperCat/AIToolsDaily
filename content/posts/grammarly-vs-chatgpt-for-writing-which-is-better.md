@@ -1,7 +1,6 @@
 ---
 title: "Grammarly vs ChatGPT for Writing: Do You Need Both? (My Honest Take)"
-description: "I've used both Grammarly and ChatGPT for writing for over a year. Here's when each tool wins and whether you actually need both."
-
+date: 2024-06-09
 updated: 2026-01-09
 categories: ["Comparisons"]
 tags: ["grammarly", "chatgpt", "writing", "editing", "tools comparison"]

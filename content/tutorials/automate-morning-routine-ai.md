@@ -1,7 +1,6 @@
 ---
 title: "How to Automate Your Morning Routine with AI (Step-by-Step)"
-description: "Save 1+ hour every morning with AI automation. Build a system for daily briefs, news digests, task planning, and more."
-
+date: 2025-05-08
 updated: 2026-01-25
 categories: ["Tutorials"]
 tags: ["automation", "morning routine", "productivity", "zapier", "ai workflow"]

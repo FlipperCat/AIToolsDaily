@@ -1,7 +1,6 @@
 ---
 title: "10 Best AI Finance Tools in 2024 (Automate Your Books)"
-description: "Top AI finance software for accounting, forecasting, analysis. Financial automation, budgeting, reporting. Best finance AI tools in 2026."
-
+date: 2025-04-11
 updated: 2026-01-06
 categories: ["Lists"]
 tags: ["finance", "accounting", "bookkeeping", "financial-management", "business-tools"]

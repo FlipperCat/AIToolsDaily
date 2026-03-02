@@ -1,7 +1,6 @@
 ---
 title: "How to Automate Expense Tracking"
-description: "Streamline expense management with AI to auto-capture, categorize, approve, and reimburse employee expenses."
-
+date: 2025-06-23
 updated: 2026-01-21
 categories: ["Workflows"]
 tags: ["automation", "workflow", "finance", "ai-tools", "expense-management"]

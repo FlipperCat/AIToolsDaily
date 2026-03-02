@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-description: "Common questions about AI tools, automation, and how to get started. Get answers to what our readers ask most."
+date: 2024-05-30
 ---
 
 # Frequently Asked Questions

@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT vs Google Search: When to Use Each"
-description: "ChatGPT and Google serve different purposes. Here's when to use each for better results."
-
+date: 2023-05-05
 updated: 2026-01-30
 categories: ["Tips"]
 tags: ["chatgpt", "google", "search", "productivity", "ai tips"]

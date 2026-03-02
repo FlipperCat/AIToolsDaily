@@ -1,7 +1,6 @@
 ---
 title: "5 Free ChatGPT Alternatives That Are Actually Good (2025)"
-description: "Free AI tools that rival ChatGPT for specific use cases. I tested them all - here's what works and what's a waste of time."
-
+date: 2025-09-09
 updated: 2026-01-16
 categories: ["Lists"]
 tags: ["chatgpt alternatives", "free ai", "claude", "perplexity", "ai tools"]

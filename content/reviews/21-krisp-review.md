@@ -1,7 +1,6 @@
 ---
 title: "Krisp Review 2026: AI Noise Cancellation and Voice Enhancement"
-description: "Krisp removes background noise and enhances audio. Essential for crystal-clear video calls and podcasts."
-
+date: 2024-07-11
 updated: 2026-01-21
 categories: ["Reviews"]
 tags: ["krisp", "noise-cancellation", "audio-enhancement", "productivity"]

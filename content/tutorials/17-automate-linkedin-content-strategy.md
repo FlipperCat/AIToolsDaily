@@ -1,7 +1,6 @@
 ---
 title: "How to Automate Your LinkedIn Content Strategy with AI (Step-by-Step Guide)"
-description: "Leverage AI to create consistent LinkedIn content, schedule posts, and grow engagement without daily manual work"
-
+date: 2024-03-20
 updated: 2026-02-17
 categories: ["Tutorials"]
 tags: ["LinkedIn automation", "AI content creation", "social media strategy", "professional networking"]

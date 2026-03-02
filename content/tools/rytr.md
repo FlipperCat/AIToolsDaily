@@ -1,7 +1,7 @@
 ---
 title: "Rytr"
 type: "tool"
-description: "Budget-friendly AI writing assistant for creating content in multiple tones and languages."
+date: 2023-04-29
 website: "https://rytr.me"
 affiliate_link: "https://rytr.me"
 logo: "/images/tools/rytr.svg"
@@ -32,7 +32,6 @@ cons:
   - "Output often needs editing"
 best_for: ["Beginners", "Budget-Conscious Writers", "Students", "Non-Native Speakers"]
 alternatives: ["Copy.ai", "Writesonic", "Wordtune"]
-
 updated: 2025-12-28
 updated: 2026-02-17
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Perplexity AI Review: I Replaced Google With It For 30 Days"
-description: "I used Perplexity AI instead of Google for a full month. Here's what happened, what it's great for, and where it still falls short."
-
+date: 2025-10-07
 updated: 2026-02-18
 categories: ["Reviews"]
 tags: ["perplexity", "ai search", "google alternative", "research", "ai tools"]

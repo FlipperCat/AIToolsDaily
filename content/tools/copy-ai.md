@@ -1,7 +1,7 @@
 ---
 title: "Copy.ai"
 type: "tool"
-description: "AI-powered copywriting tool for creating marketing content, social posts, and sales copy quickly."
+date: 2026-01-02
 website: "https://copy.ai"
 affiliate_link: "https://copy.ai"
 logo: "/images/tools/copy-ai.svg"
@@ -32,7 +32,6 @@ cons:
   - "Can produce generic output"
 best_for: ["Marketers", "Small Businesses", "Freelancers", "Social Media Managers"]
 alternatives: ["Jasper", "Writesonic", "Rytr"]
-
 updated: 2026-02-20
 updated: 2026-02-17
 ---

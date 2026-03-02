@@ -1,7 +1,7 @@
 ---
 title: "Elicit"
 type: "tool"
-description: "AI research assistant that analyzes academic papers and helps with literature reviews."
+date: 2023-08-15
 website: "https://elicit.org"
 affiliate_link: "https://elicit.org"
 logo: "/images/tools/elicit.svg"
@@ -32,7 +32,6 @@ cons:
   - "Learning curve for workflows"
 best_for: ["Academic Researchers", "PhD Students", "Scientists", "Policy Analysts"]
 alternatives: ["Consensus", "Semantic Scholar", "Connected Papers"]
-
 updated: 2026-01-08
 updated: 2026-02-17
 ---

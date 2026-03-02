@@ -1,7 +1,7 @@
 ---
 title: "Perplexity"
 type: "tool"
-description: "AI-powered search engine that provides sourced answers with real-time internet access."
+date: 2024-07-08
 website: "https://perplexity.ai"
 affiliate_link: "https://perplexity.ai"
 logo: "/images/tools/perplexity.svg"
@@ -32,7 +32,6 @@ cons:
   - "Pro subscription needed for best models"
 best_for: ["Researchers", "Students", "Journalists", "Knowledge Workers"]
 alternatives: ["ChatGPT", "You.com", "Gemini"]
-
 updated: 2026-02-04
 updated: 2026-02-17
 ---

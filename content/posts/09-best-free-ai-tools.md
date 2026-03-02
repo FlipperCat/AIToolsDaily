@@ -1,7 +1,6 @@
 ---
 title: "9 Best Free AI Tools in 2025"
-description: "Discover the top free AI tools for productivity, writing, image generation, coding, and business without cost."
-
+date: 2024-07-10
 updated: 2026-01-15
 categories: ["Lists"]
 tags: ["free", "budget-friendly", "ai-tools", "productivity", "business"]

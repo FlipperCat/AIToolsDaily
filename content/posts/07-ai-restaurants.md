@@ -1,7 +1,6 @@
 ---
 title: "AI for Restaurants: Operations Complete Guide (Cut Costs 20%)"
-description: "Leverage AI for demand forecasting, inventory management, staffing optimization, and customer service. Reduce costs by 20% while improving operations."
-
+date: 2024-10-22
 updated: 2026-01-04
 categories: ["Guides"]
 tags: ["restaurants", "ai", "food-service", "operations", "hospitality"]

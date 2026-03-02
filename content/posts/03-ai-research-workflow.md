@@ -1,7 +1,6 @@
 ---
 title: "Create an AI-Powered Research Workflow (3-5x Faster Research)"
-description: "Learn to build an intelligent research system using AI for faster information gathering, analysis, and synthesis of complex topics."
-
+date: 2023-12-15
 updated: 2026-01-03
 categories: ["Workflows"]
 tags: ["automation", "workflow", "research", "ai-tools", "knowledge-management"]

@@ -1,7 +1,6 @@
 ---
 title: "How to Build a Personal Knowledge Base with Notion AI (Step-by-Step Guide)"
-description: "Learn to create an organized personal knowledge base using Notion AI to store, organize, and retrieve information effortlessly"
-
+date: 2023-04-06
 updated: 2026-01-24
 categories: ["Tutorials"]
 tags: ["Notion AI", "knowledge management", "productivity", "personal wiki"]

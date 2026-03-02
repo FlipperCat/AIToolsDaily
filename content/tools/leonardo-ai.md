@@ -1,7 +1,7 @@
 ---
 title: "Leonardo AI"
 type: "tool"
-description: "Professional AI art platform with fine-tuned models for game assets, concept art, and design work."
+date: 2023-11-29
 website: "https://leonardo.ai"
 affiliate_link: "https://leonardo.ai"
 logo: "/images/tools/leonardo-ai.svg"
@@ -32,7 +32,6 @@ cons:
   - "Less artistic than Midjourney"
 best_for: ["Game Developers", "Concept Artists", "Designers", "Indie Developers"]
 alternatives: ["Midjourney", "Stable Diffusion", "Adobe Firefly"]
-
 updated: 2026-01-20
 updated: 2026-02-17
 ---

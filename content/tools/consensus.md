@@ -1,7 +1,7 @@
 ---
 title: "Consensus"
 type: "tool"
-description: "AI-powered academic search engine that finds and synthesizes research paper findings."
+date: 2026-01-31
 website: "https://consensus.app"
 affiliate_link: "https://consensus.app"
 logo: "/images/tools/consensus.svg"
@@ -32,7 +32,6 @@ cons:
   - "Not for deep research"
 best_for: ["Fact-Checkers", "Science Communicators", "Students", "Curious Learners"]
 alternatives: ["Elicit", "Perplexity", "Semantic Scholar"]
-
 updated: 2026-02-23
 updated: 2026-02-17
 ---

@@ -1,6 +1,6 @@
 ---
 title: "AI Tool Reviews"
-description: "In-depth, honest reviews of the best AI tools. ChatGPT, Claude, Midjourney, Zapier, and more. Real testing, real opinions, no sponsored content."
+date: 2023-10-13
 ---
 
 Every review is based on actual usage. No pay-for-play. No sponsored content.

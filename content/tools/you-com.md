@@ -1,7 +1,7 @@
 ---
 title: "You.com"
 type: "tool"
-description: "AI search engine with customizable modes, apps, and conversational search capabilities."
+date: 2026-02-17
 website: "https://you.com"
 affiliate_link: "https://you.com"
 logo: "/images/tools/you-com.svg"
@@ -32,7 +32,6 @@ cons:
   - "Search quality varies"
 best_for: ["Privacy-Conscious Users", "Developers", "Multi-Purpose Searchers"]
 alternatives: ["Perplexity", "ChatGPT", "DuckDuckGo"]
-
 updated: 2026-01-31
 updated: 2026-02-17
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Get in touch with AI Tools Daily."
+date: 2024-07-31
 ---
 
 # Contact Us

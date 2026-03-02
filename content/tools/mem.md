@@ -1,7 +1,7 @@
 ---
 title: "Mem"
 type: "tool"
-description: "AI-powered note-taking app that organizes itself and surfaces relevant information automatically."
+date: 2024-08-14
 website: "https://mem.ai"
 affiliate_link: "https://mem.ai"
 logo: "/images/tools/mem.svg"
@@ -32,7 +32,6 @@ cons:
   - "Mobile app limitations"
 best_for: ["Knowledge Workers", "Writers", "Researchers", "Solo Users"]
 alternatives: ["Notion AI", "Obsidian", "Roam Research"]
-
 updated: 2026-02-20
 updated: 2026-02-17
 ---

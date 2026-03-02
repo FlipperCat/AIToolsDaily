@@ -1,7 +1,6 @@
 ---
 title: "How to Write AI Prompts That Actually Work (With Examples)"
-description: "Stop getting garbage outputs from AI. Here's the practical guide to writing prompts that get useful results every time."
-
+date: 2023-07-25
 updated: 2026-02-01
 categories: ["Tutorials"]
 tags: ["prompts", "chatgpt", "claude", "ai writing", "tutorial"]

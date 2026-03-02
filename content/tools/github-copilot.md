@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot"
 type: "tool"
-description: "AI pair programmer that suggests code completions and entire functions in real-time as you code."
+date: 2024-07-09
 website: "https://github.com/features/copilot"
 affiliate_link: "https://github.com/features/copilot"
 logo: "/images/tools/github-copilot.svg"
@@ -32,7 +32,6 @@ cons:
   - "Monthly cost adds up"
 best_for: ["Professional Developers", "Students", "Teams", "Open Source Contributors"]
 alternatives: ["Cursor", "Codeium", "Tabnine"]
-
 updated: 2025-12-30
 updated: 2026-02-17
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Claude vs Gemini: Which AI Should You Use? (Honest Comparison)"
-description: "I use Claude daily and tested Gemini extensively. Here's how they actually compare for different tasks."
-
+date: 2025-04-18
 updated: 2026-01-16
 categories: ["Comparisons"]
 tags: ["claude", "gemini", "google", "anthropic", "ai comparison"]

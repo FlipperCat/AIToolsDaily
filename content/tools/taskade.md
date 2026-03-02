@@ -1,7 +1,7 @@
 ---
 title: "Taskade"
 type: "tool"
-description: "AI-powered workspace combining tasks, notes, and mind maps with built-in AI agents."
+date: 2024-11-28
 website: "https://taskade.com"
 affiliate_link: "https://taskade.com"
 logo: "/images/tools/taskade.svg"
@@ -32,7 +32,6 @@ cons:
   - "Mobile app basic"
 best_for: ["Small Teams", "Freelancers", "Startups", "Remote Teams"]
 alternatives: ["Notion", "ClickUp", "Monday.com"]
-
 updated: 2026-01-06
 updated: 2026-02-17
 ---

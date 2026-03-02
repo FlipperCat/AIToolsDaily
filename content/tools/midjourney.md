@@ -1,7 +1,7 @@
 ---
 title: "Midjourney"
 type: "tool"
-description: "Industry-leading AI art generator known for stunning, artistic image generation through Discord."
+date: 2024-03-21
 website: "https://midjourney.com"
 affiliate_link: "https://midjourney.com"
 logo: "/images/tools/midjourney.svg"
@@ -33,7 +33,6 @@ cons:
   - "Queue times during peak hours"
 best_for: ["Artists", "Designers", "Content Creators", "Marketing Teams"]
 alternatives: ["DALL-E 3", "Stable Diffusion", "Leonardo AI"]
-
 updated: 2026-01-18
 updated: 2026-02-17
 ---

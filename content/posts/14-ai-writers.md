@@ -1,7 +1,6 @@
 ---
 title: "AI for Writers: Complete Writing Stack Guide"
-description: "Master AI tools for outlining, drafting, editing, publishing, and promotion. Write better books, articles, and essays faster."
-
+date: 2023-02-07
 updated: 2025-12-29
 categories: ["Guides"]
 tags: ["writing", "ai", "content", "publishing", "books"]

@@ -1,7 +1,7 @@
 ---
 title: "Tabnine"
 type: "tool"
-description: "AI code assistant with private models and on-premise options for enterprise security."
+date: 2023-01-22
 website: "https://tabnine.com"
 affiliate_link: "https://tabnine.com"
 logo: "/images/tools/tabnine.svg"
@@ -32,7 +32,6 @@ cons:
   - "Enterprise focus"
 best_for: ["Enterprise", "Security-Conscious Teams", "Regulated Industries", "On-Premise Requirements"]
 alternatives: ["GitHub Copilot", "Codeium", "Amazon CodeWhisperer"]
-
 updated: 2026-02-17
 updated: 2026-02-17
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Pipedream"
 type: "tool"
-description: "Developer-focused automation platform with code-first workflows and generous free tier."
+date: 2025-11-15
 website: "https://pipedream.com"
 affiliate_link: "https://pipedream.com"
 logo: "/images/tools/pipedream.svg"
@@ -32,7 +32,6 @@ cons:
   - "UI can be confusing"
 best_for: ["Developers", "Technical Founders", "DevOps", "API Integrations"]
 alternatives: ["n8n", "Zapier", "Make"]
-
 updated: 2026-01-21
 updated: 2026-02-17
 ---

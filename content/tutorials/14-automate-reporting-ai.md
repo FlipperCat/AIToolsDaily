@@ -1,7 +1,6 @@
 ---
 title: "How to Automate Reporting with AI (Step-by-Step Guide)"
-description: "Automate data collection and report generation using AI. Save hours weekly on manual reporting and analysis."
-
+date: 2025-01-30
 updated: 2026-01-03
 categories: ["Tutorials"]
 tags: ["AI Reporting", "Automation", "Data Analysis", "Business Intelligence", "Analytics"]

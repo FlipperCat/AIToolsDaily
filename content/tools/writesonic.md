@@ -1,7 +1,7 @@
 ---
 title: "Writesonic"
 type: "tool"
-description: "AI writing platform with GPT-4 integration for creating articles, ads, and marketing content."
+date: 2025-07-07
 website: "https://writesonic.com"
 affiliate_link: "https://writesonic.com"
 logo: "/images/tools/writesonic.svg"
@@ -32,7 +32,6 @@ cons:
   - "Some features feel incomplete"
 best_for: ["Bloggers", "Small Businesses", "SEO Specialists", "Solopreneurs"]
 alternatives: ["Jasper", "Copy.ai", "Rytr"]
-
 updated: 2026-01-10
 updated: 2026-02-17
 ---

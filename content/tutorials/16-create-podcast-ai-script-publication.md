@@ -1,7 +1,6 @@
 ---
 title: "How to Create a Podcast with AI from Script to Publication (Step-by-Step Guide)"
-description: "Master podcast creation using AI for scriptwriting, voice generation, and publishing across all major platforms"
-
+date: 2025-01-16
 updated: 2025-12-28
 categories: ["Tutorials"]
 tags: ["AI podcasting", "audio production", "content distribution", "voice-over"]

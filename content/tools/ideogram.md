@@ -1,7 +1,7 @@
 ---
 title: "Ideogram"
 type: "tool"
-description: "AI image generator with the best text rendering capabilities and Magic Prompt enhancement."
+date: 2026-02-21
 website: "https://ideogram.ai"
 affiliate_link: "https://ideogram.ai"
 logo: "/images/tools/ideogram.svg"
@@ -32,7 +32,6 @@ cons:
   - "Newer with fewer features"
 best_for: ["Logo Designers", "Marketers", "Social Media Managers", "Brand Designers"]
 alternatives: ["DALL-E 3", "Midjourney", "Adobe Firefly"]
-
 updated: 2026-02-08
 updated: 2026-02-17
 ---

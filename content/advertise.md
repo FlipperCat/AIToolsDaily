@@ -1,6 +1,6 @@
 ---
 title: "Advertise on AI Tools Daily"
-description: "Reach 50,000+ AI tool buyers. Sponsored reviews, featured listings, and newsletter sponsorships."
+date: 2023-03-07
 layout: single
 ---
 

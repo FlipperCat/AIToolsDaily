@@ -1,7 +1,7 @@
 ---
 title: "Zapier"
 type: "tool"
-description: "Leading no-code automation platform connecting 6,000+ apps with AI-powered workflow building."
+date: 2025-06-08
 website: "https://zapier.com"
 affiliate_link: "https://zapier.com"
 logo: "/images/tools/zapier.svg"
@@ -32,7 +32,6 @@ cons:
   - "Some complex actions need workarounds"
 best_for: ["Business Users", "Marketers", "Operations Teams", "Small Businesses"]
 alternatives: ["Make", "n8n", "Pipedream"]
-
 updated: 2026-01-07
 updated: 2026-02-17
 ---

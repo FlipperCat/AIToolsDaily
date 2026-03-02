@@ -1,7 +1,7 @@
 ---
 title: "tl;dv"
 type: "tool"
-description: "Meeting recorder with AI highlights, clips, and summaries for Zoom and Google Meet."
+date: 2023-10-09
 website: "https://tldv.io"
 affiliate_link: "https://tldv.io"
 logo: "/images/tools/tldv.svg"
@@ -32,7 +32,6 @@ cons:
   - "Basic AI summarization"
 best_for: ["Product Teams", "UX Researchers", "Recruiters", "Distributed Teams"]
 alternatives: ["Otter.ai", "Grain", "Fireflies.ai"]
-
 updated: 2025-12-30
 updated: 2026-02-17
 ---

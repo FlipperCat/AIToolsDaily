@@ -1,7 +1,7 @@
 ---
 title: "Amazon CodeWhisperer"
 type: "tool"
-description: "AWS's AI coding assistant with deep AWS integration and security scanning capabilities."
+date: 2023-06-04
 website: "https://aws.amazon.com/codewhisperer"
 affiliate_link: "https://aws.amazon.com/codewhisperer"
 logo: "/images/tools/amazon-codewhisperer.svg"
@@ -32,7 +32,6 @@ cons:
   - "Less capable for non-AWS code"
 best_for: ["AWS Developers", "Cloud Engineers", "Enterprise Teams", "Security-Conscious Developers"]
 alternatives: ["GitHub Copilot", "Codeium", "Tabnine"]
-
 updated: 2026-02-10
 updated: 2026-02-17
 ---

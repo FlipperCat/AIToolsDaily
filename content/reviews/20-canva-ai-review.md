@@ -1,7 +1,6 @@
 ---
 title: "Canva AI Review 2026: Design Made Easy with Artificial Intelligence"
-description: "Complete review of Canva AI's design generation, Magic Edit, and features for non-designers and content creators in 2026."
-
+date: 2024-10-19
 updated: 2026-01-23
 categories: ["Reviews"]
 tags: ["design", "canva", "image-generation", "content-creation"]

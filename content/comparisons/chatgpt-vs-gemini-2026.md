@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT vs Gemini (2026): AI Chatbot Comparison"
-description: "Compare ChatGPT and Gemini (Google's AI). Evaluate features, capabilities, pricing, and which AI chatbot is best for your needs in 2026."
-
+date: 2026-02-04
 updated: 2026-01-01
 categories: ["Comparisons"]
 tags: ["chatgpt", "gemini", "ai-chatbots", "ai"]

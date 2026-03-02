@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT Custom Instructions: How to Make It Work Better"
-description: "Custom instructions transform ChatGPT from generic to personalized. Here's how to set them up for actually useful results."
-
+date: 2023-07-27
 updated: 2026-02-05
 categories: ["Tutorials"]
 tags: ["chatgpt", "custom instructions", "ai tips", "productivity", "prompts"]

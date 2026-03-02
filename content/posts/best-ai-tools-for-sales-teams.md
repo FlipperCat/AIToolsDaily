@@ -1,7 +1,6 @@
 ---
 title: "Best AI Tools for Sales: What Top Performers Actually Use"
-description: "I interviewed 10 sales reps about their AI tool usage. Here's what actually closes deals and what's a waste of money."
-
+date: 2024-05-16
 updated: 2025-12-30
 categories: ["Industry Guides"]
 tags: ["sales", "ai tools", "crm", "sales automation", "productivity"]

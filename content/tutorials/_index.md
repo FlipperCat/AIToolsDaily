@@ -1,6 +1,6 @@
 ---
 title: "AI & Automation Tutorials"
-description: "Step-by-step tutorials for AI tools and automation. Learn to use ChatGPT, automate workflows, create AI content, and more. Practical guides for real results."
+date: 2024-07-14
 ---
 
 Practical, step-by-step guides. No fluff, just actionable instructions.

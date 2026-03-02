@@ -1,6 +1,6 @@
 ---
 title: "Start Here: Your AI Tools Journey"
-description: "New to AI tools? Start here. We've organized the best resources to help you get started with AI automation, writing, and productivity tools."
+date: 2026-02-04
 layout: "single"
 ---
 

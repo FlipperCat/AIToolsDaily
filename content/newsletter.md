@@ -1,6 +1,6 @@
 ---
 title: "Newsletter - Weekly AI Tools Digest"
-description: "Subscribe to the AI Tools Daily newsletter. Get weekly insights on the best AI tools, automation strategies, and productivity tips delivered to your inbox."
+date: 2024-04-16
 layout: "single"
 hide_newsletter: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Fireflies.ai"
 type: "tool"
-description: "AI notetaker that records, transcribes, and analyzes meetings with powerful search and analytics."
+date: 2023-10-17
 website: "https://fireflies.ai"
 affiliate_link: "https://fireflies.ai"
 logo: "/images/tools/fireflies.svg"
@@ -32,7 +32,6 @@ cons:
   - "Learning curve for analytics"
 best_for: ["Sales Teams", "Customer Success", "Team Leaders", "Revenue Operations"]
 alternatives: ["Otter.ai", "Gong", "Chorus"]
-
 updated: 2025-12-30
 updated: 2026-02-17
 ---

@@ -1,7 +1,6 @@
 ---
 title: "How to Automate Invoice Processing with AI"
-description: "Learn how to automate invoice processing with AI tools. Reduce manual data entry, extract information, and improve accuracy in minutes."
-
+date: 2024-01-12
 updated: 2026-01-18
 categories: ["Tutorials"]
 tags: ["invoice processing", "AI automation", "document processing", "business automation"]

@@ -1,7 +1,7 @@
 ---
 title: "Canva AI"
 type: "tool"
-description: "Integrated AI tools within Canva for image generation, text writing, and design automation."
+date: 2024-05-29
 website: "https://canva.com"
 affiliate_link: "https://canva.com"
 logo: "/images/tools/canva.svg"
@@ -32,7 +32,6 @@ cons:
   - "Premium features expensive"
 best_for: ["Non-Designers", "Small Businesses", "Social Media Managers", "Educators"]
 alternatives: ["Adobe Express", "Midjourney", "Visme"]
-
 updated: 2026-02-12
 updated: 2026-02-17
 ---

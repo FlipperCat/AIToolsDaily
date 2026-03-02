@@ -1,7 +1,6 @@
 ---
 title: "AI for Email Marketing: What Actually Works (Campaign Teardown)"
-description: "How I use AI for email marketing - real examples, real results. What works, what doesn't, and the tools worth paying for."
-
+date: 2026-01-23
 updated: 2026-02-02
 categories: ["Tutorials"]
 tags: ["email marketing", "ai tools", "marketing", "copywriting", "automation"]

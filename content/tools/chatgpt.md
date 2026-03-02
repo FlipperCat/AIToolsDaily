@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT"
 type: "tool"
-description: "OpenAI's powerful AI chatbot for writing, coding, analysis, and creative tasks with GPT-4 capabilities."
+date: 2025-02-09
 website: "https://chat.openai.com"
 affiliate_link: "https://chat.openai.com"
 logo: "/images/tools/chatgpt.svg"
@@ -34,7 +34,6 @@ cons:
   - "Context window limitations"
 best_for: ["Writers", "Developers", "Researchers", "Students", "Content Creators"]
 alternatives: ["Claude", "Gemini", "Perplexity"]
-
 updated: 2025-12-31
 updated: 2026-02-17
 ---

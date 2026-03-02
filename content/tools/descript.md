@@ -1,7 +1,7 @@
 ---
 title: "Descript"
 type: "tool"
-description: "AI-powered audio and video editor that lets you edit media by editing text transcripts."
+date: 2024-09-19
 website: "https://descript.com"
 affiliate_link: "https://descript.com"
 logo: "/images/tools/descript.svg"
@@ -32,7 +32,6 @@ cons:
   - "Export times"
 best_for: ["Podcasters", "Video Creators", "Course Creators", "Marketing Teams"]
 alternatives: ["Adobe Premiere", "CapCut", "Riverside"]
-
 updated: 2026-02-13
 updated: 2026-02-17
 ---

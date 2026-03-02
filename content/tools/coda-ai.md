@@ -1,7 +1,7 @@
 ---
 title: "Coda AI"
 type: "tool"
-description: "AI assistant built into Coda docs for writing, data analysis, and workflow automation."
+date: 2023-12-04
 website: "https://coda.io"
 affiliate_link: "https://coda.io"
 logo: "/images/tools/coda.svg"
@@ -32,7 +32,6 @@ cons:
   - "Can be complex for simple needs"
 best_for: ["Operations Teams", "Product Managers", "Data-Driven Teams", "Startups"]
 alternatives: ["Notion AI", "Airtable", "Taskade"]
-
 updated: 2026-02-09
 updated: 2026-02-17
 ---

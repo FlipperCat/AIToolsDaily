@@ -1,7 +1,6 @@
 ---
 title: "How to Create AI Art with Midjourney (Step-by-Step Guide)"
-description: "Learn how to generate stunning AI art with Midjourney. Master prompts, settings, and techniques for professional-quality images."
-
+date: 2023-09-01
 updated: 2026-02-24
 categories: ["Tutorials"]
 tags: ["AI Art", "Midjourney", "Image Generation", "Creative AI", "Design"]

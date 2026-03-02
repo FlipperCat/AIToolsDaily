@@ -1,7 +1,6 @@
 ---
 title: "AI Tools for Lawyers: What's Actually Practical (From a Legal Perspective)"
-description: "AI tools that help lawyers without creating ethics issues. Research, drafting, and productivity tools that pass bar standards."
-
+date: 2023-10-04
 updated: 2026-02-11
 categories: ["Guides"]
 tags: ["lawyers", "legal", "ai tools", "legal tech", "productivity"]

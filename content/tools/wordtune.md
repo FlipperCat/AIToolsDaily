@@ -1,7 +1,7 @@
 ---
 title: "Wordtune"
 type: "tool"
-description: "AI-powered writing companion that helps rewrite and improve your existing text with smart suggestions."
+date: 2024-07-04
 website: "https://wordtune.com"
 affiliate_link: "https://wordtune.com"
 logo: "/images/tools/wordtune.svg"
@@ -32,7 +32,6 @@ cons:
   - "Some features locked to premium"
 best_for: ["Non-Native English Speakers", "Editors", "Business Professionals", "Students"]
 alternatives: ["Grammarly", "QuillBot", "Hemingway"]
-
 updated: 2026-01-26
 updated: 2026-02-17
 ---

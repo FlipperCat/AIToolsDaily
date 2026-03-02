@@ -1,7 +1,6 @@
 ---
 title: "How to Build a No-Code AI App with Bubble (Step-by-Step Guide)"
-description: "Create functional AI-powered web applications without coding using Bubble's visual builder and AI integrations"
-
+date: 2025-01-08
 updated: 2026-02-25
 categories: ["Tutorials"]
 tags: ["no-code development", "Bubble", "AI integration", "web application"]

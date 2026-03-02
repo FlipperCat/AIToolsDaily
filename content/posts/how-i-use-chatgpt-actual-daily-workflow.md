@@ -1,7 +1,6 @@
 ---
 title: "How I Actually Use ChatGPT Every Day (Not the Productivity Guru Nonsense)"
-description: "Forget the '100 ChatGPT prompts' lists. Here's how I actually use it in my real daily workflow, including what doesn't work."
-
+date: 2025-07-10
 updated: 2026-01-04
 categories: ["Tutorials"]
 tags: ["chatgpt", "workflow", "productivity", "real world", "tutorial"]

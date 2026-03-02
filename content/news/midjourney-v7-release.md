@@ -1,7 +1,6 @@
 ---
 title: "Midjourney V7 Released: Photorealism Reaches New Heights"
-description: "Midjourney's V7 model delivers unprecedented photorealism, better text rendering, and new style controls for AI art generation."
-
+date: 2024-08-06
 updated: 2026-02-17
 categories: ["News"]
 tags: ["midjourney", "ai-art", "image-generation", "creative", "release"]

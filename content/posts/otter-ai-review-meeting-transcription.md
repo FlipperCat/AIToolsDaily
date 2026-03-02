@@ -1,7 +1,6 @@
 ---
 title: "Otter.ai Review: I Used It for 100+ Meetings (Honest Take)"
-description: "After transcribing over 100 meetings with Otter.ai, here's what it actually gets right and wrong."
-
+date: 2025-05-30
 updated: 2026-01-23
 categories: ["Reviews"]
 tags: ["otter.ai", "meeting transcription", "ai transcription", "productivity", "remote work"]

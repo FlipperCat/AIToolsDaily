@@ -1,7 +1,6 @@
 ---
 title: "AI in Finance: From Algorithmic Trading to Personalized Banking"
-description: "How financial institutions are deploying AI for trading, risk management, fraud detection, and customer service—and the regulatory challenges ahead."
-
+date: 2023-06-06
 updated: 2026-01-28
 categories: ["Industry"]
 tags: ["finance", "banking", "trading", "risk-management", "fintech"]

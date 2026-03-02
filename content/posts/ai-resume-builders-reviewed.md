@@ -1,7 +1,6 @@
 ---
 title: "AI Resume Builders: I Tested 6 to See If They Actually Help"
-description: "Can AI build a better resume than you? I tested 6 AI resume builders with my actual resume to find out."
-
+date: 2024-05-19
 updated: 2026-01-04
 categories: ["Reviews"]
 tags: ["resume", "job search", "ai tools", "career", "hiring"]

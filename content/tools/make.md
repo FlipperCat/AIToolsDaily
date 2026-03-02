@@ -1,7 +1,7 @@
 ---
 title: "Make (Integromat)"
 type: "tool"
-description: "Visual automation platform with powerful data transformation and complex workflow capabilities."
+date: 2024-07-25
 website: "https://make.com"
 affiliate_link: "https://make.com"
 logo: "/images/tools/make.svg"
@@ -32,7 +32,6 @@ cons:
   - "Documentation less polished"
 best_for: ["Power Users", "Agencies", "Technical Teams", "Complex Workflows"]
 alternatives: ["Zapier", "n8n", "Pipedream"]
-
 updated: 2026-02-11
 updated: 2026-02-17
 ---

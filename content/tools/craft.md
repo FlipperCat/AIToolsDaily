@@ -1,7 +1,7 @@
 ---
 title: "Craft"
 type: "tool"
-description: "Beautiful document app for Mac and iOS with AI assistant for writing and organizing."
+date: 2023-01-31
 website: "https://craft.do"
 affiliate_link: "https://craft.do"
 logo: "/images/tools/craft.svg"
@@ -32,7 +32,6 @@ cons:
   - "Team features limited"
 best_for: ["Apple Users", "Writers", "Personal Knowledge Management", "Designers"]
 alternatives: ["Notion", "Obsidian", "Bear"]
-
 updated: 2026-02-13
 updated: 2026-02-17
 ---

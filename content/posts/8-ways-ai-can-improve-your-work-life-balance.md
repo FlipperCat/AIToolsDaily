@@ -1,7 +1,6 @@
 ---
 title: "8 Ways AI Can Improve Your Work-Life Balance"
-description: "Use AI to work smarter, not longer, and reclaim time for life beyond work."
-
+date: 2024-01-15
 updated: 2026-01-20
 categories: ["Tips"]
 tags: ["work-life-balance", "ai", "wellness", "productivity"]

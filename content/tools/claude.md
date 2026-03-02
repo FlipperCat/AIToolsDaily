@@ -1,7 +1,7 @@
 ---
 title: "Claude"
 type: "tool"
-description: "Anthropic's advanced AI assistant known for nuanced reasoning, long context, and thoughtful responses."
+date: 2024-08-20
 website: "https://claude.ai"
 affiliate_link: "https://claude.ai"
 logo: "/images/tools/claude.svg"
@@ -32,7 +32,6 @@ cons:
   - "Can be overly cautious sometimes"
 best_for: ["Writers", "Researchers", "Analysts", "Developers", "Legal Professionals"]
 alternatives: ["ChatGPT", "Gemini", "Perplexity"]
-
 updated: 2026-02-05
 updated: 2026-02-17
 ---

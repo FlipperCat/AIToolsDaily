@@ -1,7 +1,6 @@
 ---
 title: "AI in Legal: From Document Review to Contract Intelligence"
-description: "How law firms and legal departments are adopting AI for contract analysis, legal research, and document automation—and what it means for the profession."
-
+date: 2024-04-25
 updated: 2025-12-30
 categories: ["Industry"]
 tags: ["legal", "contracts", "legal-research", "document-review", "law-firms"]

@@ -1,7 +1,7 @@
 ---
 title: "Synthesia"
 type: "tool"
-description: "Enterprise AI video platform for creating professional training and marketing videos with AI avatars."
+date: 2023-04-15
 website: "https://synthesia.io"
 affiliate_link: "https://synthesia.io"
 logo: "/images/tools/synthesia.svg"
@@ -32,7 +32,6 @@ cons:
   - "Avatar uncanny valley"
 best_for: ["Enterprise L&D", "Corporate Communications", "Marketing Teams", "Global Companies"]
 alternatives: ["HeyGen", "D-ID", "Colossyan"]
-
 updated: 2026-01-22
 updated: 2026-02-17
 ---

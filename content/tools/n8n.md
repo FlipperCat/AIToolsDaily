@@ -1,7 +1,7 @@
 ---
 title: "n8n"
 type: "tool"
-description: "Open-source, self-hostable workflow automation platform with fair-code licensing."
+date: 2024-12-17
 website: "https://n8n.io"
 affiliate_link: "https://n8n.io"
 logo: "/images/tools/n8n.svg"
@@ -33,7 +33,6 @@ cons:
   - "Less polished UI"
 best_for: ["Developers", "Technical Teams", "Privacy-Conscious Users", "Startups"]
 alternatives: ["Zapier", "Make", "Pipedream"]
-
 updated: 2026-02-05
 updated: 2026-02-17
 ---

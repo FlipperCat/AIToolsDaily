@@ -1,7 +1,6 @@
 ---
 title: "Loom vs Vidyard (2026): Video Messaging Platform Comparison"
-description: "Compare Loom and Vidyard for asynchronous video messaging. Evaluate features, pricing, analytics, and which tool is best for your team."
-
+date: 2023-11-29
 updated: 2026-02-17
 categories: ["Comparisons"]
 tags: ["loom", "vidyard", "video-messaging", "screen-recording"]

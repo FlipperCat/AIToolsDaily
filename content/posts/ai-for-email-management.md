@@ -1,7 +1,6 @@
 ---
 title: "AI for Email Management: Tame Your Inbox"
-description: "Use AI to handle email overload. From smart sorting to auto-responses, here's what actually helps."
-
+date: 2023-12-11
 updated: 2026-01-16
 categories: ["Workflows"]
 tags: ["email", "productivity", "ai tools", "automation", "inbox management"]

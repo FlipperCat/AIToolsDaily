@@ -1,7 +1,6 @@
 ---
 title: "AI Tools for YouTubers: What Actually Saves Time (2025 Guide)"
-description: "I make YouTube videos weekly. Here are the AI tools that actually help vs the ones that waste time and money."
-
+date: 2025-04-11
 updated: 2026-02-25
 categories: ["Industry Guides"]
 tags: ["youtube", "video creation", "ai tools", "content creation", "video editing"]

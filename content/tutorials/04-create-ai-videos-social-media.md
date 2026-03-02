@@ -1,7 +1,6 @@
 ---
 title: "How to Create AI Videos for Social Media (Step-by-Step Guide)"
-description: "Learn to generate professional videos using AI tools. Master video creation for TikTok, Instagram, YouTube shorts."
-
+date: 2023-11-16
 updated: 2026-01-11
 categories: ["Tutorials"]
 tags: ["AI Video", "Video Generation", "Social Media", "Content Creation", "Video Production"]

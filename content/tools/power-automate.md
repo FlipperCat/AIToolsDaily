@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Power Automate"
 type: "tool"
-description: "Microsoft's automation platform deeply integrated with Microsoft 365 and Azure services."
+date: 2025-10-11
 website: "https://powerautomate.microsoft.com"
 affiliate_link: "https://powerautomate.microsoft.com"
 logo: "/images/tools/power-automate.svg"
@@ -33,7 +33,6 @@ cons:
   - "Learning curve for advanced features"
 best_for: ["Microsoft Shops", "Enterprise", "IT Teams", "Office Workers"]
 alternatives: ["Zapier", "Make", "UiPath"]
-
 updated: 2026-01-22
 updated: 2026-02-17
 ---

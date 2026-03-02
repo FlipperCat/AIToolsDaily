@@ -1,7 +1,6 @@
 ---
 title: "Slack vs Microsoft Teams (2026): Communication Platform Comparison"
-description: "Compare Slack and Microsoft Teams for team communication. Evaluate features, pricing, integrations, and which platform is best for your team."
-
+date: 2026-01-17
 updated: 2025-12-31
 categories: ["Comparisons"]
 tags: ["slack", "microsoft-teams", "communication", "team-chat"]

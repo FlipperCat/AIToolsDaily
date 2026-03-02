@@ -1,7 +1,6 @@
 ---
 title: "How to Use AI for SEO Optimization (Step-by-Step Guide)"
-description: "Optimize your website for search engines using AI tools. Master keyword research, content optimization, and ranking tracking."
-
+date: 2026-02-19
 updated: 2026-01-01
 categories: ["Tutorials"]
 tags: ["SEO", "Search Optimization", "Keyword Research", "Content Strategy", "Digital Marketing"]

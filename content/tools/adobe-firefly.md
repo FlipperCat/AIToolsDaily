@@ -1,7 +1,7 @@
 ---
 title: "Adobe Firefly"
 type: "tool"
-description: "Adobe's commercially-safe AI image generator integrated into Creative Cloud with ethical training data."
+date: 2024-12-29
 website: "https://firefly.adobe.com"
 affiliate_link: "https://firefly.adobe.com"
 logo: "/images/tools/adobe-firefly.svg"
@@ -33,7 +33,6 @@ cons:
   - "Style less distinctive"
 best_for: ["Designers", "Marketing Teams", "Enterprise", "Creative Professionals"]
 alternatives: ["DALL-E 3", "Midjourney", "Canva AI"]
-
 updated: 2026-01-24
 updated: 2026-02-17
 ---

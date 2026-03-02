@@ -1,7 +1,6 @@
 ---
 title: "Figma vs Canva (2026): Design Tool Comparison"
-description: "Compare Figma and Canva for design work. Evaluate features, pricing, UI design vs graphic design, and which tool is best for your design needs."
-
+date: 2025-07-22
 updated: 2026-01-22
 categories: ["Comparisons"]
 tags: ["figma", "canva", "design-tools", "ui-design"]

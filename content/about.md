@@ -1,6 +1,6 @@
 ---
 title: "About AI Tools Daily"
-description: "Since 2023, AI Tools Daily has been the trusted resource for AI tool reviews, tutorials, and automation strategies. Learn about our mission and approach."
+date: 2023-08-31
 ---
 
 Impact-Site-Verification: 81a9ba7f-f99d-4648-ae8d-041dc70af1c4

@@ -1,7 +1,6 @@
 ---
 title: "7 Best Free Alternatives to Jasper AI (2025)"
-description: "Looking for free Jasper alternatives? These AI writing tools deliver similar results without the $49/month price tag."
-
+date: 2025-04-27
 updated: 2026-01-31
 categories: ["Lists"]
 tags: ["jasper alternatives", "free ai writing", "ai tools", "content creation"]

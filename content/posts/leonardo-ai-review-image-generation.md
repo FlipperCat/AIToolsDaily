@@ -1,7 +1,6 @@
 ---
 title: "Leonardo AI Review: Better Than Midjourney for Some Things"
-description: "After 500+ generations, here's my honest take on Leonardo AI - where it beats Midjourney and where it falls short."
-
+date: 2025-10-05
 updated: 2025-12-29
 categories: ["Reviews"]
 tags: ["leonardo ai", "ai images", "image generation", "midjourney alternative", "ai art"]

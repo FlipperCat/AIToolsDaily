@@ -1,7 +1,7 @@
 ---
 title: "Codeium"
 type: "tool"
-description: "Free AI code assistant with completions, chat, and search across 70+ programming languages."
+date: 2025-06-30
 website: "https://codeium.com"
 affiliate_link: "https://codeium.com"
 logo: "/images/tools/codeium.svg"
@@ -32,7 +32,6 @@ cons:
   - "Newer company"
 best_for: ["Students", "Individual Developers", "Hobbyists", "Budget-Conscious Teams"]
 alternatives: ["GitHub Copilot", "Cursor", "Tabnine"]
-
 updated: 2026-01-31
 updated: 2026-02-17
 ---

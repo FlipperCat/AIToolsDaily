@@ -1,7 +1,6 @@
 ---
 title: "Grammarly Review 2026: Is It Worth It?"
-description: "Comprehensive Grammarly review 2026: features, pricing, pros, cons, and whether it's worth buying for writers and professionals."
-
+date: 2026-01-20
 updated: 2026-02-04
 categories: ["Reviews"]
 tags: ["Grammarly", "writing tools", "AI writing assistant", "grammar checker"]

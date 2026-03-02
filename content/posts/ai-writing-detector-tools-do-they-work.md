@@ -1,7 +1,6 @@
 ---
 title: "AI Writing Detectors: Do They Actually Work? (I Tested 8 of Them)"
-description: "I ran the same content through 8 AI detection tools. The results were all over the place. Here's what I found."
-
+date: 2023-09-19
 updated: 2026-02-09
 categories: ["Reviews"]
 tags: ["ai detection", "ai writing", "content detection", "gpt detector", "originality"]

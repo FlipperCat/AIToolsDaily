@@ -1,7 +1,6 @@
 ---
 title: "8 Best AI Video Generators in 2024 (Tested & Ranked)"
-description: "Create videos with AI in minutes. Compare Runway, Synthesia, HeyGen, and more. Find the best AI video generator for your needs."
-
+date: 2026-01-23
 updated: 2026-02-01
 categories: ["Lists"]
 tags: ["ai video", "video generation", "content creation", "ai tools"]

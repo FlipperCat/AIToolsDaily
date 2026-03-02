@@ -1,7 +1,6 @@
 ---
 title: "AI Tools for Marketing Agencies: Scale Without Hiring"
-description: "How marketing agencies use AI to handle more clients without proportionally growing headcount. Practical tools and workflows."
-
+date: 2025-10-06
 updated: 2026-01-25
 categories: ["Industry Tools"]
 tags: ["agencies", "marketing", "ai tools", "business", "automation"]

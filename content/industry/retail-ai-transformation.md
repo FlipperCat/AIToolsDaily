@@ -1,7 +1,6 @@
 ---
 title: "AI in Retail: From Personalization to Supply Chain Intelligence"
-description: "How retailers are using AI for product recommendations, inventory management, pricing optimization, and customer experience—with real results."
-
+date: 2024-08-29
 updated: 2026-02-23
 categories: ["Industry"]
 tags: ["retail", "e-commerce", "personalization", "inventory", "pricing"]

@@ -1,6 +1,6 @@
 ---
 title: "Free AI Prompt Templates"
-description: "Copy-paste prompts for ChatGPT, Claude, Midjourney, and more. Tested and optimized for best results."
+date: 2023-08-12
 layout: single
 ---
 

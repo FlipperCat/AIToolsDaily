@@ -1,7 +1,7 @@
 ---
 title: "Grammarly"
 type: "tool"
-description: "AI-powered writing assistant for grammar, spelling, clarity, and tone improvements across all your writing."
+date: 2023-09-08
 website: "https://grammarly.com"
 affiliate_link: "https://grammarly.com"
 logo: "/images/tools/grammarly.svg"
@@ -32,7 +32,6 @@ cons:
   - "GrammarlyGO less capable than ChatGPT"
 best_for: ["Everyone", "Business Professionals", "Students", "Non-Native Speakers"]
 alternatives: ["Wordtune", "ProWritingAid", "Hemingway"]
-
 updated: 2026-02-24
 updated: 2026-02-17
 ---

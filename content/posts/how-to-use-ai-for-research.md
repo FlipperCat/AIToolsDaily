@@ -1,7 +1,6 @@
 ---
 title: "How to Use AI for Research: A Practical Guide"
-description: "Use AI to accelerate research without sacrificing accuracy. From literature reviews to data analysis, here's what works."
-
+date: 2026-01-26
 updated: 2026-01-08
 categories: ["Tutorials"]
 tags: ["research", "ai tools", "chatgpt", "perplexity", "academic", "productivity"]

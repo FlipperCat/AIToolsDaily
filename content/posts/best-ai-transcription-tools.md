@@ -1,7 +1,6 @@
 ---
 title: "Best AI Transcription Tools: Tested for Accuracy and Speed"
-description: "Comparison of Otter, Whisper, Descript, and more. Which AI transcription tool is most accurate for your use case?"
-
+date: 2024-03-28
 updated: 2026-01-22
 categories: ["Reviews"]
 tags: ["transcription", "ai tools", "otter ai", "whisper", "descript", "productivity"]

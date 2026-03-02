@@ -1,7 +1,6 @@
 ---
 title: "Make.com Review 2026: The Best Zapier Alternative?"
-description: "Detailed Make.com (formerly Integromat) review. See if this powerful automation platform is right for you, with pricing, pros, cons, and real examples."
-
+date: 2024-03-26
 updated: 2026-02-20
 categories: ["Reviews"]
 tags: ["make", "automation", "workflow", "integromat"]

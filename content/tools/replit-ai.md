@@ -1,7 +1,7 @@
 ---
 title: "Replit AI"
 type: "tool"
-description: "Browser-based IDE with AI assistant for coding, debugging, and deployment in one platform."
+date: 2024-06-12
 website: "https://replit.com"
 affiliate_link: "https://replit.com"
 logo: "/images/tools/replit.svg"
@@ -32,7 +32,6 @@ cons:
   - "Can be slow"
 best_for: ["Beginners", "Students", "Rapid Prototyping", "Educators"]
 alternatives: ["Cursor", "Codespaces", "StackBlitz"]
-
 updated: 2026-02-17
 updated: 2026-02-17
 ---

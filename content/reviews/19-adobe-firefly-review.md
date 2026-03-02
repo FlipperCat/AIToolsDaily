@@ -1,7 +1,6 @@
 ---
 title: "Adobe Firefly Review 2026: Generative AI for Creative Professionals"
-description: "Comprehensive review of Adobe Firefly's image generation, design features, and integration with Creative Cloud in 2026."
-
+date: 2024-07-02
 updated: 2026-02-05
 categories: ["Reviews"]
 tags: ["image-generation", "design", "creative", "adobe"]

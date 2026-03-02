@@ -1,6 +1,6 @@
 ---
 title: "AI Tool Comparisons"
-description: "Head-to-head comparisons of the best AI tools. ChatGPT vs Claude, Zapier vs Make, Midjourney vs DALL-E, and more. Find the right tool for your needs."
+date: 2025-01-24
 ---
 
 Stop guessing which tool is better. We've tested them side-by-side so you don't have to.

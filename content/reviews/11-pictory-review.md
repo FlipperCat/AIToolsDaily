@@ -1,7 +1,6 @@
 ---
 title: "Pictory Review 2026: AI Video Creation Platform for Content Creators"
-description: "Pictory converts blog posts and scripts into videos with AI. Best tool for scaling video content production."
-
+date: 2023-06-03
 updated: 2026-01-11
 categories: ["Reviews"]
 tags: ["pictory", "video-creation", "ai-video", "content-automation"]

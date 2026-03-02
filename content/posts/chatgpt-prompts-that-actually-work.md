@@ -1,7 +1,6 @@
 ---
 title: "ChatGPT Prompts That Actually Work (Not the '1000 Prompts' Garbage)"
-description: "Forget the prompt lists. Here are the actual prompting techniques that get better results, with real examples."
-
+date: 2025-05-31
 updated: 2026-01-08
 categories: ["Tutorials"]
 tags: ["chatgpt", "prompts", "prompt engineering", "ai tips", "productivity"]

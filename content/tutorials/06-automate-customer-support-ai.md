@@ -1,7 +1,6 @@
 ---
 title: "How to Automate Customer Support with AI (Step-by-Step Guide)"
-description: "Deploy AI chatbots to handle customer support automatically. Reduce costs while maintaining quality service and satisfaction."
-
+date: 2023-03-29
 updated: 2026-01-03
 categories: ["Tutorials"]
 tags: ["Customer Support", "Chatbots", "AI Automation", "Customer Service", "Business Operations"]

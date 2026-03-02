@@ -1,7 +1,6 @@
 ---
 title: "AI in Education: Personalized Learning at Scale"
-description: "How AI is transforming education from adaptive learning platforms to AI tutors, and what it means for students, teachers, and institutions."
-
+date: 2024-02-12
 updated: 2026-01-10
 categories: ["Industry"]
 tags: ["education", "edtech", "personalized-learning", "tutoring", "assessment"]

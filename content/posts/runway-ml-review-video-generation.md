@@ -1,7 +1,6 @@
 ---
 title: "Runway ML Review: AI Video Generation That Actually Works"
-description: "After 3 months using Runway for client projects, here's my honest review of what works, what doesn't, and whether it's worth the price."
-
+date: 2024-04-04
 updated: 2026-01-19
 categories: ["Reviews"]
 tags: ["runway", "ai video", "video generation", "video editing", "motion graphics"]

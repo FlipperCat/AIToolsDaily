@@ -1,7 +1,6 @@
 ---
 title: "15 Time-Saving Automations Anyone Can Set Up (No Coding)"
-description: "15 simple automations you can set up today to save hours weekly."
-
+date: 2024-12-11
 updated: 2026-02-15
 categories: ["Tips"]
 tags: ["automation", "productivity", "zapier", "efficiency"]

@@ -1,7 +1,6 @@
 ---
 title: "Typeform vs Google Forms (2026): Survey Tool Comparison"
-description: "Compare Typeform and Google Forms for surveys and questionnaires. Evaluate features, pricing, design, and which tool is best for collecting feedback."
-
+date: 2023-09-27
 updated: 2026-01-18
 categories: ["Comparisons"]
 tags: ["typeform", "google-forms", "surveys", "forms"]

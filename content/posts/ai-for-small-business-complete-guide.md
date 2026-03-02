@@ -1,7 +1,6 @@
 ---
 title: "AI for Small Business: The Complete 2024 Guide"
-description: "Everything small business owners need to know about using AI tools. From free options to paid solutions, with real ROI examples."
-
+date: 2026-01-05
 updated: 2026-02-25
 categories: ["Guides"]
 tags: ["small business", "ai tools", "productivity", "automation", "entrepreneurship"]

@@ -1,7 +1,7 @@
 ---
 title: "Cursor"
 type: "tool"
-description: "AI-first code editor built on VS Code with advanced AI features for code generation and editing."
+date: 2026-02-23
 website: "https://cursor.com"
 affiliate_link: "https://cursor.com"
 logo: "/images/tools/cursor.svg"
@@ -32,7 +32,6 @@ cons:
   - "Can be overwhelming"
 best_for: ["Professional Developers", "Startups", "AI Enthusiasts", "Full-Stack Developers"]
 alternatives: ["GitHub Copilot", "Codeium", "Windsurf"]
-
 updated: 2026-01-24
 updated: 2026-02-17
 ---

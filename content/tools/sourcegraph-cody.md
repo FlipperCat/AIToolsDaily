@@ -1,7 +1,7 @@
 ---
 title: "Sourcegraph Cody"
 type: "tool"
-description: "AI coding assistant that understands your entire codebase for context-aware assistance."
+date: 2023-07-23
 website: "https://sourcegraph.com/cody"
 affiliate_link: "https://sourcegraph.com/cody"
 logo: "/images/tools/sourcegraph.svg"
@@ -32,7 +32,6 @@ cons:
   - "Enterprise focus"
 best_for: ["Enterprise Teams", "Large Codebases", "Platform Engineers", "Developer Experience Teams"]
 alternatives: ["Cursor", "GitHub Copilot", "Continue"]
-
 updated: 2025-12-31
 updated: 2026-02-17
 ---

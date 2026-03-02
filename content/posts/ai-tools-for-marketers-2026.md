@@ -1,7 +1,6 @@
 ---
 title: "AI Tools for Marketers: What's Actually Worth Using in 2024"
-description: "Marketing director here. I tested dozens of AI marketing tools. Here's what drives real results and what's overhyped."
-
+date: 2026-02-13
 updated: 2026-01-26
 categories: ["Industry Tools"]
 tags: ["marketing", "ai tools", "digital marketing", "content marketing", "automation"]

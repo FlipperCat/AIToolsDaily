@@ -1,7 +1,7 @@
 ---
 title: "Notion AI"
 type: "tool"
-description: "AI assistant integrated into Notion for writing, summarizing, and brainstorming within your workspace."
+date: 2024-03-06
 website: "https://notion.so"
 affiliate_link: "https://notion.so"
 logo: "/images/tools/notion.svg"
@@ -32,7 +32,6 @@ cons:
   - "Requires Notion investment"
 best_for: ["Notion Users", "Teams", "Documentation Writers", "Project Managers"]
 alternatives: ["ChatGPT", "Coda AI", "Mem"]
-
 updated: 2026-02-20
 updated: 2026-02-17
 ---

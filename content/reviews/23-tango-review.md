@@ -1,7 +1,6 @@
 ---
 title: "Tango Review 2026: Automated Documentation and Process Guide Creation"
-description: "Tango creates step-by-step guides and documentation automatically. Perfect for knowledge base and user documentation."
-
+date: 2025-08-08
 updated: 2026-02-19
 categories: ["Reviews"]
 tags: ["tango", "documentation", "knowledge-base", "process-documentation"]

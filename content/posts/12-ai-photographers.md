@@ -1,7 +1,6 @@
 ---
 title: "AI for Photographers: Editing Automation Complete Guide"
-description: "Master AI tools for photo editing, organization, retouching, and background removal. Edit photos 10x faster while improving quality."
-
+date: 2023-12-08
 updated: 2026-01-24
 categories: ["Guides"]
 tags: ["photography", "ai", "editing", "automation", "post-production"]

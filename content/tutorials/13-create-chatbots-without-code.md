@@ -1,7 +1,6 @@
 ---
 title: "How to Create AI Chatbots Without Code (Step-by-Step Guide)"
-description: "Build intelligent chatbots using no-code platforms. Deploy custom bots for support, sales, and engagement instantly."
-
+date: 2024-10-07
 updated: 2026-02-11
 categories: ["Tutorials"]
 tags: ["Chatbots", "No-Code", "AI Automation", "Business Automation", "Customer Engagement"]

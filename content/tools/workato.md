@@ -1,7 +1,7 @@
 ---
 title: "Workato"
 type: "tool"
-description: "Enterprise integration and automation platform with AI-powered recipe building and extensive connectors."
+date: 2023-12-11
 website: "https://workato.com"
 affiliate_link: "https://workato.com"
 logo: "/images/tools/workato.svg"
@@ -32,7 +32,6 @@ cons:
   - "Sales-driven pricing"
 best_for: ["Enterprise", "IT Teams", "Salesforce Users", "Large Organizations"]
 alternatives: ["Tray.io", "MuleSoft", "Zapier Enterprise"]
-
 updated: 2026-01-25
 updated: 2026-02-17
 ---

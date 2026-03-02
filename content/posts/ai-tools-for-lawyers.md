@@ -1,7 +1,6 @@
 ---
 title: "AI Tools for Lawyers: What's Actually Useful (Attorney Review)"
-description: "I'm a practicing attorney who tested AI tools for legal work. Here's what helps, what's risky, and what the profession is actually using."
-
+date: 2025-09-14
 updated: 2026-01-22
 categories: ["Industry Tools"]
 tags: ["legal", "lawyers", "ai tools", "law practice", "legal tech"]

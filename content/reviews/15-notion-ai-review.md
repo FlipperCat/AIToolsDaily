@@ -1,7 +1,6 @@
 ---
 title: "Notion AI Review 2026: Your Workspace's Intelligent Assistant"
-description: "Comprehensive review of Notion AI features, pricing, and capabilities for workspace automation and content generation in 2026."
-
+date: 2024-06-02
 updated: 2026-01-29
 categories: ["Reviews"]
 tags: ["notion", "workspace", "ai-assistant", "productivity"]

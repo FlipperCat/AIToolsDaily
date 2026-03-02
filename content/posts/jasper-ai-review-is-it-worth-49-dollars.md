@@ -1,7 +1,6 @@
 ---
 title: "Jasper AI Review: Is It Worth $49/Month? (After Canceling Twice)"
-description: "I've subscribed to Jasper twice and canceled twice. Here's my honest take on whether it's worth the premium price."
-
+date: 2025-04-26
 updated: 2026-02-16
 categories: ["Reviews"]
 tags: ["jasper", "ai writing", "marketing", "copywriting", "review"]

@@ -1,7 +1,6 @@
 ---
 title: "Loom Review 2026: Instant Video Messaging for Work Communication"
-description: "Loom captures screen and webcam instantly for asynchronous communication. Best video messaging tool for teams."
-
+date: 2025-04-04
 updated: 2026-02-17
 categories: ["Reviews"]
 tags: ["loom", "video-messaging", "screen-recording", "communication"]

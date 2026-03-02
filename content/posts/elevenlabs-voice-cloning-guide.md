@@ -1,7 +1,6 @@
 ---
 title: "ElevenLabs Voice Cloning: Complete Guide to AI Voices"
-description: "How to create AI voice clones with ElevenLabs. From setup to professional audio production."
-
+date: 2024-02-11
 updated: 2026-01-30
 categories: ["Tutorials"]
 tags: ["elevenlabs", "voice cloning", "ai voice", "text to speech", "audio"]

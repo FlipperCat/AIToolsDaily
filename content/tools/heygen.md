@@ -1,7 +1,7 @@
 ---
 title: "HeyGen"
 type: "tool"
-description: "AI video generation platform for creating talking avatar videos and translations."
+date: 2023-08-22
 website: "https://heygen.com"
 affiliate_link: "https://heygen.com"
 logo: "/images/tools/heygen.svg"
@@ -32,7 +32,6 @@ cons:
   - "Higher price point"
 best_for: ["Training Teams", "Marketing", "Sales Teams", "HR Departments"]
 alternatives: ["Synthesia", "D-ID", "Runway"]
-
 updated: 2026-02-13
 updated: 2026-02-17
 ---

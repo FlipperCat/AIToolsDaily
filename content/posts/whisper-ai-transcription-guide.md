@@ -1,7 +1,6 @@
 ---
 title: "Whisper AI Transcription: Free, Accurate, and How to Actually Use It"
-description: "OpenAI's Whisper is the best free transcription tool. Here's how to use it and whether you should bother."
-
+date: 2023-05-12
 updated: 2026-02-17
 categories: ["Tutorials"]
 tags: ["whisper", "transcription", "openai", "audio", "free tools"]

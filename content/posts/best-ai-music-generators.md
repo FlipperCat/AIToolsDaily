@@ -1,7 +1,6 @@
 ---
 title: "Best AI Music Generators: I Tested 6 for Real Projects"
-description: "AI can now create music from text prompts. I tested the major tools for background music, jingles, and creative projects."
-
+date: 2023-05-15
 updated: 2026-02-21
 categories: ["Reviews"]
 tags: ["ai music", "music generation", "suno", "audio", "content creation"]

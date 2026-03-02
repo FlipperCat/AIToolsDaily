@@ -1,7 +1,6 @@
 ---
 title: "Best AI Tools for Podcasters: What I Actually Use (50+ Episodes In)"
-description: "After producing over 50 podcast episodes, here are the AI tools that actually save time and which ones are overrated."
-
+date: 2023-06-09
 updated: 2026-02-20
 categories: ["Industry Guides"]
 tags: ["podcasting", "ai tools", "podcast production", "content creation", "audio editing"]

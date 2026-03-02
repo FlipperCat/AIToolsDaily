@@ -1,7 +1,6 @@
 ---
 title: "Build an Automated Customer Onboarding Flow (50% Better Retention)"
-description: "Create a seamless customer onboarding workflow using AI to welcome, educate, and activate new customers automatically."
-
+date: 2025-04-15
 updated: 2026-01-18
 categories: ["Workflows"]
 tags: ["automation", "workflow", "customer-success", "ai-tools", "onboarding"]

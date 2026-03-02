@@ -1,7 +1,6 @@
 ---
 title: "Pipedrive vs HubSpot CRM (2026): Sales CRM Comparison"
-description: "Compare Pipedrive and HubSpot CRM for sales teams. Evaluate pipeline management, features, pricing, and which CRM is best for your sales needs."
-
+date: 2023-04-13
 updated: 2026-01-07
 categories: ["Comparisons"]
 tags: ["pipedrive", "hubspot", "crm", "sales-pipeline"]

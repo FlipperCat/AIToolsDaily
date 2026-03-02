@@ -1,7 +1,6 @@
 ---
 title: "OpenAI Announces GPT-5: What We Know So Far"
-description: "Everything we know about OpenAI's next-generation language model GPT-5, including expected features, release timeline, and impact on AI tools."
-
+date: 2025-07-31
 updated: 2026-01-06
 categories: ["News"]
 tags: ["openai", "gpt-5", "chatgpt", "ai-models", "breaking-news"]

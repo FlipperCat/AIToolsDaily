@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Privacy policy for AI Tools Daily."
+date: 2023-10-27
 ---
 
 # Privacy Policy

@@ -1,7 +1,6 @@
 ---
 title: "Understanding ChatGPT: Complete Beginner's Guide (2025)"
-description: "Complete beginner's guide to ChatGPT. Learn what it is, how to use it, what it's good at, and how to get the best results."
-
+date: 2025-08-18
 updated: 2026-02-23
 categories: ["Guides"]
 tags: ["beginner", "guide", "chatgpt", "tutorial"]
