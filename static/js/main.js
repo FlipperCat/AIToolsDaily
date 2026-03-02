@@ -683,6 +683,244 @@
   };
 
   // ============================================================
+  // BACK TO TOP BUTTON
+  // ============================================================
+
+  const BackToTop = {
+    init() {
+      // Create button
+      const button = document.createElement('button');
+      button.className = 'back-to-top';
+      button.setAttribute('aria-label', 'Back to top');
+      button.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 15l-6-6-6 6"/>
+        </svg>
+      `;
+      document.body.appendChild(button);
+
+      // Show/hide on scroll
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 500) {
+          button.classList.add('visible');
+        } else {
+          button.classList.remove('visible');
+        }
+      }, { passive: true });
+
+      // Scroll to top on click
+      button.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  };
+
+  // ============================================================
+  // TOAST NOTIFICATIONS
+  // ============================================================
+
+  const Toast = {
+    container: null,
+
+    init() {
+      this.container = document.createElement('div');
+      this.container.className = 'toast-container';
+      document.body.appendChild(this.container);
+    },
+
+    show(message, type = 'info') {
+      const toast = document.createElement('div');
+      toast.className = `toast ${type}`;
+
+      const icon = type === 'success' ? '✓' : type === 'error' ? '✕' : 'ℹ';
+      toast.innerHTML = `<span>${icon}</span><span>${message}</span>`;
+
+      this.container.appendChild(toast);
+
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }
+  };
+
+  // ============================================================
+  // ANIMATED COUNTERS
+  // ============================================================
+
+  const CounterManager = {
+    init() {
+      const counters = document.querySelectorAll('.hero-stat-number');
+
+      if (counters.length === 0) return;
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            this.animateCounter(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      counters.forEach(counter => observer.observe(counter));
+    },
+
+    animateCounter(element) {
+      const text = element.textContent;
+      const hasPlus = text.includes('+');
+      const target = parseInt(text.replace(/\D/g, ''));
+
+      if (isNaN(target)) return;
+
+      let current = 0;
+      const duration = 2000;
+      const increment = target / (duration / 16);
+      const start = performance.now();
+
+      const animate = (now) => {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+
+        // Easing function
+        const eased = 1 - Math.pow(1 - progress, 3);
+        current = Math.floor(target * eased);
+
+        element.textContent = current + (hasPlus ? '+' : '');
+
+        if (progress < 1) {
+          requestAnimationFrame(animate);
+        } else {
+          element.textContent = text; // Restore original
+        }
+      };
+
+      requestAnimationFrame(animate);
+    }
+  };
+
+  // ============================================================
+  // RIPPLE EFFECT
+  // ============================================================
+
+  const RippleEffect = {
+    init() {
+      document.querySelectorAll('.btn, .ripple').forEach(element => {
+        element.addEventListener('click', (e) => {
+          const rect = element.getBoundingClientRect();
+          const ripple = document.createElement('span');
+          ripple.className = 'ripple-effect';
+
+          const size = Math.max(rect.width, rect.height);
+          ripple.style.width = ripple.style.height = `${size}px`;
+          ripple.style.left = `${e.clientX - rect.left - size / 2}px`;
+          ripple.style.top = `${e.clientY - rect.top - size / 2}px`;
+
+          element.appendChild(ripple);
+
+          setTimeout(() => ripple.remove(), 600);
+        });
+      });
+    }
+  };
+
+  // ============================================================
+  // PAGE LOAD ANIMATION
+  // ============================================================
+
+  const PageTransition = {
+    init() {
+      document.body.classList.add('page-transition');
+    }
+  };
+
+  // ============================================================
+  // KEYBOARD SHORTCUTS
+  // ============================================================
+
+  const KeyboardShortcuts = {
+    init() {
+      document.addEventListener('keydown', (e) => {
+        // Home: Press 'h'
+        if (e.key === 'h' && !this.isTyping()) {
+          window.location.href = '/';
+        }
+        // Tools: Press 't'
+        if (e.key === 't' && !this.isTyping()) {
+          window.location.href = '/tools/';
+        }
+        // Toggle theme: Press 'd'
+        if (e.key === 'd' && !this.isTyping()) {
+          ThemeManager.toggle();
+        }
+      });
+    },
+
+    isTyping() {
+      const active = document.activeElement;
+      return active.tagName === 'INPUT' ||
+             active.tagName === 'TEXTAREA' ||
+             active.contentEditable === 'true';
+    }
+  };
+
+  // ============================================================
+  // SCROLL PROGRESS INDICATOR
+  // ============================================================
+
+  const ScrollProgress = {
+    init() {
+      const progressBar = document.createElement('div');
+      progressBar.className = 'scroll-progress';
+      progressBar.innerHTML = '<div class="scroll-progress-bar"></div>';
+      progressBar.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        z-index: 9999;
+        background: transparent;
+      `;
+
+      const bar = progressBar.querySelector('.scroll-progress-bar');
+      bar.style.cssText = `
+        height: 100%;
+        background: var(--gradient-primary);
+        width: 0%;
+        transition: width 0.1s ease;
+      `;
+
+      document.body.appendChild(progressBar);
+
+      window.addEventListener('scroll', () => {
+        const winHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = (window.scrollY / winHeight) * 100;
+        bar.style.width = `${Math.min(scrolled, 100)}%`;
+      }, { passive: true });
+    }
+  };
+
+  // ============================================================
+  // ENHANCED HOVER EFFECTS
+  // ============================================================
+
+  const HoverEffects = {
+    init() {
+      // Add glow class to featured cards
+      document.querySelectorAll('.tool-card[data-featured="true"]').forEach(card => {
+        card.classList.add('glow-on-hover', 'pulse');
+      });
+
+      // Stagger animation for grids
+      document.querySelectorAll('.articles-grid, .featured-tools-grid').forEach(grid => {
+        if (!grid.classList.contains('stagger-animation')) {
+          grid.classList.add('stagger-animation');
+        }
+      });
+    }
+  };
+
+  // ============================================================
   // INITIALIZE ALL MODULES
   // ============================================================
 
@@ -700,6 +938,19 @@
     LazyLoadManager.init();
     SmoothScrollManager.init();
     ToolFilterManager.init();
+
+    // New interactive features
+    BackToTop.init();
+    Toast.init();
+    CounterManager.init();
+    RippleEffect.init();
+    PageTransition.init();
+    KeyboardShortcuts.init();
+    ScrollProgress.init();
+    HoverEffects.init();
   });
+
+  // Expose Toast globally for use in other scripts
+  window.Toast = Toast;
 
 })();
