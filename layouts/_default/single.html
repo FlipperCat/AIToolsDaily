@@ -7,7 +7,7 @@
         <!-- Featured Image - Dynamic SVG based on article title -->
         {{ $imageUrl := partial "article-image.html" (dict "page" . "width" 1200 "height" 600) }}
         <div class="article-featured-image" style="margin-bottom:var(--space-8);border-radius:var(--radius-xl);overflow:hidden;aspect-ratio:2/1;">
-            <img src="{{ $imageUrl }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;" loading="eager">
+            <img src="{{ $imageUrl | safeURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;" loading="eager">
         </div>
 
         <!-- Article Header -->
