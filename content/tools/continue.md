@@ -32,7 +32,8 @@ cons:
   - "Model costs if using APIs"
 best_for: ["Privacy-Focused Developers", "Open Source Enthusiasts", "Self-Hosters", "Experimenters"]
 alternatives: ["GitHub Copilot", "Codeium", "Cursor"]
-date: 2025-01-14
+
+updated: 2026-01-24
 updated: 2026-02-17
 ---
 

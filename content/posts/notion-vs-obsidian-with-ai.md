@@ -1,7 +1,8 @@
 ---
 title: "Notion vs Obsidian with AI: Which Note-Taking App Wins?"
 description: "I use both Notion and Obsidian daily. Here's how their AI features compare and which is better for different workflows."
-date: 2024-11-24
+
+updated: 2026-02-04
 categories: ["Comparisons"]
 tags: ["notion", "obsidian", "note-taking", "ai tools", "productivity", "pkm"]
 affiliate_disclosure: true

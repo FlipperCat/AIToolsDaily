@@ -32,7 +32,8 @@ cons:
   - "Enterprise focus"
 best_for: ["Enterprise", "Security-Conscious Teams", "Regulated Industries", "On-Premise Requirements"]
 alternatives: ["GitHub Copilot", "Codeium", "Amazon CodeWhisperer"]
-date: 2023-02-26
+
+updated: 2026-02-17
 updated: 2026-02-17
 ---
 

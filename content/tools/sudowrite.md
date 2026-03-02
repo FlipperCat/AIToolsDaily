@@ -32,7 +32,8 @@ cons:
   - "Can sometimes produce clichés"
 best_for: ["Novelists", "Screenwriters", "Creative Writers", "Hobbyist Authors"]
 alternatives: ["NovelAI", "ChatGPT", "Jasper"]
-date: 2024-03-11
+
+updated: 2025-12-28
 updated: 2026-02-17
 ---
 

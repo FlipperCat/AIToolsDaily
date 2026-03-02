@@ -1,7 +1,8 @@
 ---
 title: "How to Automate Data Entry (Save 10+ Hours Per Week)"
 description: "Step-by-step guide to automating data entry tasks. Learn tools and techniques to eliminate manual copying between spreadsheets and apps."
-date: 2023-01-23
+
+updated: 2026-01-18
 categories: ["Tutorials"]
 tags: ["data entry", "automation", "spreadsheets", "productivity"]
 affiliate_disclosure: true

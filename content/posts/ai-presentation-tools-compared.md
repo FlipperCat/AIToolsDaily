@@ -1,7 +1,8 @@
 ---
 title: "AI Presentation Tools Compared: Gamma vs Beautiful.ai vs Tome"
 description: "I made the same presentation with 4 AI tools. Here's which actually saves time and makes good slides."
-date: 2023-12-09
+
+updated: 2026-01-22
 categories: ["Comparisons"]
 tags: ["presentations", "gamma", "beautiful ai", "tome", "slides", "ai tools"]
 affiliate_disclosure: true

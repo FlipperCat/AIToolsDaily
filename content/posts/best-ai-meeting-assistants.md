@@ -1,7 +1,8 @@
 ---
 title: "Best AI Meeting Assistants: I Tested 6 for Real Meetings"
 description: "I used 6 AI meeting assistants for actual work meetings. Here's which ones actually help and which are a waste of money."
-date: 2023-12-19
+
+updated: 2026-01-17
 categories: ["Comparisons"]
 tags: ["meetings", "otter ai", "fireflies", "productivity", "transcription", "ai tools"]
 affiliate_disclosure: true

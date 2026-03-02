@@ -1,7 +1,8 @@
 ---
 title: "Best AI Tools for Real Estate Agents (From a Realtor Who Tested Them)"
 description: "AI tools that actually help real estate agents close more deals. Tested by an agent, not a tech blogger who's never sold a house."
-date: 2023-11-01
+
+updated: 2026-01-29
 categories: ["Guides"]
 tags: ["real estate", "ai tools", "realtors", "productivity", "sales"]
 affiliate_disclosure: true

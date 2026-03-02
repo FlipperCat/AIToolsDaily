@@ -1,7 +1,8 @@
 ---
 title: "How to Use AI to Write Emails Faster (Templates & Tips)"
 description: "Learn to write professional emails in seconds using AI. Includes prompts, templates, and best practices for ChatGPT and other AI tools."
-date: 2025-04-15
+
+updated: 2026-01-06
 categories: ["Tutorials"]
 tags: ["email", "ai writing", "productivity", "chatgpt"]
 affiliate_disclosure: true

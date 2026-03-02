@@ -1,7 +1,8 @@
 ---
 title: "AI Calendar and Scheduling Tools: Stop Wasting Time on Meetings"
 description: "AI tools that manage your calendar, schedule meetings, and protect your time. Motion, Reclaim, Clockwise compared."
-date: 2023-09-18
+
+updated: 2026-02-04
 categories: ["Reviews"]
 tags: ["calendar", "scheduling", "productivity", "ai tools", "time management"]
 affiliate_disclosure: true

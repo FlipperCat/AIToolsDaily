@@ -1,7 +1,8 @@
 ---
 title: "Best AI Tools for Small Business (2024): Save 20+ Hours Per Week"
 description: "The AI tools that actually help small businesses. Tested by real business owners. Includes automation, writing, customer service, and accounting."
-date: 2023-11-19
+
+updated: 2026-02-25
 categories: ["Lists"]
 tags: ["small-business", "automation", "productivity", "best-of", "tools"]
 ---

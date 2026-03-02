@@ -1,7 +1,8 @@
 ---
 title: "Claude Tips and Tricks: Getting Better Results from Anthropic's AI"
 description: "Power user tips for Claude. How to get better responses, use artifacts, handle long documents, and more."
-date: 2025-05-03
+
+updated: 2026-01-13
 categories: ["Tips"]
 tags: ["claude", "anthropic", "ai tips", "prompts", "productivity"]
 affiliate_disclosure: true

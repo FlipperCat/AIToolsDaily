@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Students: What's Actually Helpful (Not Cheating)"
 description: "Student guide to using AI tools ethically. What helps you learn, what crosses the line, and free tools that work."
-date: 2024-11-01
+
+updated: 2026-01-28
 categories: ["Industry Tools"]
 tags: ["students", "education", "ai tools", "study", "productivity"]
 affiliate_disclosure: true

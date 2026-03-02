@@ -1,7 +1,8 @@
 ---
 title: "How to Learn Prompt Writing: From Beginner to Expert"
 description: "Step-by-step guide to getting better at AI prompting. From basic principles to advanced techniques."
-date: 2025-03-21
+
+updated: 2026-01-16
 categories: ["Tutorials"]
 tags: ["prompts", "learning", "chatgpt", "ai tips", "skills"]
 affiliate_disclosure: true

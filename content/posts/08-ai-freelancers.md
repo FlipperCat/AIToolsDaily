@@ -1,7 +1,8 @@
 ---
 title: "AI for Freelancers: Double Your Hourly Rate (2025 Guide)"
 description: "Master AI tools for project management, proposal writing, client communication, and task automation. Double your hourly rate and billable hours."
-date: 2023-02-10
+
+updated: 2026-01-05
 categories: ["Guides"]
 tags: ["freelancing", "ai", "productivity", "automation", "business"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "Otter.ai vs Fireflies.ai (2026): Meeting Transcription Comparison"
 description: "Compare Otter.ai and Fireflies.ai for meeting transcription and AI meeting notes. Evaluate features, pricing, and which tool is best for your team."
-date: 2023-12-18
+
+updated: 2026-01-29
 categories: ["Comparisons"]
 tags: ["otter-ai", "fireflies-ai", "transcription", "meeting-notes"]
 affiliate_disclosure: true

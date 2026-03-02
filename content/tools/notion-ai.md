@@ -32,7 +32,8 @@ cons:
   - "Requires Notion investment"
 best_for: ["Notion Users", "Teams", "Documentation Writers", "Project Managers"]
 alternatives: ["ChatGPT", "Coda AI", "Mem"]
-date: 2025-08-16
+
+updated: 2026-02-20
 updated: 2026-02-17
 ---
 

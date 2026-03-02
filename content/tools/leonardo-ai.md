@@ -32,7 +32,8 @@ cons:
   - "Less artistic than Midjourney"
 best_for: ["Game Developers", "Concept Artists", "Designers", "Indie Developers"]
 alternatives: ["Midjourney", "Stable Diffusion", "Adobe Firefly"]
-date: 2025-03-24
+
+updated: 2026-01-20
 updated: 2026-02-17
 ---
 

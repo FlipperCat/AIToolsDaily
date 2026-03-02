@@ -1,7 +1,8 @@
 ---
 title: "Best AI Image Upscaling Tools: Make Low-Res Images Sharp"
 description: "I tested 8 AI upscaling tools on real photos. Here's what actually produces usable high-resolution images without artifacts."
-date: 2024-02-26
+
+updated: 2026-01-31
 categories: ["Reviews"]
 tags: ["image upscaling", "ai images", "photo editing", "image enhancement", "ai tools"]
 affiliate_disclosure: true

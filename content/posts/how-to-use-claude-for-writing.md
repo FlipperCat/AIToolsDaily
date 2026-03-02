@@ -1,7 +1,8 @@
 ---
 title: "How to Use Claude for Writing: A Complete Tutorial"
 description: "Step-by-step guide to using Claude for content creation, from basic prompting to advanced techniques."
-date: 2024-03-29
+
+updated: 2026-01-23
 categories: ["Tutorials"]
 tags: ["claude", "writing", "ai writing", "tutorial", "content creation"]
 affiliate_disclosure: true

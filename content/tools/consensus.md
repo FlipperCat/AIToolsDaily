@@ -32,7 +32,8 @@ cons:
   - "Not for deep research"
 best_for: ["Fact-Checkers", "Science Communicators", "Students", "Curious Learners"]
 alternatives: ["Elicit", "Perplexity", "Semantic Scholar"]
-date: 2025-06-25
+
+updated: 2026-02-23
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Accountants: What Actually Works (From a CPA's Perspective)"
 description: "I talked to 12 accountants about which AI tools they actually use. Here's what's worth your time and what's hype."
-date: 2024-08-19
+
+updated: 2026-02-07
 categories: ["Industry Guides"]
 tags: ["accountants", "ai tools", "cpa", "bookkeeping", "tax preparation"]
 affiliate_disclosure: true

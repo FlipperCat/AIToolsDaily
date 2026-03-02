@@ -1,7 +1,8 @@
 ---
 title: "Perplexity Launches Enterprise Plan with Internal Knowledge Search"
 description: "Perplexity's new Enterprise tier lets companies search their internal documents alongside the web, with SOC 2 compliance and admin controls."
-date: 2024-09-30
+
+updated: 2026-02-24
 categories: ["News"]
 tags: ["perplexity", "enterprise", "search", "ai-business", "productivity"]
 ---

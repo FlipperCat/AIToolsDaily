@@ -1,7 +1,8 @@
 ---
 title: "Automate Your Morning Routine with AI (Save 45 Min Daily)"
 description: "Discover how to use AI tools to automate your morning tasks for increased productivity and a smoother start to your day."
-date: 2023-11-29
+
+updated: 2026-01-26
 categories: ["Workflows"]
 tags: ["automation", "workflow", "productivity", "ai-tools", "daily-routine"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "Scribe Review 2026: Effortless Process Documentation and Guides"
 description: "Scribe automatically documents processes and creates step-by-step guides. Essential for teams needing quick documentation."
-date: 2024-07-26
+
+updated: 2026-01-22
 categories: ["Reviews"]
 tags: ["scribe", "documentation", "process-guides", "knowledge-management"]
 affiliate_disclosure: true

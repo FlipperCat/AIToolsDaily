@@ -1,7 +1,8 @@
 ---
 title: "Murf AI Review 2026: Professional Voiceover and Text-to-Speech Platform"
 description: "Murf AI combines AI voices with video synchronization. Best for creating voiceover videos and presentations effortlessly."
-date: 2024-06-18
+
+updated: 2026-01-09
 categories: ["Reviews"]
 tags: ["murf", "voiceover", "text-to-speech", "video-voiceover"]
 affiliate_disclosure: true

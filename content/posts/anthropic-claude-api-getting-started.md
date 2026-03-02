@@ -1,7 +1,8 @@
 ---
 title: "Claude API: Getting Started Guide (With Practical Examples)"
 description: "A practical guide to using the Claude API for developers. Real code examples, pricing breakdown, and tips from actual usage."
-date: 2024-04-01
+
+updated: 2026-02-03
 categories: ["Tutorials"]
 tags: ["claude", "api", "anthropic", "developers", "coding", "tutorial"]
 affiliate_disclosure: true

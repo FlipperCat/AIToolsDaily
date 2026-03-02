@@ -32,7 +32,8 @@ cons:
   - "Can be slow"
 best_for: ["Beginners", "Students", "Rapid Prototyping", "Educators"]
 alternatives: ["Cursor", "Codespaces", "StackBlitz"]
-date: 2023-02-15
+
+updated: 2026-02-17
 updated: 2026-02-17
 ---
 

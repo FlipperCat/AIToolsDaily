@@ -1,7 +1,8 @@
 ---
 title: "Perplexity AI vs Google: Is AI Search Actually Better?"
 description: "I switched from Google to Perplexity for a month. Here's what happened and whether AI search is ready to replace traditional search."
-date: 2025-06-06
+
+updated: 2026-01-16
 categories: ["Comparisons"]
 tags: ["perplexity", "google", "ai search", "research", "productivity"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "Fireflies.ai Review 2026: Intelligent Meeting Notes Automation"
 description: "Complete review of Fireflies.ai transcription, meeting summarization, and team collaboration features for 2026."
-date: 2024-01-23
+
+updated: 2026-02-24
 categories: ["Reviews"]
 tags: ["meeting-notes", "transcription", "team-collaboration", "productivity"]
 affiliate_disclosure: true

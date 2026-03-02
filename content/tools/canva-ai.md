@@ -32,7 +32,8 @@ cons:
   - "Premium features expensive"
 best_for: ["Non-Designers", "Small Businesses", "Social Media Managers", "Educators"]
 alternatives: ["Adobe Express", "Midjourney", "Visme"]
-date: 2023-04-25
+
+updated: 2026-02-12
 updated: 2026-02-17
 ---
 

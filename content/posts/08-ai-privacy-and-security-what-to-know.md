@@ -1,7 +1,8 @@
 ---
 title: "AI Privacy and Security: What to Know"
 description: "Essential guide to AI tool privacy and security. Learn what data is collected, how it's used, and how to protect yourself."
-date: 2023-12-01
+
+updated: 2026-02-05
 categories: ["Guides"]
 tags: ["beginner", "guide", "privacy", "security"]
 affiliate_disclosure: true

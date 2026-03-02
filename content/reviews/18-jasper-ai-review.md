@@ -1,7 +1,8 @@
 ---
 title: "Jasper AI Review 2026: Enterprise AI Content Generation"
 description: "Detailed review of Jasper AI's content generation, brand voice training, and enterprise features for marketing teams in 2026."
-date: 2024-06-27
+
+updated: 2026-01-23
 categories: ["Reviews"]
 tags: ["content-generation", "copywriting", "marketing", "ai-writing"]
 affiliate_disclosure: true

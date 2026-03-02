@@ -32,7 +32,8 @@ cons:
   - "Pro subscription needed for best models"
 best_for: ["Researchers", "Students", "Journalists", "Knowledge Workers"]
 alternatives: ["ChatGPT", "You.com", "Gemini"]
-date: 2024-08-03
+
+updated: 2026-02-04
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Podcasters: Record, Edit, Grow Faster"
 description: "Podcaster's guide to AI tools that actually save time. From transcription to editing to show notes."
-date: 2024-09-02
+
+updated: 2026-02-14
 categories: ["Industry Tools"]
 tags: ["podcasting", "ai tools", "audio", "content creation", "transcription"]
 affiliate_disclosure: true

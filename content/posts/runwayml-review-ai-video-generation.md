@@ -1,7 +1,8 @@
 ---
 title: "Runway ML Review: Is AI Video Generation Actually Usable Yet?"
 description: "I spent a month with Runway ML trying to create real video content. Here's what it can and can't do in 2026."
-date: 2025-05-04
+
+updated: 2026-02-01
 categories: ["Reviews"]
 tags: ["runway", "ai video", "video generation", "video editing", "creative tools"]
 affiliate_disclosure: true

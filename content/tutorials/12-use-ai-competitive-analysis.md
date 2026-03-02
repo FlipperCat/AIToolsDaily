@@ -1,7 +1,8 @@
 ---
 title: "How to Use AI for Competitive Analysis (Step-by-Step Guide)"
 description: "Analyze competitors using AI tools. Uncover their strategies, strengths, and weaknesses to inform your own plan."
-date: 2024-12-19
+
+updated: 2025-12-29
 categories: ["Tutorials"]
 tags: ["Competitive Analysis", "Market Intelligence", "Business Strategy", "AI Research", "Competitor Research"]
 affiliate_disclosure: true

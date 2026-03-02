@@ -1,7 +1,8 @@
 ---
 title: "What is AI? A Simple Explanation for Beginners (2024)"
 description: "Learn what AI really is in plain English. Discover how artificial intelligence works, what it can and cannot do, and why it matters to you."
-date: 2023-09-25
+
+updated: 2026-01-29
 categories: ["Guides"]
 tags: ["beginner", "guide", "artificial intelligence", "what is ai"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "Fireflies.ai Review 2026: AI Meeting Notes and Conversation Intelligence"
 description: "Fireflies.ai records and transcribes meetings with AI notes. Essential tool for capturing and organizing meeting insights."
-date: 2024-10-21
+
+updated: 2026-02-02
 categories: ["Reviews"]
 tags: ["fireflies", "meeting-notes", "transcription", "conversation-intelligence"]
 affiliate_disclosure: true

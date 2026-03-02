@@ -1,7 +1,8 @@
 ---
 title: "Copy.ai Review 2026: AI Copywriting Assistant for Marketers"
 description: "Copy.ai generates marketing copy and content ideas in seconds. Essential tool for copywriters, marketers, and entrepreneurs."
-date: 2024-05-04
+
+updated: 2026-01-09
 categories: ["Reviews"]
 tags: ["copyai", "copywriting", "marketing-copy", "content-generation"]
 affiliate_disclosure: true

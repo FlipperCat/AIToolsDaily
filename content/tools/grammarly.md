@@ -32,7 +32,8 @@ cons:
   - "GrammarlyGO less capable than ChatGPT"
 best_for: ["Everyone", "Business Professionals", "Students", "Non-Native Speakers"]
 alternatives: ["Wordtune", "ProWritingAid", "Hemingway"]
-date: 2024-03-06
+
+updated: 2026-02-24
 updated: 2026-02-17
 ---
 

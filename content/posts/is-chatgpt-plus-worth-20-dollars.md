@@ -1,7 +1,8 @@
 ---
 title: "Is ChatGPT Plus Worth $20/Month? (After 14 Months of Paying)"
 description: "I've paid for ChatGPT Plus for 14 months. Here's my honest assessment of whether it's worth upgrading from free."
-date: 2024-01-20
+
+updated: 2026-02-06
 categories: ["Reviews"]
 tags: ["chatgpt", "chatgpt plus", "openai", "subscription", "ai tools"]
 affiliate_disclosure: true

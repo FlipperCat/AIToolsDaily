@@ -1,7 +1,8 @@
 ---
 title: "Clockwise Review 2026: Team Scheduling and Calendar Optimization"
 description: "Clockwise uses AI to optimize team schedules and protect focus time. Essential for improving team collaboration."
-date: 2025-08-01
+
+updated: 2026-01-24
 categories: ["Reviews"]
 tags: ["clockwise", "calendar-management", "team-scheduling", "productivity"]
 affiliate_disclosure: true

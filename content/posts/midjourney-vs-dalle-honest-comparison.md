@@ -1,7 +1,8 @@
 ---
 title: "Midjourney vs DALL-E 3: Which Makes Better Images? (200+ Generations Compared)"
 description: "I generated 200+ images with both Midjourney and DALL-E 3. Here's which tool wins for different use cases and why the answer isn't obvious."
-date: 2025-04-06
+
+updated: 2026-01-03
 categories: ["Comparisons"]
 tags: ["midjourney", "dalle", "ai images", "comparison", "image generation"]
 affiliate_disclosure: true

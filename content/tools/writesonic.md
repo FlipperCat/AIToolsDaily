@@ -32,7 +32,8 @@ cons:
   - "Some features feel incomplete"
 best_for: ["Bloggers", "Small Businesses", "SEO Specialists", "Solopreneurs"]
 alternatives: ["Jasper", "Copy.ai", "Rytr"]
-date: 2025-01-29
+
+updated: 2026-01-10
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Writers: The Complete Guide"
 description: "Every AI tool writers need - from research to editing. Fiction, non-fiction, copywriting, journalism all covered."
-date: 2024-01-13
+
+updated: 2026-01-27
 categories: ["Industry Tools"]
 tags: ["writers", "ai tools", "writing", "content creation", "authorship"]
 affiliate_disclosure: true

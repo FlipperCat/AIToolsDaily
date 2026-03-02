@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Small Business Owners: What's Actually Worth It (From Someone Who's Tried Everything)"
 description: "I run a small business. I've wasted money on AI tools that didn't help. Here's what actually moves the needle and what's just hype."
-date: 2024-05-12
+
+updated: 2026-02-16
 categories: ["Guides"]
 tags: ["small business", "ai tools", "entrepreneur", "productivity", "business"]
 affiliate_disclosure: true

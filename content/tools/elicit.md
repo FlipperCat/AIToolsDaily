@@ -32,7 +32,8 @@ cons:
   - "Learning curve for workflows"
 best_for: ["Academic Researchers", "PhD Students", "Scientists", "Policy Analysts"]
 alternatives: ["Consensus", "Semantic Scholar", "Connected Papers"]
-date: 2025-08-26
+
+updated: 2026-01-08
 updated: 2026-02-17
 ---
 

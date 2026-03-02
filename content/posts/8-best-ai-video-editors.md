@@ -1,7 +1,8 @@
 ---
 title: "8 Best AI Video Editors in 2025 (Tested & Compared)"
 description: "Top AI video editing tools compared. Auto-cut, effects, synthesis. Find the best AI video editor for your content creation needs in 2026."
-date: 2024-11-14
+
+updated: 2026-01-10
 categories: ["Lists"]
 tags: ["video-editing", "content-creation", "AI-tools", "automation", "video-production"]
 affiliate_disclosure: true

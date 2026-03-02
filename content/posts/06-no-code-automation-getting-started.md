@@ -1,7 +1,8 @@
 ---
 title: "No-Code Automation: Getting Started"
 description: "Beginner's guide to no-code automation tools. Learn to automate workflows without writing any code or technical skills."
-date: 2024-07-22
+
+updated: 2026-01-26
 categories: ["Guides"]
 tags: ["beginner", "guide", "no-code", "automation"]
 affiliate_disclosure: true

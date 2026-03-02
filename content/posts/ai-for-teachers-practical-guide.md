@@ -1,7 +1,8 @@
 ---
 title: "AI for Teachers: Practical Tools That Actually Save Time"
 description: "Real teachers share which AI tools actually help and which are overhyped. Focus on practical classroom use."
-date: 2023-09-27
+
+updated: 2025-12-30
 categories: ["Industry Guides"]
 tags: ["teachers", "education", "ai tools", "classroom", "lesson planning"]
 affiliate_disclosure: true

@@ -32,7 +32,8 @@ cons:
   - "Can produce generic output"
 best_for: ["Marketers", "Small Businesses", "Freelancers", "Social Media Managers"]
 alternatives: ["Jasper", "Writesonic", "Rytr"]
-date: 2023-06-13
+
+updated: 2026-02-20
 updated: 2026-02-17
 ---
 

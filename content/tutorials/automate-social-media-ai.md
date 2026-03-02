@@ -1,7 +1,8 @@
 ---
 title: "How to Automate Social Media Posting with AI (Step-by-Step)"
 description: "Save 10+ hours weekly on social media. Learn to automate content creation, scheduling, and posting with AI tools."
-date: 2024-03-06
+
+updated: 2026-02-04
 categories: ["Tutorials"]
 tags: ["social media automation", "ai tools", "content creation", "marketing"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "Perplexity AI Review 2026: Better Than Google Search?"
 description: "Comprehensive Perplexity AI review. See how this AI search engine compares to Google and ChatGPT for research and everyday questions."
-date: 2023-07-27
+
+updated: 2026-02-08
 categories: ["Reviews"]
 tags: ["perplexity", "ai search", "research", "productivity"]
 affiliate_disclosure: true

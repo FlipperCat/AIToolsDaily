@@ -1,7 +1,8 @@
 ---
 title: "How to Automate Client Proposals (30 Min vs 5 Hours)"
 description: "Streamline proposal generation using AI to create personalized, professional proposals in minutes instead of hours."
-date: 2024-08-17
+
+updated: 2026-02-25
 categories: ["Workflows"]
 tags: ["automation", "workflow", "sales", "ai-tools", "client-management"]
 affiliate_disclosure: true

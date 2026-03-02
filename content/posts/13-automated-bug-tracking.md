@@ -1,7 +1,8 @@
 ---
 title: "Build an Automated Bug Tracking System"
 description: "Streamline bug reporting and management with AI to automatically categorize, prioritize, and assign issues."
-date: 2023-07-18
+
+updated: 2026-02-20
 categories: ["Workflows"]
 tags: ["automation", "workflow", "development", "ai-tools", "project-management"]
 affiliate_disclosure: true

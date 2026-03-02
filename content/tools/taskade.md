@@ -32,7 +32,8 @@ cons:
   - "Mobile app basic"
 best_for: ["Small Teams", "Freelancers", "Startups", "Remote Teams"]
 alternatives: ["Notion", "ClickUp", "Monday.com"]
-date: 2023-04-21
+
+updated: 2026-01-06
 updated: 2026-02-17
 ---
 

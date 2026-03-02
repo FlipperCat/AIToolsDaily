@@ -32,7 +32,8 @@ cons:
   - "Sales-driven pricing"
 best_for: ["Enterprise", "IT Teams", "Salesforce Users", "Large Organizations"]
 alternatives: ["Tray.io", "MuleSoft", "Zapier Enterprise"]
-date: 2025-08-02
+
+updated: 2026-01-25
 updated: 2026-02-17
 ---
 

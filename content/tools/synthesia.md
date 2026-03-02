@@ -32,7 +32,8 @@ cons:
   - "Avatar uncanny valley"
 best_for: ["Enterprise L&D", "Corporate Communications", "Marketing Teams", "Global Companies"]
 alternatives: ["HeyGen", "D-ID", "Colossyan"]
-date: 2025-08-10
+
+updated: 2026-01-22
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "EU AI Act Takes Effect: What It Means for AI Tools"
 description: "The European Union's AI Act is now in force. Here's how it affects the AI tools you use and what compliance means for developers."
-date: 2024-06-11
+
+updated: 2026-02-20
 categories: ["News"]
 tags: ["regulation", "eu", "ai-act", "compliance", "legal"]
 ---

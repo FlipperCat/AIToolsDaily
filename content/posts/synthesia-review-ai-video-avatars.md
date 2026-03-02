@@ -1,7 +1,8 @@
 ---
 title: "Synthesia Review: Are AI Video Avatars Actually Usable?"
 description: "I created 20+ videos with Synthesia's AI avatars. Here's what works, what's uncanny, and whether it's worth $22/month."
-date: 2024-10-13
+
+updated: 2026-01-09
 categories: ["Reviews"]
 tags: ["synthesia", "ai video", "video avatars", "training videos", "video creation"]
 affiliate_disclosure: true

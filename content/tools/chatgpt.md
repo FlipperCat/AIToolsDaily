@@ -34,7 +34,8 @@ cons:
   - "Context window limitations"
 best_for: ["Writers", "Developers", "Researchers", "Students", "Content Creators"]
 alternatives: ["Claude", "Gemini", "Perplexity"]
-date: 2024-07-01
+
+updated: 2025-12-31
 updated: 2026-02-17
 ---
 

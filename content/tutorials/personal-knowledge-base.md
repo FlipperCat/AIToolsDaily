@@ -1,7 +1,8 @@
 ---
 title: "How to Build a Personal Knowledge Base with AI"
 description: "Learn to build a personal knowledge base with AI tools. Organize notes, extract insights, and create a searchable intelligence system."
-date: 2024-02-10
+
+updated: 2026-02-18
 categories: ["Tutorials"]
 tags: ["knowledge management", "AI tools", "note-taking", "personal knowledge base"]
 affiliate_disclosure: true

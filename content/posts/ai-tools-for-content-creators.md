@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for Content Creators: The Complete Stack"
 description: "Every AI tool content creators need for writing, design, video, and growth. Practical recommendations by budget."
-date: 2023-06-07
+
+updated: 2026-01-08
 categories: ["Industry Tools"]
 tags: ["content creation", "ai tools", "creators", "youtube", "writing", "design"]
 affiliate_disclosure: true

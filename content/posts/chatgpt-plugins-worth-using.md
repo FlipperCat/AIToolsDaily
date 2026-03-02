@@ -1,7 +1,8 @@
 ---
 title: "The Only ChatGPT Plugins Actually Worth Using in 2024"
 description: "Most ChatGPT plugins are useless. After testing 50+, here are the 8 that actually improve ChatGPT's capabilities."
-date: 2025-04-29
+
+updated: 2026-02-23
 categories: ["Tips"]
 tags: ["chatgpt", "plugins", "gpts", "productivity", "ai tools"]
 affiliate_disclosure: true

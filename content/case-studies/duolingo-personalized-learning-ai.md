@@ -1,7 +1,8 @@
 ---
 title: "Duolingo's AI Tutoring: How Personalization Doubled Learning Outcomes"
 description: "An inside look at how Duolingo uses AI to personalize language learning for 500 million users, dramatically improving retention and outcomes."
-date: 2023-11-10
+
+updated: 2026-02-22
 categories: ["Case Studies"]
 tags: ["duolingo", "education", "personalization", "machine-learning", "edtech"]
 company: "Duolingo"

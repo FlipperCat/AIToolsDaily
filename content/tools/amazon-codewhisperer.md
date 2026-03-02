@@ -32,7 +32,8 @@ cons:
   - "Less capable for non-AWS code"
 best_for: ["AWS Developers", "Cloud Engineers", "Enterprise Teams", "Security-Conscious Developers"]
 alternatives: ["GitHub Copilot", "Codeium", "Tabnine"]
-date: 2025-01-23
+
+updated: 2026-02-10
 updated: 2026-02-17
 ---
 

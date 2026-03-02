@@ -1,7 +1,8 @@
 ---
 title: "8 Best AI HR Tools in 2025 (Hire 50% Faster)"
 description: "Top AI HR software for recruiting, onboarding, and employee management. Talent acquisition, HRIS, performance. Best HR AI tools in 2026."
-date: 2023-02-23
+
+updated: 2026-02-21
 categories: ["Lists"]
 tags: ["HR", "recruiting", "talent-management", "human-resources", "business-tools"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "OpenAI Sora Now Available: AI Video Generation Goes Mainstream"
 description: "OpenAI's text-to-video model Sora is now publicly available, generating up to 60-second videos from text prompts."
-date: 2023-08-22
+
+updated: 2025-12-29
 categories: ["News"]
 tags: ["openai", "sora", "video-generation", "ai-creative", "release"]
 ---

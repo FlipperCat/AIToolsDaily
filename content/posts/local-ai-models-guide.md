@@ -1,7 +1,8 @@
 ---
 title: "Running AI Locally: Ollama, LM Studio, and Local LLMs Explained"
 description: "You can run AI models on your own computer - no API costs, no internet needed, complete privacy. Here's how."
-date: 2025-02-08
+
+updated: 2026-01-07
 categories: ["Tutorials"]
 tags: ["local ai", "ollama", "llm", "privacy", "self-hosted"]
 affiliate_disclosure: true

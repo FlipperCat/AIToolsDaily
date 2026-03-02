@@ -1,7 +1,8 @@
 ---
 title: "Machine Learning vs AI: Simple Explanation"
 description: "Understand the difference between AI and machine learning. Learn how they relate and which term applies to different tools."
-date: 2024-02-18
+
+updated: 2026-01-03
 categories: ["Guides"]
 tags: ["beginner", "guide", "machine learning", "ai"]
 affiliate_disclosure: true

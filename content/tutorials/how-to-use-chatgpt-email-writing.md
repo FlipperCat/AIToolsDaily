@@ -1,7 +1,8 @@
 ---
 title: "How to Use ChatGPT for Email Writing - Complete Guide"
 description: "Master email writing with ChatGPT. Learn prompts, templates, and techniques to write professional emails 10x faster."
-date: 2025-06-25
+
+updated: 2026-01-12
 categories: ["Tutorials"]
 tags: ["chatgpt", "email writing", "productivity", "ai writing"]
 affiliate_disclosure: true

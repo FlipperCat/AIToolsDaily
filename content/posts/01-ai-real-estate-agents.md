@@ -1,7 +1,8 @@
 ---
 title: "AI for Real Estate Agents: Save 15+ Hours Weekly (2024 Guide)"
 description: "Discover how real estate agents use AI to automate lead generation, property analysis, and client communication. Save 15+ hours weekly."
-date: 2025-03-17
+
+updated: 2025-12-29
 categories: ["Guides"]
 tags: ["real-estate", "ai", "automation", "lead-generation", "business-tools"]
 affiliate_disclosure: true

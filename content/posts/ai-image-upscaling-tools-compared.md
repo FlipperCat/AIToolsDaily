@@ -1,7 +1,8 @@
 ---
 title: "AI Image Upscaling Tools Compared: I Tested 7 on the Same Photo"
 description: "I ran the same low-resolution image through 7 AI upscaling tools. Here's which ones actually work and which are a waste of money."
-date: 2023-03-26
+
+updated: 2026-02-11
 categories: ["Comparisons"]
 tags: ["image upscaling", "ai image", "photo editing", "topaz", "gigapixel", "comparison"]
 affiliate_disclosure: true

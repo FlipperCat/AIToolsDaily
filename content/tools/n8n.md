@@ -33,7 +33,8 @@ cons:
   - "Less polished UI"
 best_for: ["Developers", "Technical Teams", "Privacy-Conscious Users", "Startups"]
 alternatives: ["Zapier", "Make", "Pipedream"]
-date: 2024-03-05
+
+updated: 2026-02-05
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "AI Tools for YouTube Creators: From Scripts to Thumbnails"
 description: "Complete guide to AI tools that help YouTube creators work faster. Script writing, editing, thumbnails, SEO, and more."
-date: 2024-12-12
+
+updated: 2026-02-23
 categories: ["Industry Tools"]
 tags: ["youtube", "content creation", "ai tools", "video editing", "thumbnails"]
 affiliate_disclosure: true

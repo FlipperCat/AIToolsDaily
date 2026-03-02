@@ -1,7 +1,8 @@
 ---
 title: "How Shopify Reduced Support Tickets by 40% with AI"
 description: "A deep dive into how Shopify implemented AI-powered customer service to dramatically reduce support volume while improving customer satisfaction."
-date: 2023-10-19
+
+updated: 2026-01-30
 categories: ["Case Studies"]
 tags: ["shopify", "customer-service", "chatbots", "ai-implementation", "e-commerce"]
 company: "Shopify"

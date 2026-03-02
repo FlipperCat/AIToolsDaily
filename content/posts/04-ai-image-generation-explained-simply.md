@@ -1,7 +1,8 @@
 ---
 title: "AI Image Generation Explained Simply"
 description: "Beginner's guide to AI image generators. Learn how they work, what tools to use, and how to create amazing images with text."
-date: 2025-01-14
+
+updated: 2026-01-07
 categories: ["Guides"]
 tags: ["beginner", "guide", "image generation", "ai art"]
 affiliate_disclosure: true

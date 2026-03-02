@@ -1,7 +1,8 @@
 ---
 title: "I Tried Every Free AI Writing Tool - Here's What Actually Works"
 description: "After testing 15+ free AI writing tools, here's my honest ranking of which ones are worth your time and which are garbage."
-date: 2023-02-21
+
+updated: 2026-01-22
 categories: ["Reviews"]
 tags: ["free ai tools", "ai writing", "chatgpt", "claude", "comparison"]
 affiliate_disclosure: true

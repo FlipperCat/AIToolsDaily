@@ -1,7 +1,8 @@
 ---
 title: "How to Detect AI-Written Content (And Why Detection Tools Fail)"
 description: "I tested 5 AI detection tools and found they're less reliable than you'd think. Here's what actually gives AI content away."
-date: 2025-01-01
+
+updated: 2025-12-31
 categories: ["Guides"]
 tags: ["ai detection", "ai writing", "chatgpt", "content authenticity", "writing"]
 affiliate_disclosure: true

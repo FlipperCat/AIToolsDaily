@@ -1,7 +1,8 @@
 ---
 title: "5 Zapier Automations That Actually Save Time (And 10 That Wasted Mine)"
 description: "I've built 47 Zapier automations. Most were pointless. Here are the 5 that actually matter and why the others failed."
-date: 2024-07-13
+
+updated: 2026-01-14
 categories: ["Workflows"]
 tags: ["zapier", "automation", "productivity", "workflows", "time saving"]
 affiliate_disclosure: true

@@ -1,7 +1,8 @@
 ---
 title: "Best AI Image Generators 2024: Midjourney vs DALL-E vs Stable Diffusion"
 description: "I generated 500+ images across every major AI art tool. Here's which one to use for what—and which ones aren't worth your money."
-date: 2024-10-31
+
+updated: 2026-02-19
 categories: ["Lists"]
 tags: ["ai-art", "image-generation", "midjourney", "dall-e", "stable-diffusion", "best-of"]
 ---

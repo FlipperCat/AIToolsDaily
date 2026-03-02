@@ -33,7 +33,8 @@ cons:
   - "Style less distinctive"
 best_for: ["Designers", "Marketing Teams", "Enterprise", "Creative Professionals"]
 alternatives: ["DALL-E 3", "Midjourney", "Canva AI"]
-date: 2025-03-24
+
+updated: 2026-01-24
 updated: 2026-02-17
 ---
 

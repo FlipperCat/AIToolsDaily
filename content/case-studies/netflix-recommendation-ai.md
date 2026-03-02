@@ -1,7 +1,8 @@
 ---
 title: "Netflix Recommendation AI: The Algorithm Behind $1B in Annual Value"
 description: "How Netflix's recommendation system drives engagement and saves over $1 billion annually by helping viewers find content they love."
-date: 2024-11-27
+
+updated: 2026-01-07
 categories: ["Case Studies"]
 tags: ["netflix", "recommendations", "machine-learning", "streaming", "personalization"]
 company: "Netflix"

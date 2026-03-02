@@ -1,7 +1,8 @@
 ---
 title: "Notion AI: Complete Guide to Actually Using It"
 description: "Notion AI costs $10/month. Here's every feature, when each is useful, and whether it's worth the money for your workflow."
-date: 2024-04-13
+
+updated: 2026-02-02
 categories: ["Tutorials"]
 tags: ["notion", "notion ai", "productivity", "note-taking", "ai tools"]
 affiliate_disclosure: true
