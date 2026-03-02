@@ -1,7 +1,7 @@
 ---
 title: "Descript vs Premiere Pro (2026): Video Editing Software Comparison"
 description: "Compare Descript and Adobe Premiere Pro for video editing. Evaluate features, pricing, ease of use, and which video editor is best for your needs."
-date: 2026-02-17
+date: 2025-10-07
 categories: ["Comparisons"]
 tags: ["descript", "premiere-pro", "video-editing", "content-creation"]
 affiliate_disclosure: true

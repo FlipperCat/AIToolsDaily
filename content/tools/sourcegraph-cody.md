@@ -32,7 +32,7 @@ cons:
   - "Enterprise focus"
 best_for: ["Enterprise Teams", "Large Codebases", "Platform Engineers", "Developer Experience Teams"]
 alternatives: ["Cursor", "GitHub Copilot", "Continue"]
-date: 2026-02-17
+date: 2024-09-07
 updated: 2026-02-17
 ---
 

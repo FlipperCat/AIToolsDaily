@@ -1,7 +1,7 @@
 ---
 title: "How to Transcribe Meetings Automatically (Step-by-Step Guide)"
 description: "Use AI to automatically transcribe, summarize, and organize meeting notes. Never miss important details again."
-date: 2026-02-17
+date: 2023-07-14
 categories: ["Tutorials"]
 tags: ["Meeting Transcription", "Productivity", "AI Automation", "Note-Taking", "Work Efficiency"]
 affiliate_disclosure: true

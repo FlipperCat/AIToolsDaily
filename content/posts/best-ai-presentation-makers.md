@@ -1,7 +1,7 @@
 ---
 title: "Best AI Presentation Makers: I Tested 7 for Real Work"
 description: "AI can now create entire presentations. I tested the major tools on actual work projects. Here's what produces usable slides."
-date: 2025-01-24
+date: 2023-09-13
 categories: ["Reviews"]
 tags: ["presentations", "ai tools", "slides", "productivity", "business tools"]
 affiliate_disclosure: true

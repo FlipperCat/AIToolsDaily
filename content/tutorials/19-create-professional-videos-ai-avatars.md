@@ -1,7 +1,7 @@
 ---
 title: "How to Create Professional Videos with AI Avatars (Step-by-Step Guide)"
 description: "Generate engaging video content with realistic AI avatars, perfect for training, marketing, and explainer videos"
-date: 2026-02-17
+date: 2025-10-23
 categories: ["Tutorials"]
 tags: ["AI video generation", "avatar videos", "video marketing", "synthetic media"]
 affiliate_disclosure: true

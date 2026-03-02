@@ -1,7 +1,7 @@
 ---
 title: "10 Best AI Presentation Tools in 2024 (Tested & Ranked)"
 description: "Create stunning presentations in minutes with AI. Compare Gamma, Beautiful.ai, Tome, and more. Find the best AI presentation maker for you."
-date: 2024-07-25
+date: 2024-03-22
 categories: ["Lists"]
 tags: ["ai presentations", "productivity", "design", "presentation tools"]
 affiliate_disclosure: true

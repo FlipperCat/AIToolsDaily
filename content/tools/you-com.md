@@ -32,7 +32,7 @@ cons:
   - "Search quality varies"
 best_for: ["Privacy-Conscious Users", "Developers", "Multi-Purpose Searchers"]
 alternatives: ["Perplexity", "ChatGPT", "DuckDuckGo"]
-date: 2026-02-17
+date: 2025-03-02
 updated: 2026-02-17
 ---
 

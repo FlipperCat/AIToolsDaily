@@ -32,7 +32,7 @@ cons:
   - "Can be complex for simple needs"
 best_for: ["Operations Teams", "Product Managers", "Data-Driven Teams", "Startups"]
 alternatives: ["Notion AI", "Airtable", "Taskade"]
-date: 2026-02-17
+date: 2025-06-15
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Claude vs Gemini (2026): Which AI Should You Use?"
 description: "Detailed comparison of Claude and Google Gemini. Compare features, pricing, and find out which AI assistant is better for your needs."
-date: 2026-02-18
+date: 2024-11-07
 categories: ["Comparisons"]
 tags: ["claude", "gemini", "ai comparison", "google", "anthropic"]
 affiliate_disclosure: true

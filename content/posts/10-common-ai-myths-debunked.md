@@ -1,7 +1,7 @@
 ---
 title: "10 Common AI Myths Debunked"
 description: "Separate AI facts from fiction with 10 debunked myths about artificial intelligence."
-date: 2025-03-28
+date: 2026-01-06
 categories: ["Tips"]
 tags: ["ai", "myths", "misconceptions", "education"]
 affiliate_disclosure: true

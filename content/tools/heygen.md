@@ -32,7 +32,7 @@ cons:
   - "Higher price point"
 best_for: ["Training Teams", "Marketing", "Sales Teams", "HR Departments"]
 alternatives: ["Synthesia", "D-ID", "Runway"]
-date: 2026-02-17
+date: 2023-12-21
 updated: 2026-02-17
 ---
 

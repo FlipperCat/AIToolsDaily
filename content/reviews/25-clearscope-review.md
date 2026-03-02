@@ -1,7 +1,7 @@
 ---
 title: "Clearscope Review 2026: AI Research Tool for Content Optimization"
 description: "In-depth review of Clearscope's content optimization, competitive analysis, and SEO research features for 2026."
-date: 2026-02-17
+date: 2024-09-06
 categories: ["Reviews"]
 tags: ["content-optimization", "seo", "research", "marketing"]
 affiliate_disclosure: true

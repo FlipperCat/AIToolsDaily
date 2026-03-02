@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot vs Cursor vs Codeium: Which AI Coding Tool Wins?"
 description: "I've used all three AI coding assistants extensively. Here's my honest comparison of features, quality, and value."
-date: 2024-08-26
+date: 2023-10-20
 categories: ["Comparisons"]
 tags: ["github copilot", "cursor", "codeium", "ai coding", "developer tools"]
 affiliate_disclosure: true

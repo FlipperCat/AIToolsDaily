@@ -1,7 +1,7 @@
 ---
 title: "Perplexity vs ChatGPT: Which Should You Use?"
 description: "Perplexity searches the web. ChatGPT generates from training. Here's when to use each."
-date: 2024-07-08
+date: 2024-07-24
 categories: ["Comparisons"]
 tags: ["perplexity", "chatgpt", "search", "ai tools", "comparison"]
 affiliate_disclosure: true

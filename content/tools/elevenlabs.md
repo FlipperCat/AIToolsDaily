@@ -32,7 +32,7 @@ cons:
   - "API costs add up"
 best_for: ["Content Creators", "Audiobook Producers", "Game Developers", "Podcasters"]
 alternatives: ["Play.ht", "Murf.ai", "Resemble.ai"]
-date: 2026-02-17
+date: 2025-12-08
 updated: 2026-02-17
 ---
 

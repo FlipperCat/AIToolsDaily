@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Your Accounting with AI (Step-by-Step Guide)"
 description: "Save hours monthly by automating invoice processing, expense tracking, and financial reporting with AI tools"
-date: 2026-02-17
+date: 2023-01-16
 categories: ["Tutorials"]
 tags: ["AI accounting", "financial automation", "invoice processing", "business accounting"]
 affiliate_disclosure: true

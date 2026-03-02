@@ -1,7 +1,7 @@
 ---
 title: "7 ChatGPT Alternatives That Are Actually Free (2025)"
 description: "Tired of ChatGPT limits? Here are 7 genuinely free AI chatbots you can use right now, with honest comparisons."
-date: 2025-05-05
+date: 2024-05-28
 categories: ["Lists"]
 tags: ["chatgpt", "ai chatbots", "free tools", "claude", "gemini", "alternatives"]
 affiliate_disclosure: true

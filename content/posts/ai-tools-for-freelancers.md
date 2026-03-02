@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for Freelancers: Work Faster, Earn More"
 description: "Freelancer's guide to AI tools that actually increase your hourly rate. Writing, design, client communication, and automation."
-date: 2024-06-21
+date: 2024-02-15
 categories: ["Industry Tools"]
 tags: ["freelancers", "ai tools", "productivity", "remote work", "solopreneurs"]
 affiliate_disclosure: true

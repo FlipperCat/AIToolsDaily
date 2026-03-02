@@ -33,7 +33,7 @@ cons:
   - "Content restrictions"
 best_for: ["Marketers", "Content Creators", "Designers", "ChatGPT Users"]
 alternatives: ["Midjourney", "Stable Diffusion", "Adobe Firefly"]
-date: 2026-02-17
+date: 2025-11-16
 updated: 2026-02-17
 ---
 

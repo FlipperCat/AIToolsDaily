@@ -32,7 +32,7 @@ cons:
   - "Newer with fewer features"
 best_for: ["Logo Designers", "Marketers", "Social Media Managers", "Brand Designers"]
 alternatives: ["DALL-E 3", "Midjourney", "Adobe Firefly"]
-date: 2026-02-17
+date: 2023-05-10
 updated: 2026-02-17
 ---
 

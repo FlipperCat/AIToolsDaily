@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot: 55% Faster Coding Across 1 Million Developers"
 description: "Data from GitHub's internal studies and enterprise deployments reveals how AI pair programming is transforming software development at scale."
-date: 2026-01-25
+date: 2023-12-04
 categories: ["Case Studies"]
 tags: ["github", "copilot", "coding", "ai-development", "productivity"]
 company: "GitHub"

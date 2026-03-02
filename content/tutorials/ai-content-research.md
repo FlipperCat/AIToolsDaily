@@ -1,7 +1,7 @@
 ---
 title: "How to Use AI for Content Research (Step-by-Step Guide)"
 description: "Master AI-powered content research. Find topics, analyze competitors, gather data, and create better content faster with these techniques."
-date: 2026-02-18
+date: 2025-12-07
 categories: ["Tutorials"]
 tags: ["content research", "ai research", "perplexity", "content creation"]
 affiliate_disclosure: true

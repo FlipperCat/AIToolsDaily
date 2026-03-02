@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Performance Reviews"
 description: "Streamline employee performance reviews using AI to collect feedback, analyze data, and generate personalized assessments."
-date: 2025-04-28
+date: 2026-01-03
 categories: ["Workflows"]
 tags: ["automation", "workflow", "hr", "ai-tools", "employee-management"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "How I Automated My Social Media With AI (Real Setup)"
 description: "My exact system for scheduling, creating, and managing social media with AI tools. Saves 10+ hours per week."
-date: 2024-11-07
+date: 2025-03-27
 categories: ["Tutorials"]
 tags: ["social media", "automation", "ai tools", "productivity", "content creation"]
 affiliate_disclosure: true

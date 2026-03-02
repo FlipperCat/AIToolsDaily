@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Your Inbox with AI (Step-by-Step Guide)"
 description: "Learn to use AI tools to automatically sort, categorize, and respond to emails, saving hours weekly on email management."
-date: 2026-02-17
+date: 2025-11-02
 categories: ["Tutorials"]
 tags: ["Email Automation", "Productivity", "AI Tools", "Inbox Management", "Workflow"]
 affiliate_disclosure: true

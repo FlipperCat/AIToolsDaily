@@ -1,7 +1,7 @@
 ---
 title: "How to Use Notion AI - Complete Tutorial (2026)"
 description: "Master Notion AI with this step-by-step guide. Learn to write, summarize, brainstorm, and automate your workspace with AI."
-date: 2026-02-19
+date: 2024-09-30
 categories: ["Tutorials"]
 tags: ["notion ai", "productivity", "note-taking", "ai writing"]
 affiliate_disclosure: true

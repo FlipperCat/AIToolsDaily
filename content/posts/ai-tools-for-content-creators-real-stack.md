@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for Content Creators: My Actual Stack (Not the Influencer Version)"
 description: "The AI tools I actually use for content creation, not the 47-tool lists that influencers promote. Real stack, real costs, real results."
-date: 2024-08-09
+date: 2025-11-07
 categories: ["Guides"]
 tags: ["content creation", "ai tools", "youtube", "blogging", "creator tools"]
 affiliate_disclosure: true

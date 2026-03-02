@@ -33,7 +33,7 @@ cons:
   - "Variable output quality"
 best_for: ["Technical Users", "Developers", "Researchers", "Power Users"]
 alternatives: ["Midjourney", "DALL-E 3", "Leonardo AI"]
-date: 2026-02-17
+date: 2023-06-20
 updated: 2026-02-17
 ---
 

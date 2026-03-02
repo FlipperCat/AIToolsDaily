@@ -1,7 +1,7 @@
 ---
 title: "Tome Review 2026: AI Storytelling and Presentation Platform"
 description: "Tome creates immersive stories and presentations with AI. Perfect for narrative-driven visual communication."
-date: 2026-02-17
+date: 2023-12-28
 categories: ["Reviews"]
 tags: ["tome", "storytelling", "presentations", "ai-design"]
 affiliate_disclosure: true

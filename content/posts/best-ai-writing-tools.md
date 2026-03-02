@@ -1,7 +1,7 @@
 ---
 title: "7 Best AI Writing Tools in 2025 (Tested & Ranked)"
 description: "The best AI writing tools for content creation, copywriting, and more. Includes pricing, features, and honest recommendations based on real testing."
-date: 2025-05-14
+date: 2023-09-30
 categories: ["Lists"]
 tags: ["ai writing", "content creation", "copywriting", "productivity"]
 affiliate_disclosure: true

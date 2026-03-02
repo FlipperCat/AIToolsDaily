@@ -33,7 +33,7 @@ cons:
   - "Rendering can be slow"
 best_for: ["Video Creators", "Filmmakers", "Content Creators", "Marketing Teams"]
 alternatives: ["Pika", "HeyGen", "Synthesia"]
-date: 2026-02-17
+date: 2026-02-11
 updated: 2026-02-17
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for Small Business: What's Actually Worth Paying For"
 description: "Small business owner here. I tested AI tools for real business operations. Here's what saves money and what's just hype."
-date: 2024-10-24
+date: 2025-09-04
 categories: ["Industry Tools"]
 tags: ["small business", "ai tools", "productivity", "automation", "business tools"]
 affiliate_disclosure: true

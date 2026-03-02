@@ -1,7 +1,7 @@
 ---
 title: "Notion AI: Complete Guide to Getting More Done"
 description: "Master Notion AI with this comprehensive guide. Learn prompts, use cases, and workflows to boost your productivity."
-date: 2026-02-11
+date: 2026-01-23
 categories: ["Tutorials"]
 tags: ["notion", "ai", "productivity", "note-taking"]
 affiliate_disclosure: true

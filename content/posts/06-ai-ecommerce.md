@@ -1,7 +1,7 @@
 ---
 title: "AI for E-commerce: Complete Store Automation Guide (30-40% Higher AOV)"
 description: "Discover AI tools for product recommendations, inventory management, customer service, and personalization. Increase AOV by 30-40%."
-date: 2024-05-07
+date: 2023-04-25
 categories: ["Guides"]
 tags: ["ecommerce", "ai", "retail", "automation", "sales"]
 affiliate_disclosure: true

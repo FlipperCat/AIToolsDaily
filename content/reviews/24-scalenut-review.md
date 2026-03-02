@@ -1,7 +1,7 @@
 ---
 title: "Scalenut Review 2026: AI Content Platform for SEO and Marketing"
 description: "Comprehensive review of Scalenut's content generation, SEO optimization, and content operations features for 2026."
-date: 2026-02-17
+date: 2025-12-14
 categories: ["Reviews"]
 tags: ["content-generation", "seo", "marketing", "ai-writing"]
 affiliate_disclosure: true

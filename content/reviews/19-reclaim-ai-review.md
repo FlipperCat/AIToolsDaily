@@ -1,7 +1,7 @@
 ---
 title: "Reclaim AI Review 2026: Smart Calendar and Time Management Assistant"
 description: "Reclaim AI optimizes schedules using AI to protect focus time and boost productivity. Best calendar automation tool."
-date: 2026-02-17
+date: 2024-05-25
 categories: ["Reviews"]
 tags: ["reclaim-ai", "calendar-management", "time-management", "productivity"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "Notion vs Obsidian (2026): Which Note-Taking App is Better?"
 description: "Detailed comparison of Notion and Obsidian. See which note-taking tool is better for your workflow, including AI features, pricing, and use cases."
-date: 2026-02-16
+date: 2023-08-04
 categories: ["Comparisons"]
 tags: ["notion", "obsidian", "note-taking", "productivity", "comparison"]
 affiliate_disclosure: true

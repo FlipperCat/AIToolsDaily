@@ -1,7 +1,7 @@
 ---
 title: "Build an Automated Backup Workflow"
 description: "Protect your business-critical data with AI-managed automated backups, verification, and disaster recovery."
-date: 2025-03-19
+date: 2025-06-13
 categories: ["Workflows"]
 tags: ["automation", "workflow", "data-management", "ai-tools", "disaster-recovery"]
 affiliate_disclosure: true

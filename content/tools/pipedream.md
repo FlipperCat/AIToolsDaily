@@ -32,7 +32,7 @@ cons:
   - "UI can be confusing"
 best_for: ["Developers", "Technical Founders", "DevOps", "API Integrations"]
 alternatives: ["n8n", "Zapier", "Make"]
-date: 2026-02-17
+date: 2025-01-31
 updated: 2026-02-17
 ---
 

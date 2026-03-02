@@ -1,7 +1,7 @@
 ---
 title: "Beautiful.ai Review 2026: AI-Powered Presentation Design Platform"
 description: "Beautiful.ai creates stunning presentations with AI design assistance. Best choice for professional slide design."
-date: 2026-02-17
+date: 2023-03-03
 categories: ["Reviews"]
 tags: ["beautiful-ai", "presentations", "design-tool", "ai-design"]
 affiliate_disclosure: true

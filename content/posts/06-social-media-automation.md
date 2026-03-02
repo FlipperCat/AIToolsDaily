@@ -1,7 +1,7 @@
 ---
 title: "Create a Social Media Automation System (Save 10+ Hours/Week)"
 description: "Build an intelligent social media system using AI to schedule posts, engage audiences, and optimize content across platforms."
-date: 2025-04-25
+date: 2025-06-27
 categories: ["Workflows"]
 tags: ["automation", "workflow", "social-media", "ai-tools", "marketing"]
 affiliate_disclosure: true

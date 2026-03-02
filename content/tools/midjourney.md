@@ -33,7 +33,7 @@ cons:
   - "Queue times during peak hours"
 best_for: ["Artists", "Designers", "Content Creators", "Marketing Teams"]
 alternatives: ["DALL-E 3", "Stable Diffusion", "Leonardo AI"]
-date: 2026-02-17
+date: 2025-01-22
 updated: 2026-02-17
 ---
 

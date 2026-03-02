@@ -1,7 +1,7 @@
 ---
 title: "25 ChatGPT Prompts for Better Writing (Copy & Paste)"
 description: "Ready-to-use ChatGPT prompts for writing better content. Copy these templates for blog posts, emails, social media, and more."
-date: 2024-08-16
+date: 2025-09-30
 categories: ["Lists"]
 tags: ["chatgpt prompts", "ai writing", "content creation", "templates"]
 affiliate_disclosure: true

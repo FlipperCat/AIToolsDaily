@@ -1,7 +1,7 @@
 ---
 title: "Meta's Llama AI: What It Is and How to Use It"
 description: "Guide to Meta's open-source Llama models. What they can do, how to run them, and whether they're right for you."
-date: 2024-08-26
+date: 2024-05-18
 categories: ["Tutorials"]
 tags: ["llama", "meta", "open source", "ai models", "local ai"]
 affiliate_disclosure: true

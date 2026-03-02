@@ -32,7 +32,7 @@ cons:
   - "Basic AI summarization"
 best_for: ["Product Teams", "UX Researchers", "Recruiters", "Distributed Teams"]
 alternatives: ["Otter.ai", "Grain", "Fireflies.ai"]
-date: 2026-02-17
+date: 2023-04-19
 updated: 2026-02-17
 ---
 

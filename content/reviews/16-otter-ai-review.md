@@ -1,7 +1,7 @@
 ---
 title: "Otter.ai Review 2026: The Best AI Transcription Service"
 description: "In-depth review of Otter.ai's transcription features, accuracy, pricing, and how it compares to competitors in 2026."
-date: 2026-02-17
+date: 2023-04-01
 categories: ["Reviews"]
 tags: ["transcription", "meeting-notes", "voice-to-text", "productivity"]
 affiliate_disclosure: true

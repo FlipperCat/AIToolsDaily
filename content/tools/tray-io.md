@@ -32,7 +32,7 @@ cons:
   - "Steeper learning curve"
 best_for: ["Enterprise", "Operations Teams", "IT Departments", "Large Organizations"]
 alternatives: ["Workato", "MuleSoft", "Zapier Enterprise"]
-date: 2026-02-17
+date: 2025-11-17
 updated: 2026-02-17
 ---
 

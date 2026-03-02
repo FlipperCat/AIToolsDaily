@@ -1,7 +1,7 @@
 ---
 title: "Frase Review 2026: AI-Powered SEO Content Creation Tool"
 description: "Frase combines AI content writing with SEO optimization research. Perfect for creating search-friendly content at scale."
-date: 2026-02-17
+date: 2025-10-11
 categories: ["Reviews"]
 tags: ["frase", "seo-tool", "content-research", "ai-writing"]
 affiliate_disclosure: true

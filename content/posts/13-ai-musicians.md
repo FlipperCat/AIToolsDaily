@@ -1,7 +1,7 @@
 ---
 title: "AI for Musicians: Music Production AI Complete Guide"
 description: "Master AI tools for composition, production, mixing, mastering, and distribution. Produce professional music faster and reach more listeners."
-date: 2025-07-23
+date: 2023-03-28
 categories: ["Guides"]
 tags: ["music", "ai", "production", "composition", "audio"]
 affiliate_disclosure: true

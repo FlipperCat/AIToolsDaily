@@ -1,7 +1,7 @@
 ---
 title: "AI Tool Deals & Discounts (Updated February 2026)"
 description: "The best deals on AI tools: free trials, discount codes, and special offers. Updated weekly."
-date: 2026-02-18
+date: 2025-11-24
 layout: single
 ---
 

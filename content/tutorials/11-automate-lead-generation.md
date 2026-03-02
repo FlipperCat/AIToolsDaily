@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Lead Generation with AI (Step-by-Step Guide)"
 description: "Use AI to automatically identify and qualify sales leads. Scale lead generation while reducing manual work."
-date: 2026-02-17
+date: 2023-07-27
 categories: ["Tutorials"]
 tags: ["Lead Generation", "Sales Automation", "AI Marketing", "Business Growth", "Sales Enablement"]
 affiliate_disclosure: true

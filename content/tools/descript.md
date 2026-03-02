@@ -32,7 +32,7 @@ cons:
   - "Export times"
 best_for: ["Podcasters", "Video Creators", "Course Creators", "Marketing Teams"]
 alternatives: ["Adobe Premiere", "CapCut", "Riverside"]
-date: 2026-02-17
+date: 2023-11-14
 updated: 2026-02-17
 ---
 

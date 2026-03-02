@@ -1,7 +1,7 @@
 ---
 title: "Midjourney Prompts: Complete Guide to Better Images"
 description: "After 1000+ Midjourney generations, here are the prompt techniques that actually work. Structures, parameters, and examples."
-date: 2024-10-02
+date: 2025-09-29
 categories: ["Tutorials"]
 tags: ["midjourney", "ai images", "prompts", "image generation", "ai art"]
 affiliate_disclosure: true

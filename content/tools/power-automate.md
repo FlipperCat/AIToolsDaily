@@ -33,7 +33,7 @@ cons:
   - "Learning curve for advanced features"
 best_for: ["Microsoft Shops", "Enterprise", "IT Teams", "Office Workers"]
 alternatives: ["Zapier", "Make", "UiPath"]
-date: 2026-02-17
+date: 2023-06-23
 updated: 2026-02-17
 ---
 

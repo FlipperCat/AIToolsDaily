@@ -1,7 +1,7 @@
 ---
 title: "Reflect Review 2026: AI-Powered Personal Knowledge Management"
 description: "Reflect combines note-taking with AI-powered organization and retrieval. Best for researchers and knowledge workers."
-date: 2026-02-17
+date: 2024-09-15
 categories: ["Reviews"]
 tags: ["reflect", "note-taking", "knowledge-management", "research"]
 affiliate_disclosure: true

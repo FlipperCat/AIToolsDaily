@@ -1,7 +1,7 @@
 ---
 title: "Claude Tips Nobody Talks About (After 6 Months of Daily Use)"
 description: "I've used Claude every day for 6 months. Here are the techniques and tricks that actually matter - not the basic stuff everyone already knows."
-date: 2025-02-14
+date: 2024-04-27
 categories: ["Tutorials"]
 tags: ["claude", "ai tips", "prompts", "productivity", "anthropic"]
 affiliate_disclosure: true

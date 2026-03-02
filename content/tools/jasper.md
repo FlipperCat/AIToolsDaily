@@ -33,7 +33,7 @@ cons:
   - "Overkill for individual users"
 best_for: ["Marketing Teams", "Content Agencies", "Enterprise", "Brand Managers"]
 alternatives: ["Copy.ai", "Writesonic", "ChatGPT"]
-date: 2026-02-17
+date: 2025-12-13
 updated: 2026-02-17
 ---
 

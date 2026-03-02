@@ -1,7 +1,7 @@
 ---
 title: "10 AI Tools Every Solopreneur Needs"
 description: "Essential AI tools for solopreneurs to scale operations, save time, and maximize revenue."
-date: 2024-06-28
+date: 2024-08-24
 categories: ["Tips"]
 tags: ["solopreneur", "ai-tools", "automation", "business"]
 affiliate_disclosure: true

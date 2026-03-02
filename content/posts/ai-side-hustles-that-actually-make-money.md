@@ -1,7 +1,7 @@
 ---
 title: "AI Side Hustles That Actually Make Money (Not the TikTok BS)"
 description: "Real AI side hustles with real income potential. No 'make $10K in 30 days' garbage - just what actually works."
-date: 2025-04-30
+date: 2023-10-08
 categories: ["Guides"]
 tags: ["side hustle", "make money", "ai tools", "freelancing", "income"]
 affiliate_disclosure: true

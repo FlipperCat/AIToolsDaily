@@ -1,7 +1,7 @@
 ---
 title: "Canva AI Features: Which Ones Are Actually Useful (Honest Review)"
 description: "Canva added a ton of AI features. I tested them all. Here's what's genuinely useful and what's just marketing fluff."
-date: 2024-11-27
+date: 2025-12-02
 categories: ["Reviews"]
 tags: ["canva", "ai design", "design tools", "canva ai", "graphic design"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "Best AI Writing Assistants: Jasper vs Copy.ai vs ChatGPT"
 description: "Comparing the top AI writing tools. Which one actually improves your writing workflow?"
-date: 2024-04-15
+date: 2024-11-16
 categories: ["Comparisons"]
 tags: ["ai writing", "jasper", "copy.ai", "chatgpt", "content creation"]
 affiliate_disclosure: true

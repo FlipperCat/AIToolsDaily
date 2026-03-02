@@ -32,7 +32,7 @@ cons:
   - "Monthly cost adds up"
 best_for: ["Professional Developers", "Students", "Teams", "Open Source Contributors"]
 alternatives: ["Cursor", "Codeium", "Tabnine"]
-date: 2026-02-17
+date: 2024-01-26
 updated: 2026-02-17
 ---
 

@@ -32,7 +32,7 @@ cons:
   - "Some complex actions need workarounds"
 best_for: ["Business Users", "Marketers", "Operations Teams", "Small Businesses"]
 alternatives: ["Make", "n8n", "Pipedream"]
-date: 2026-02-17
+date: 2024-04-07
 updated: 2026-02-17
 ---
 

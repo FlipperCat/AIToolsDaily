@@ -1,7 +1,7 @@
 ---
 title: "AI Image Generators Compared: Midjourney vs DALL-E vs Stable Diffusion"
 description: "Which AI image generator creates the best images? We compare quality, style, ease of use, and value."
-date: 2024-03-18
+date: 2025-05-21
 categories: ["Comparisons"]
 tags: ["midjourney", "dall-e", "stable diffusion", "ai art", "image generation"]
 affiliate_disclosure: true

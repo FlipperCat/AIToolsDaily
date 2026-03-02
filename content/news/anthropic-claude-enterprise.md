@@ -1,7 +1,7 @@
 ---
 title: "Anthropic Launches Claude Enterprise with Advanced Security Features"
 description: "Anthropic's new Claude Enterprise tier offers SOC 2 compliance, SSO, extended context, and enterprise-grade security for large organizations."
-date: 2026-02-14
+date: 2023-11-08
 categories: ["News"]
 tags: ["anthropic", "claude", "enterprise", "security", "ai-business"]
 ---

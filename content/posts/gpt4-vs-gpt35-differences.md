@@ -1,7 +1,7 @@
 ---
 title: "GPT-4 vs GPT-3.5: Is the Upgrade Worth $20/Month?"
 description: "Real comparison of GPT-4 and GPT-3.5 for everyday tasks. When the free version is enough and when you need to pay."
-date: 2024-05-08
+date: 2023-09-07
 categories: ["Comparisons"]
 tags: ["chatgpt", "gpt-4", "openai", "ai comparison", "productivity"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "AI Email Writing Tools: I Tested 5 for Real Work Emails"
 description: "I used AI email tools for actual client emails, cold outreach, and internal communication. Here's what actually helps."
-date: 2025-03-10
+date: 2024-09-20
 categories: ["Comparisons"]
 tags: ["email", "ai writing", "productivity", "gmail", "business tools"]
 affiliate_disclosure: true

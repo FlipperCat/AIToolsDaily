@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Your Email Marketing with AI (Step-by-Step Guide)"
 description: "Create intelligent email sequences that convert using AI copywriting, personalization, and automation workflows"
-date: 2026-02-17
+date: 2024-06-26
 categories: ["Tutorials"]
 tags: ["email marketing", "AI copywriting", "marketing automation", "email sequences"]
 affiliate_disclosure: true

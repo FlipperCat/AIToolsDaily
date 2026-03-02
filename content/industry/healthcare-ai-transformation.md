@@ -1,7 +1,7 @@
 ---
 title: "AI in Healthcare: Transforming Diagnosis, Treatment, and Patient Care"
 description: "How artificial intelligence is revolutionizing healthcare from medical imaging to drug discovery, and what it means for patients and providers."
-date: 2026-02-15
+date: 2023-03-20
 categories: ["Industry"]
 tags: ["healthcare", "medical-ai", "diagnosis", "drug-discovery", "patient-care"]
 industry: "Healthcare"

@@ -1,7 +1,7 @@
 ---
 title: "AI Prompt Templates That Actually Work (Copy and Use)"
 description: "Stop writing prompts from scratch. These tested templates get better results from ChatGPT, Claude, and other AI tools."
-date: 2025-03-17
+date: 2025-06-05
 categories: ["Tips"]
 tags: ["prompts", "chatgpt", "claude", "ai tips", "productivity"]
 affiliate_disclosure: true

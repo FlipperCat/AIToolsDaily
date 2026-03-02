@@ -32,7 +32,7 @@ cons:
   - "Documentation less polished"
 best_for: ["Power Users", "Agencies", "Technical Teams", "Complex Workflows"]
 alternatives: ["Zapier", "n8n", "Pipedream"]
-date: 2026-02-17
+date: 2024-01-09
 updated: 2026-02-17
 ---
 

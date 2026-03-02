@@ -1,7 +1,7 @@
 ---
 title: "Stripe's AI Fraud Detection: Saving Merchants $500M Annually"
 description: "Inside Stripe Radar's machine learning system that blocks fraudulent transactions while minimizing false positives for legitimate customers."
-date: 2026-02-05
+date: 2023-02-08
 categories: ["Case Studies"]
 tags: ["stripe", "fraud-detection", "machine-learning", "fintech", "security"]
 company: "Stripe"

@@ -1,7 +1,7 @@
 ---
 title: "How to Build an AI Chatbot for Your Website (Step-by-Step Guide)"
 description: "Create a custom AI chatbot that handles customer inquiries, supports users, and reduces support workload automatically"
-date: 2026-02-17
+date: 2023-07-07
 categories: ["Tutorials"]
 tags: ["AI chatbots", "customer support", "no-code automation", "chatbot builder"]
 affiliate_disclosure: true

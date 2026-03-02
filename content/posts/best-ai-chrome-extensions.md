@@ -1,7 +1,7 @@
 ---
 title: "Best AI Chrome Extensions: What I Actually Keep Installed"
 description: "I've tried 30+ AI Chrome extensions. Most are bloat. Here are the 7 that actually improve my browsing."
-date: 2025-02-03
+date: 2023-06-23
 categories: ["Guides"]
 tags: ["chrome extensions", "ai tools", "browser extensions", "productivity", "web browsing"]
 affiliate_disclosure: true

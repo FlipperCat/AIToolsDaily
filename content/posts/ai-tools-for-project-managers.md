@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for Project Managers: What Actually Helps"
 description: "I talked to 8 project managers about their AI tool usage. Here's what saves time and what's overhyped."
-date: 2024-09-06
+date: 2025-10-16
 categories: ["Industry Guides"]
 tags: ["project management", "ai tools", "productivity", "asana", "monday", "notion"]
 affiliate_disclosure: true

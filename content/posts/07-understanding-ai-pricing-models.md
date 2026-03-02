@@ -1,7 +1,7 @@
 ---
 title: "Understanding AI Pricing Models"
 description: "Beginner's guide to AI tool pricing. Learn subscription, credit, and usage-based pricing models and how to choose the best option."
-date: 2025-08-08
+date: 2023-01-21
 categories: ["Guides"]
 tags: ["beginner", "guide", "pricing", "cost"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "OpenAI API for Beginners: Your First AI App in 30 Minutes"
 description: "Practical guide to using the OpenAI API. From setup to your first working application, with real code examples."
-date: 2024-04-08
+date: 2025-09-22
 categories: ["Tutorials"]
 tags: ["openai", "api", "developers", "python", "programming"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "How to Create AI Voiceovers (Step-by-Step Guide)"
 description: "Generate professional voiceovers using AI. Create natural-sounding narration for videos, audiobooks, and podcasts."
-date: 2026-02-17
+date: 2024-07-12
 categories: ["Tutorials"]
 tags: ["AI Voiceover", "Text-to-Speech", "Audio Production", "Content Creation", "Video Narration"]
 affiliate_disclosure: true

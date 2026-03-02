@@ -1,7 +1,7 @@
 ---
 title: "HubSpot's AI Content Strategy: 3x Blog Output with Same Team"
 description: "How HubSpot used AI writing tools to triple their content production while maintaining quality and SEO performance."
-date: 2026-02-08
+date: 2024-06-18
 categories: ["Case Studies"]
 tags: ["hubspot", "content-marketing", "ai-writing", "seo", "productivity"]
 company: "HubSpot"

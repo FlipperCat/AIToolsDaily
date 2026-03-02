@@ -32,7 +32,7 @@ cons:
   - "Team features limited"
 best_for: ["Apple Users", "Writers", "Personal Knowledge Management", "Designers"]
 alternatives: ["Notion", "Obsidian", "Bear"]
-date: 2026-02-17
+date: 2025-06-19
 updated: 2026-02-17
 ---
 

@@ -32,7 +32,7 @@ cons:
   - "Paraphrased text sometimes awkward"
 best_for: ["Students", "Academic Writers", "Content Rewriters", "Researchers"]
 alternatives: ["Wordtune", "Grammarly", "Spinbot"]
-date: 2026-02-17
+date: 2026-01-28
 updated: 2026-02-17
 ---
 

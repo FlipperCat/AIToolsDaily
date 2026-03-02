@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up AI-Assisted Bookkeeping (80% Less Manual Work)"
 description: "Automate bookkeeping tasks with AI to categorize expenses, reconcile accounts, and generate financial reports efficiently."
-date: 2024-06-10
+date: 2024-12-14
 categories: ["Workflows"]
 tags: ["automation", "workflow", "bookkeeping", "ai-tools", "finance"]
 affiliate_disclosure: true

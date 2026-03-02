@@ -1,7 +1,7 @@
 ---
 title: "AI Customer Service Tools: What Actually Reduces Tickets"
 description: "Customer service leader's guide to AI tools that reduce support volume while keeping customers happy."
-date: 2024-05-29
+date: 2023-11-12
 categories: ["Industry Tools"]
 tags: ["customer service", "ai tools", "chatbots", "support", "helpdesk"]
 affiliate_disclosure: true

@@ -1,7 +1,7 @@
 ---
 title: "Cursor Raises $400M at $2.5B Valuation for AI Code Editor"
 description: "AI-powered code editor Cursor closes massive Series B, signaling the future of developer tools is AI-native."
-date: 2026-02-15
+date: 2024-05-13
 categories: ["News"]
 tags: ["cursor", "funding", "coding", "ai-development", "startup"]
 ---

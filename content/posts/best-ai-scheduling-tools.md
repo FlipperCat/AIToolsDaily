@@ -1,7 +1,7 @@
 ---
 title: "Best AI Scheduling Tools for Busy Professionals"
 description: "Discover the best AI scheduling tools for busy professionals in 2026. Compare features, pricing, and find the perfect calendar assistant."
-date: 2024-05-14
+date: 2023-07-31
 categories: ["Lists"]
 tags: ["scheduling tools", "calendar management", "productivity", "AI assistants"]
 affiliate_disclosure: true

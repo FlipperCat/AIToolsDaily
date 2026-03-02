@@ -1,7 +1,7 @@
 ---
 title: "Cursor AI Review: Is It Worth Switching From VS Code?"
 description: "I switched from VS Code to Cursor for 2 months. Here's my honest review of whether the AI coding features justify the switch."
-date: 2024-06-17
+date: 2023-05-12
 categories: ["Reviews"]
 tags: ["cursor", "coding", "ai coding", "developer tools", "vscode"]
 affiliate_disclosure: true

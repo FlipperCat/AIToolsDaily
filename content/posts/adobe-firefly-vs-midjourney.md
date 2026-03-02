@@ -1,7 +1,7 @@
 ---
 title: "Adobe Firefly vs Midjourney: Which Creates Better Images?"
 description: "I generated 50+ images with both tools. Here's how Adobe Firefly compares to Midjourney for real creative work."
-date: 2024-09-03
+date: 2025-09-18
 categories: ["Comparisons"]
 tags: ["adobe firefly", "midjourney", "ai images", "image generation", "creative tools"]
 affiliate_disclosure: true

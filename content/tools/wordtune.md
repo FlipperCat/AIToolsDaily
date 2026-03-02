@@ -32,7 +32,7 @@ cons:
   - "Some features locked to premium"
 best_for: ["Non-Native English Speakers", "Editors", "Business Professionals", "Students"]
 alternatives: ["Grammarly", "QuillBot", "Hemingway"]
-date: 2026-02-17
+date: 2024-08-27
 updated: 2026-02-17
 ---
 

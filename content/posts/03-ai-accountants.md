@@ -1,7 +1,7 @@
 ---
 title: "AI for Accountants: Handle 3x More Clients (2025 Guide)"
 description: "Leverage AI for bookkeeping, tax preparation, audit, and financial analysis. Handle 3x more clients with same staff."
-date: 2025-09-02
+date: 2023-10-08
 categories: ["Guides"]
 tags: ["accounting", "ai", "bookkeeping", "tax", "automation"]
 affiliate_disclosure: true

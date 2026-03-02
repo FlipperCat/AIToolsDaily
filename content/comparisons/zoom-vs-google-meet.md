@@ -1,7 +1,7 @@
 ---
 title: "Zoom vs Google Meet (2026): Video Conferencing Comparison"
 description: "Compare Zoom and Google Meet for video conferencing. Evaluate features, pricing, quality, and which platform is best for your meetings."
-date: 2026-02-17
+date: 2025-08-11
 categories: ["Comparisons"]
 tags: ["zoom", "google-meet", "video-conferencing", "meetings"]
 affiliate_disclosure: true

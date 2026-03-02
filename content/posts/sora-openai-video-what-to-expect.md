@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Sora: What We Know and What to Expect"
 description: "OpenAI's Sora text-to-video AI looks incredible. Here's what's confirmed, what's speculation, and how it compares to current tools."
-date: 2025-07-07
+date: 2023-08-25
 categories: ["News"]
 tags: ["sora", "openai", "ai video", "video generation", "ai news"]
 affiliate_disclosure: true

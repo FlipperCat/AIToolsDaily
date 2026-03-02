@@ -1,7 +1,7 @@
 ---
 title: "AI Tools for Accountants: Automate the Tedious Work"
 description: "How accountants and bookkeepers can use AI to work faster. From data entry to client communication."
-date: 2024-06-27
+date: 2025-10-24
 categories: ["Industry Tools"]
 tags: ["accounting", "ai tools", "bookkeeping", "finance", "automation"]
 affiliate_disclosure: true

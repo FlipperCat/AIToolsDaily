@@ -1,7 +1,7 @@
 ---
 title: "Mem AI Review: Is AI-Powered Note Taking Worth It?"
 description: "I used Mem AI for 4 months as my main note-taking app. Here's whether AI actually helps with notes."
-date: 2024-09-17
+date: 2025-06-30
 categories: ["Reviews"]
 tags: ["mem ai", "note-taking", "ai tools", "productivity", "pkm"]
 affiliate_disclosure: true

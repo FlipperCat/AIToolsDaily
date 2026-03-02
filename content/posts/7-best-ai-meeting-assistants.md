@@ -1,7 +1,7 @@
 ---
 title: "7 Best AI Meeting Assistants in 2025 (Save 5+ Hours/Week)"
 description: "Top AI meeting tools for productivity. Auto-transcribe, summarize, and manage meetings. Discover the best meeting assistants in 2026."
-date: 2025-06-25
+date: 2024-07-15
 categories: ["Lists"]
 tags: ["meeting-tools", "productivity", "transcription", "collaboration", "workplace"]
 affiliate_disclosure: true

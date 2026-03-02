@@ -1,7 +1,7 @@
 ---
 title: "Taskade Review 2026: AI Productivity Platform for Teams"
 description: "Taskade combines task management, notes, and AI collaboration tools. Leading platform for team productivity."
-date: 2026-02-17
+date: 2025-09-16
 categories: ["Reviews"]
 tags: ["taskade", "productivity", "project-management", "team-collaboration"]
 affiliate_disclosure: true

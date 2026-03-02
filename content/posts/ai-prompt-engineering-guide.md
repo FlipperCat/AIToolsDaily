@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering 101: Get Better AI Results"
 description: "Learn the principles of effective prompting. From basic techniques to advanced strategies that work across all AI tools."
-date: 2024-05-22
+date: 2024-12-08
 categories: ["Tutorials"]
 tags: ["prompts", "prompt engineering", "chatgpt", "ai tips", "productivity"]
 affiliate_disclosure: true

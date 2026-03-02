@@ -32,7 +32,7 @@ cons:
   - "Mobile app limitations"
 best_for: ["Knowledge Workers", "Writers", "Researchers", "Solo Users"]
 alternatives: ["Notion AI", "Obsidian", "Roam Research"]
-date: 2026-02-17
+date: 2024-05-14
 updated: 2026-02-17
 ---
 

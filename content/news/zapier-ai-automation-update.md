@@ -1,7 +1,7 @@
 ---
 title: "Zapier Launches AI-Powered Automation Builder"
 description: "Zapier's new AI features let you create complex automations using natural language, dramatically simplifying workflow creation."
-date: 2026-02-05
+date: 2023-07-16
 categories: ["News"]
 tags: ["zapier", "automation", "ai", "no-code", "productivity"]
 ---

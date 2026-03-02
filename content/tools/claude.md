@@ -32,7 +32,7 @@ cons:
   - "Can be overly cautious sometimes"
 best_for: ["Writers", "Researchers", "Analysts", "Developers", "Legal Professionals"]
 alternatives: ["ChatGPT", "Gemini", "Perplexity"]
-date: 2026-02-17
+date: 2024-02-03
 updated: 2026-02-17
 ---
 

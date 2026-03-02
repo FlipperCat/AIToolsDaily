@@ -32,7 +32,7 @@ cons:
   - "Learning curve for analytics"
 best_for: ["Sales Teams", "Customer Success", "Team Leaders", "Revenue Operations"]
 alternatives: ["Otter.ai", "Gong", "Chorus"]
-date: 2026-02-17
+date: 2023-01-31
 updated: 2026-02-17
 ---
 

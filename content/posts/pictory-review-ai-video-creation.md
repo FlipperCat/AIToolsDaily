@@ -1,7 +1,7 @@
 ---
 title: "Pictory Review: Can AI Actually Turn Text Into Good Video?"
 description: "I used Pictory to turn 10 blog posts into videos. Here's whether AI video creation is ready for prime time."
-date: 2024-02-12
+date: 2025-12-26
 categories: ["Reviews"]
 tags: ["pictory", "ai video", "video creation", "content repurposing", "video editing"]
 affiliate_disclosure: true

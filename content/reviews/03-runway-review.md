@@ -1,7 +1,7 @@
 ---
 title: "Runway ML Review 2026: Professional AI Video Generation and Editing"
 description: "Runway ML empowers video creators with AI tools for generation, editing, and effects. Essential for modern video production workflows."
-date: 2026-02-17
+date: 2026-01-16
 categories: ["Reviews"]
 tags: ["runway", "video-generation", "ai-video", "video-editing"]
 affiliate_disclosure: true

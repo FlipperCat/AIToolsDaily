@@ -1,7 +1,7 @@
 ---
 title: "17 AI Tools Every Freelancer Needs in 2025 (By Category)"
 description: "The AI tools that help freelancers earn more and work less. Organized by what you actually need: clients, work, invoices, and growth."
-date: 2025-07-21
+date: 2026-01-13
 categories: ["Lists"]
 tags: ["freelance", "productivity", "automation", "best-of", "tools"]
 ---

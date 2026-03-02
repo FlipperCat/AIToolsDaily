@@ -1,7 +1,7 @@
 ---
 title: "AI for Data Analysis: Non-Technical Guide to Getting Insights"
 description: "You don't need to be a data scientist to analyze data with AI. Here's how to use ChatGPT and other tools to understand your numbers."
-date: 2024-07-28
+date: 2023-05-09
 categories: ["Tutorials"]
 tags: ["data analysis", "chatgpt", "excel", "business intelligence", "analytics"]
 affiliate_disclosure: true

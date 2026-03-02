@@ -1,7 +1,7 @@
 ---
 title: "AI in Manufacturing: Predictive Maintenance to Quality 4.0"
 description: "How manufacturers are using AI for predictive maintenance, quality control, supply chain optimization, and the path to fully autonomous factories."
-date: 2026-02-05
+date: 2026-02-17
 categories: ["Industry"]
 tags: ["manufacturing", "predictive-maintenance", "quality-control", "industry-4.0", "automation"]
 industry: "Manufacturing"

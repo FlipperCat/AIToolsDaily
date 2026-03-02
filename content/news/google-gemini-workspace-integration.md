@@ -1,7 +1,7 @@
 ---
 title: "Google Integrates Gemini Across All Workspace Apps"
 description: "Google Workspace now features Gemini AI in Gmail, Docs, Sheets, Slides, and Meet with new collaborative AI features."
-date: 2026-02-10
+date: 2025-09-20
 categories: ["News"]
 tags: ["google", "gemini", "google-workspace", "productivity", "enterprise"]
 ---

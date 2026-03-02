@@ -1,7 +1,7 @@
 ---
 title: "AI Code Review Tools: Which Actually Catches Real Bugs?"
 description: "I ran the same codebase through 5 AI code review tools. Here's what they found and what they missed."
-date: 2025-03-03
+date: 2024-12-25
 categories: ["Comparisons"]
 tags: ["code review", "ai tools", "developers", "github copilot", "coding"]
 affiliate_disclosure: true

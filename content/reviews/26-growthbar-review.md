@@ -1,7 +1,7 @@
 ---
 title: "GrowthBar Review 2026: All-in-One Content and SEO Platform"
 description: "Complete review of GrowthBar's content generation, SEO tools, and features for growth-focused marketers in 2026."
-date: 2026-02-17
+date: 2023-12-27
 categories: ["Reviews"]
 tags: ["content-generation", "seo", "marketing", "growth"]
 affiliate_disclosure: true

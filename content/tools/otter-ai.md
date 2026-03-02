@@ -32,7 +32,7 @@ cons:
   - "Some features require Business plan"
 best_for: ["Remote Teams", "Journalists", "Researchers", "Sales Teams"]
 alternatives: ["Fireflies.ai", "tl;dv", "Fathom"]
-date: 2026-02-17
+date: 2025-09-30
 updated: 2026-02-17
 ---
 

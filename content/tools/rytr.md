@@ -32,7 +32,7 @@ cons:
   - "Output often needs editing"
 best_for: ["Beginners", "Budget-Conscious Writers", "Students", "Non-Native Speakers"]
 alternatives: ["Copy.ai", "Writesonic", "Wordtune"]
-date: 2026-02-17
+date: 2025-01-08
 updated: 2026-02-17
 ---
 

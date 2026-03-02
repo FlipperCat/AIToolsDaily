@@ -32,7 +32,7 @@ cons:
   - "Some features unreliable"
 best_for: ["Sales Teams", "Recruiters", "Researchers", "Individual Users"]
 alternatives: ["Zapier", "Make", "Browse AI"]
-date: 2026-02-17
+date: 2026-01-26
 updated: 2026-02-17
 ---
 

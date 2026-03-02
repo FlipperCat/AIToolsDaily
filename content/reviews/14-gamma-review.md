@@ -1,7 +1,7 @@
 ---
 title: "Gamma Review 2026: AI Presentation and Document Creation Platform"
 description: "Gamma creates beautiful presentations, documents, and webpages with AI. Comprehensive solution for visual communication."
-date: 2026-02-17
+date: 2024-06-04
 categories: ["Reviews"]
 tags: ["gamma", "presentations", "document-creation", "ai-design"]
 affiliate_disclosure: true
