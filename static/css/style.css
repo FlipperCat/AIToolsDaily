@@ -655,12 +655,30 @@ p {
   border-radius: var(--radius-xl);
   overflow: hidden;
   transition: all var(--transition-base);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .article-card:hover {
-  border-color: var(--color-border-strong);
-  box-shadow: var(--card-shadow);
-  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15), 0 8px 16px rgba(0,0,0,0.1);
+  transform: translateY(-6px);
+}
+
+.article-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  z-index: 1;
+}
+
+.article-card:hover::before {
+  opacity: 1;
 }
 
 .article-card-image {
@@ -1540,12 +1558,29 @@ p {
   border-radius: var(--radius-xl);
   padding: var(--space-6);
   transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.tool-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.tool-card:hover::after {
+  left: 100%;
 }
 
 .tool-card:hover {
   border-color: var(--color-accent);
-  box-shadow: var(--shadow-glow);
-  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2), 0 8px 16px rgba(0,0,0,0.1);
+  transform: translateY(-6px) scale(1.01);
 }
 
 .tool-card-featured {

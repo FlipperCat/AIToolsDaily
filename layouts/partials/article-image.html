@@ -1,7 +1,6 @@
 {{- /*
-  Dynamic Article Image Generator
-  Creates unique SVG images with article title and category-based gradients
-  Usage: {{ partial "article-image.html" (dict "page" . "width" 600 "height" 400) }}
+  Enhanced Article Image Generator
+  Creates beautiful, modern SVG images with gradients, patterns, and icons
 */ -}}
 {{- $page := .page -}}
 {{- $width := .width | default 600 -}}
@@ -11,73 +10,96 @@
 {{- else -}}
   {{- $category := "Article" -}}
   {{- with $page.Params.categories -}}{{- $category = index . 0 -}}{{- end -}}
-  {{- $gradientStart := "#6366f1" -}}
-  {{- $gradientEnd := "#8b5cf6" -}}
+  {{- /* Enhanced color schemes with 3-color gradients */ -}}
+  {{- $grad1 := "#667eea" -}}
+  {{- $grad2 := "#764ba2" -}}
+  {{- $grad3 := "#f093fb" -}}
   {{- $accentColor := "#a5b4fc" -}}
+  {{- $iconBg := "rgba(255,255,255,0.2)" -}}
   {{- if eq $category "Reviews" -}}
-    {{- $gradientStart = "#3b82f6" -}}
-    {{- $gradientEnd = "#06b6d4" -}}
+    {{- $grad1 = "#0093E9" -}}
+    {{- $grad2 = "#4B9FE1" -}}
+    {{- $grad3 = "#80D0C7" -}}
     {{- $accentColor = "#7dd3fc" -}}
   {{- else if eq $category "Tutorials" -}}
-    {{- $gradientStart = "#10b981" -}}
-    {{- $gradientEnd = "#059669" -}}
+    {{- $grad1 = "#11998e" -}}
+    {{- $grad2 = "#26a69a" -}}
+    {{- $grad3 = "#38ef7d" -}}
     {{- $accentColor = "#6ee7b7" -}}
   {{- else if eq $category "Comparisons" -}}
-    {{- $gradientStart = "#f59e0b" -}}
-    {{- $gradientEnd = "#d97706" -}}
+    {{- $grad1 = "#f12711" -}}
+    {{- $grad2 = "#f5af19" -}}
+    {{- $grad3 = "#f7ce68" -}}
     {{- $accentColor = "#fcd34d" -}}
   {{- else if eq $category "Lists" -}}
-    {{- $gradientStart = "#8b5cf6" -}}
-    {{- $gradientEnd = "#a855f7" -}}
+    {{- $grad1 = "#8E2DE2" -}}
+    {{- $grad2 = "#a855f7" -}}
+    {{- $grad3 = "#4A00E0" -}}
     {{- $accentColor = "#c4b5fd" -}}
   {{- else if eq $category "Guides" -}}
-    {{- $gradientStart = "#ec4899" -}}
-    {{- $gradientEnd = "#db2777" -}}
+    {{- $grad1 = "#ec4899" -}}
+    {{- $grad2 = "#f472b6" -}}
+    {{- $grad3 = "#8b5cf6" -}}
     {{- $accentColor = "#f9a8d4" -}}
   {{- else if eq $category "Industry Guides" -}}
-    {{- $gradientStart = "#14b8a6" -}}
-    {{- $gradientEnd = "#0d9488" -}}
+    {{- $grad1 = "#00c6fb" -}}
+    {{- $grad2 = "#14b8a6" -}}
+    {{- $grad3 = "#005bea" -}}
     {{- $accentColor = "#5eead4" -}}
   {{- else if eq $category "News" -}}
-    {{- $gradientStart = "#ef4444" -}}
-    {{- $gradientEnd = "#dc2626" -}}
+    {{- $grad1 = "#eb3349" -}}
+    {{- $grad2 = "#f45c43" -}}
+    {{- $grad3 = "#FF512F" -}}
     {{- $accentColor = "#fca5a5" -}}
+  {{- else if eq $category "Workflows" -}}
+    {{- $grad1 = "#4158D0" -}}
+    {{- $grad2 = "#C850C0" -}}
+    {{- $grad3 = "#FFCC70" -}}
+    {{- $accentColor = "#c4b5fd" -}}
   {{- end -}}
   {{- $title := $page.Title -}}
-  {{- $displayTitle := $title | truncate 50 "..." -}}
+  {{- $displayTitle := $title | truncate 45 "..." -}}
   {{- $iconTag := "ai" -}}
   {{- with $page.Params.tags -}}{{- $iconTag = index . 0 | lower -}}{{- end -}}
+  {{- /* More icon options */ -}}
   {{- $iconPath := "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" -}}
   {{- if in $iconTag "chatgpt" -}}
     {{- $iconPath = "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" -}}
-  {{- else if in $iconTag "writing" -}}
-    {{- $iconPath = "M12 19l7-7 3 3-7 7-3-3z M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z M2 2l7.586 7.586" -}}
-  {{- else if in $iconTag "image" -}}
+  {{- else if or (in $iconTag "writing") (in $iconTag "content") -}}
+    {{- $iconPath = "M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" -}}
+  {{- else if or (in $iconTag "image") (in $iconTag "midjourney") (in $iconTag "dall") -}}
     {{- $iconPath = "M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" -}}
-  {{- else if in $iconTag "video" -}}
+  {{- else if or (in $iconTag "video") (in $iconTag "youtube") -}}
     {{- $iconPath = "M23 7l-7 5 7 5V7z M16 5H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z" -}}
-  {{- else if in $iconTag "code" -}}
+  {{- else if or (in $iconTag "code") (in $iconTag "coding") (in $iconTag "developer") -}}
     {{- $iconPath = "M16 18l6-6-6-6 M8 6l-6 6 6 6" -}}
-  {{- else if in $iconTag "productivity" -}}
+  {{- else if or (in $iconTag "productivity") (in $iconTag "efficiency") -}}
     {{- $iconPath = "M22 11.08V12a10 10 0 1 1-5.93-9.14 M22 4L12 14.01l-3-3" -}}
   {{- else if in $iconTag "comparison" -}}
     {{- $iconPath = "M16 3h5v5 M8 3H3v5 M21 3l-7 7 M3 3l7 7 M3 21l7-7 M21 21l-7-7 M16 21h5v-5 M8 21H3v-5" -}}
-  {{- else if in $iconTag "review" -}}
+  {{- else if or (in $iconTag "review") (in $iconTag "rating") -}}
     {{- $iconPath = "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" -}}
-  {{- else if in $iconTag "tutorial" -}}
+  {{- else if or (in $iconTag "tutorial") (in $iconTag "guide") (in $iconTag "learn") -}}
     {{- $iconPath = "M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" -}}
-  {{- else if in $iconTag "automation" -}}
-    {{- $iconPath = "M12 2v4 M12 18v4 M4.93 4.93l2.83 2.83 M16.24 16.24l2.83 2.83 M2 12h4 M18 12h4 M4.93 19.07l2.83-2.83 M16.24 7.76l2.83-2.83" -}}
+  {{- else if or (in $iconTag "automation") (in $iconTag "zapier") (in $iconTag "workflow") -}}
+    {{- $iconPath = "M13 2L3 14h9l-1 8 10-12h-9l1-8z" -}}
+  {{- else if or (in $iconTag "email") (in $iconTag "mail") -}}
+    {{- $iconPath = "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z M22 6l-10 7L2 6" -}}
+  {{- else if or (in $iconTag "social") (in $iconTag "marketing") -}}
+    {{- $iconPath = "M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9 M13.73 21a2 2 0 0 1-3.46 0" -}}
+  {{- else if or (in $iconTag "money") (in $iconTag "finance") (in $iconTag "business") -}}
+    {{- $iconPath = "M12 1v22 M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" -}}
+  {{- else if or (in $iconTag "voice") (in $iconTag "audio") (in $iconTag "podcast") -}}
+    {{- $iconPath = "M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z M19 10v2a7 7 0 0 1-14 0v-2 M12 19v4 M8 23h8" -}}
+  {{- else if or (in $iconTag "ai") (in $iconTag "artificial") -}}
+    {{- $iconPath = "M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1.27c.34-.6.99-1 1.73-1a2 2 0 1 1 0 4c-.74 0-1.39-.4-1.73-1H20a7 7 0 0 1-7 7v1.27c.6.34 1 .99 1 1.73a2 2 0 1 1-4 0c0-.74.4-1.39 1-1.73V21a7 7 0 0 1-7-7H2.73c-.34.6-.99 1-1.73 1a2 2 0 1 1 0-4c.74 0 1.39.4 1.73 1H4a7 7 0 0 1 7-7V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z" -}}
   {{- end -}}
   {{- $hash := $page.Title | md5 -}}
-  {{- $patternId := printf "pattern-%s" (substr $hash 0 8) -}}
-  {{- $centerX := div $width 2 -}}
-  {{- $centerY := sub (div $height 2) 30 -}}
-  {{- $rectY := sub $height 70 -}}
-  {{- $rectW := sub $width 60 -}}
-  {{- $textY1 := sub $height 38 -}}
-  {{- $textY2 := sub $height 55 -}}
+  {{- $patternId := printf "p-%s" (substr $hash 0 6) -}}
+  {{- $gradId := printf "g-%s" (substr $hash 0 6) -}}
+  {{- $cx := div $width 2 -}}
+  {{- $cy := sub (div $height 2) 20 -}}
   {{- $escapedTitle := $displayTitle | htmlEscape -}}
   {{- $upperCat := $category | upper -}}
-data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{{ $width }}' height='{{ $height }}' viewBox='0 0 {{ $width }} {{ $height }}'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:{{ $gradientStart }}'/%3E%3Cstop offset='100%25' style='stop-color:{{ $gradientEnd }}'/%3E%3C/linearGradient%3E%3Cpattern id='{{ $patternId }}' width='40' height='40' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='20' cy='20' r='1.5' fill='{{ $accentColor }}' opacity='0.3'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23{{ $patternId }})'/%3E%3Cg transform='translate({{ $centerX }},{{ $centerY }})'%3E%3Ccircle cx='0' cy='0' r='45' fill='white' opacity='0.15'/%3E%3Csvg x='-20' y='-20' width='40' height='40' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='{{ $iconPath }}'/%3E%3C/svg%3E%3C/g%3E%3Crect x='30' y='{{ $rectY }}' width='{{ $rectW }}' height='50' rx='8' fill='white' opacity='0.95'/%3E%3Ctext x='{{ $centerX }}' y='{{ $textY1 }}' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-size='14' font-weight='600' fill='%23374151' text-anchor='middle'%3E{{ $escapedTitle }}%3C/text%3E%3Ctext x='{{ $centerX }}' y='{{ $textY2 }}' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-size='11' fill='{{ $gradientStart }}' text-anchor='middle' font-weight='500'%3E{{ $upperCat }}%3C/text%3E%3C/svg%3E
+data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='{{ $width }}' height='{{ $height }}' viewBox='0 0 {{ $width }} {{ $height }}'%3E%3Cdefs%3E%3ClinearGradient id='{{ $gradId }}' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='{{ $grad1 }}'/%3E%3Cstop offset='50%25' stop-color='{{ $grad2 }}'/%3E%3Cstop offset='100%25' stop-color='{{ $grad3 }}'/%3E%3C/linearGradient%3E%3Cpattern id='{{ $patternId }}' width='30' height='30' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='15' cy='15' r='1' fill='white' opacity='0.1'/%3E%3C/pattern%3E%3Cfilter id='shadow'%3E%3CfeDropShadow dx='0' dy='4' stdDeviation='8' flood-opacity='0.3'/%3E%3C/filter%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23{{ $gradId }})'/%3E%3Crect width='100%25' height='100%25' fill='url(%23{{ $patternId }})'/%3E%3Ccircle cx='{{ sub $width 60 }}' cy='60' r='80' fill='white' opacity='0.05'/%3E%3Ccircle cx='60' cy='{{ sub $height 60 }}' r='100' fill='white' opacity='0.05'/%3E%3Ccircle cx='{{ $cx }}' cy='{{ $cy }}' r='55' fill='white' opacity='0.15'/%3E%3Ccircle cx='{{ $cx }}' cy='{{ $cy }}' r='40' fill='white' opacity='0.1'/%3E%3Csvg x='{{ sub $cx 22 }}' y='{{ sub $cy 22 }}' width='44' height='44' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='{{ $iconPath }}'/%3E%3C/svg%3E%3Crect x='40' y='{{ sub $height 80 }}' width='{{ sub $width 80 }}' height='60' rx='12' fill='white' filter='url(%23shadow)'/%3E%3Ctext x='{{ $cx }}' y='{{ sub $height 45 }}' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-size='15' font-weight='700' fill='%231f2937' text-anchor='middle'%3E{{ $escapedTitle }}%3C/text%3E%3Crect x='{{ sub $cx 30 }}' y='{{ sub $height 70 }}' width='60' height='18' rx='9' fill='{{ $grad1 }}'/%3E%3Ctext x='{{ $cx }}' y='{{ sub $height 58 }}' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-size='9' font-weight='600' fill='white' text-anchor='middle'%3E{{ $upperCat }}%3C/text%3E%3C/svg%3E
 {{- end -}}
