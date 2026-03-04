@@ -2,6 +2,9 @@
 title: "Start Here: Your AI Tools Journey"
 date: 2026-02-04
 layout: "single"
+categories: ["Guides"]
+tags: ["guide", "beginner", "getting-started"]
+description: "New to AI tools? Start here. Find the perfect AI tools for your needs - writing, automation, images, productivity, and more."
 ---
 
 # New to AI Tools? Start Here.

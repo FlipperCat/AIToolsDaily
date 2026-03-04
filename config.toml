@@ -13,7 +13,7 @@ title = "AI Tools Daily - Automate Your Work with AI"
   twitter = "https://twitter.com/aitoolsdaily"
 
   # Default OG image for social sharing
-  ogImage = "/images/og-default.png"
+  ogImage = "/images/og-default.svg"
 
 [taxonomies]
   tag = "tags"
