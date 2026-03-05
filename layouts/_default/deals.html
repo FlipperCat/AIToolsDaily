@@ -1,0 +1,736 @@
+{{ define "main" }}
+<style>
+/* Deals Page Styles */
+.deals-hero {
+    background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.deals-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M30 30l15-15v30z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    animation: float 15s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(0.5deg); }
+}
+
+.deals-hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.deals-hero h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    margin-bottom: var(--space-4);
+    text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+    animation: slideUp 0.8s ease-out;
+}
+
+.deals-hero p {
+    font-size: var(--text-xl);
+    opacity: 0.95;
+    max-width: 600px;
+    margin: 0 auto var(--space-6);
+    animation: slideUp 0.8s ease-out 0.1s both;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Floating deal icons */
+.floating-deals {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.floating-deal {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    animation: floatDeal 5s ease-in-out infinite;
+    font-size: 1.5rem;
+}
+
+.floating-deal:nth-child(1) { top: 15%; left: 8%; animation-delay: 0s; }
+.floating-deal:nth-child(2) { top: 20%; right: 12%; animation-delay: 0.8s; }
+.floating-deal:nth-child(3) { bottom: 25%; left: 12%; animation-delay: 1.6s; }
+.floating-deal:nth-child(4) { bottom: 20%; right: 8%; animation-delay: 0.4s; }
+.floating-deal:nth-child(5) { top: 50%; left: 5%; animation-delay: 1.2s; }
+.floating-deal:nth-child(6) { top: 45%; right: 6%; animation-delay: 2s; }
+
+@keyframes floatDeal {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-12px) scale(1.05); }
+}
+
+/* Stats bar */
+.deals-stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-8);
+    margin-top: var(--space-8);
+    animation: slideUp 0.8s ease-out 0.2s both;
+}
+
+.deal-stat {
+    text-align: center;
+}
+
+.deal-stat-number {
+    font-size: var(--text-3xl);
+    font-weight: 800;
+    display: block;
+}
+
+.deal-stat-label {
+    font-size: var(--text-sm);
+    opacity: 0.8;
+}
+
+/* Category tabs */
+.deals-nav {
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-4) 0;
+    position: sticky;
+    top: 60px;
+    z-index: 100;
+}
+
+.deals-nav-inner {
+    display: flex;
+    gap: var(--space-2);
+    overflow-x: auto;
+    padding-bottom: var(--space-2);
+}
+
+.deals-nav a {
+    padding: var(--space-2) var(--space-4);
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    font-size: var(--text-sm);
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.deals-nav a:hover {
+    background: var(--color-accent);
+    color: white;
+}
+
+/* Deal sections */
+.deals-section {
+    padding: var(--space-12) 0;
+}
+
+.deals-section:nth-child(even) {
+    background: var(--color-bg-alt);
+}
+
+.deals-section h2 {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-6);
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.deals-section h2 svg {
+    width: 28px;
+    height: 28px;
+    stroke: var(--color-accent);
+}
+
+/* Deal cards */
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-4);
+}
+
+.deal-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-5);
+    transition: all 0.3s;
+    position: relative;
+}
+
+.deal-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-color: var(--color-accent);
+}
+
+.deal-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-3);
+}
+
+.deal-card h3 {
+    font-size: var(--text-lg);
+    margin: 0;
+}
+
+.deal-badge {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    font-size: var(--text-xs);
+    font-weight: 600;
+}
+
+.deal-card p {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-4);
+}
+
+.deal-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deal-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: var(--text-sm);
+}
+
+.deal-link:hover {
+    text-decoration: underline;
+}
+
+/* Free tier highlight */
+.free-tier-section {
+    background: linear-gradient(135deg, #fef3c7, #fde68a);
+    padding: var(--space-12) 0;
+}
+
+.free-tier-section h2 {
+    color: #92400e;
+}
+
+.free-card {
+    background: white;
+    border: 2px solid #fbbf24;
+}
+
+/* Student section */
+.student-section {
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+    padding: var(--space-12) 0;
+}
+
+.student-section h2 {
+    color: #1e40af;
+}
+
+/* Tips section */
+.tips-section {
+    padding: var(--space-12) 0;
+    background: var(--color-bg-alt);
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-6);
+}
+
+.tip-card {
+    background: var(--color-bg);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    border: 1px solid var(--color-border);
+}
+
+.tip-card h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-3);
+}
+
+.tip-card h3 svg {
+    width: 20px;
+    height: 20px;
+    stroke: var(--color-accent);
+}
+
+.tip-card ul {
+    margin: 0;
+    padding-left: var(--space-5);
+    color: var(--color-text-secondary);
+}
+
+.tip-card li {
+    margin-bottom: var(--space-2);
+}
+
+/* CTA */
+.deals-cta {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: var(--space-12) 0;
+    text-align: center;
+    color: white;
+}
+
+.deals-cta h2 {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-3);
+}
+
+.deals-cta p {
+    opacity: 0.8;
+    margin-bottom: var(--space-6);
+}
+
+@media (max-width: 768px) {
+    .deals-stats {
+        flex-wrap: wrap;
+        gap: var(--space-4);
+    }
+    .floating-deal {
+        display: none;
+    }
+}
+</style>
+
+<!-- Hero -->
+<section class="deals-hero">
+    <div class="floating-deals">
+        <div class="floating-deal">💰</div>
+        <div class="floating-deal">🎁</div>
+        <div class="floating-deal">✨</div>
+        <div class="floating-deal">🔥</div>
+        <div class="floating-deal">💎</div>
+        <div class="floating-deal">🚀</div>
+    </div>
+    <div class="container deals-hero-content">
+        <h1>AI Tool Deals & Discounts</h1>
+        <p>Save money on the best AI tools. Free trials, discount codes, and exclusive offers - updated weekly.</p>
+        <div class="deals-stats">
+            <div class="deal-stat">
+                <span class="deal-stat-number">50+</span>
+                <span class="deal-stat-label">Active Deals</span>
+            </div>
+            <div class="deal-stat">
+                <span class="deal-stat-number">$500+</span>
+                <span class="deal-stat-label">Potential Savings</span>
+            </div>
+            <div class="deal-stat">
+                <span class="deal-stat-number">Weekly</span>
+                <span class="deal-stat-label">Updates</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quick Nav -->
+<nav class="deals-nav">
+    <div class="container">
+        <div class="deals-nav-inner">
+            <a href="#writing">Writing</a>
+            <a href="#images">Images</a>
+            <a href="#coding">Coding</a>
+            <a href="#automation">Automation</a>
+            <a href="#productivity">Productivity</a>
+            <a href="#free">Free Tiers</a>
+            <a href="#students">Students</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <section class="deals-section" id="writing">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+            Writing Tools
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Jasper</h3>
+                    <span class="deal-badge">20% OFF</span>
+                </div>
+                <p>7-day free trial + 20% off your first 3 months of any plan.</p>
+                <div class="deal-card-footer">
+                    <a href="https://jasper.ai" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Copy.ai</h3>
+                    <span class="deal-badge">FREE TIER</span>
+                </div>
+                <p>2,000 words free every month, forever. No credit card required.</p>
+                <div class="deal-card-footer">
+                    <a href="https://copy.ai" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Writesonic</h3>
+                    <span class="deal-badge">40% OFF</span>
+                </div>
+                <p>10,000 words free + $19/mo (normally $32). Great for SEO content.</p>
+                <div class="deal-card-footer">
+                    <a href="https://writesonic.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Sudowrite</h3>
+                    <span class="deal-badge">30% OFF</span>
+                </div>
+                <p>Best for fiction writers. 30% off annual plan.</p>
+                <div class="deal-card-footer">
+                    <a href="https://sudowrite.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deals-section" id="images">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+            Image Generation
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Midjourney</h3>
+                    <span class="deal-badge">FREE TRIAL</span>
+                </div>
+                <p>25 free images to try. Best quality AI art generator.</p>
+                <div class="deal-card-footer">
+                    <a href="https://midjourney.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Leonardo AI</h3>
+                    <span class="deal-badge">150/DAY FREE</span>
+                </div>
+                <p>150 free images daily. Great free alternative to Midjourney.</p>
+                <div class="deal-card-footer">
+                    <a href="https://leonardo.ai" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>DALL-E 3</h3>
+                    <span class="deal-badge">INCLUDED</span>
+                </div>
+                <p>Included with ChatGPT Plus ($20/mo). Best prompt accuracy.</p>
+                <div class="deal-card-footer">
+                    <a href="https://chat.openai.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Canva AI</h3>
+                    <span class="deal-badge">30 DAYS FREE</span>
+                </div>
+                <p>Full Pro trial with AI image generation and design tools.</p>
+                <div class="deal-card-footer">
+                    <a href="https://canva.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deals-section" id="coding">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path></svg>
+            Coding Tools
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>GitHub Copilot</h3>
+                    <span class="deal-badge">FREE FOR STUDENTS</span>
+                </div>
+                <p>100% free for students and open source maintainers.</p>
+                <div class="deal-card-footer">
+                    <a href="https://github.com/features/copilot" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Cursor</h3>
+                    <span class="deal-badge">14-DAY TRIAL</span>
+                </div>
+                <p>Full Pro features for 14 days. AI-native code editor.</p>
+                <div class="deal-card-footer">
+                    <a href="https://cursor.sh" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Codeium</h3>
+                    <span class="deal-badge">FREE FOREVER</span>
+                </div>
+                <p>Unlimited AI completions for individuals. No catch.</p>
+                <div class="deal-card-footer">
+                    <a href="https://codeium.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Tabnine</h3>
+                    <span class="deal-badge">FREE TIER</span>
+                </div>
+                <p>Basic AI completions free. Privacy-focused option.</p>
+                <div class="deal-card-footer">
+                    <a href="https://tabnine.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deals-section" id="automation">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            Automation
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Zapier</h3>
+                    <span class="deal-badge">FREE TIER</span>
+                </div>
+                <p>100 tasks/month free + 14-day Pro trial. Most integrations.</p>
+                <div class="deal-card-footer">
+                    <a href="https://zapier.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Make</h3>
+                    <span class="deal-badge">1,000 OPS FREE</span>
+                </div>
+                <p>1,000 operations/month free. More powerful than Zapier.</p>
+                <div class="deal-card-footer">
+                    <a href="https://make.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>n8n</h3>
+                    <span class="deal-badge">SELF-HOST FREE</span>
+                </div>
+                <p>Free forever if you self-host. Most flexible option.</p>
+                <div class="deal-card-footer">
+                    <a href="https://n8n.io" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deals-section" id="productivity">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            Productivity
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Notion AI</h3>
+                    <span class="deal-badge">FREE TRIAL</span>
+                </div>
+                <p>AI features included in free trial. Best for knowledge work.</p>
+                <div class="deal-card-footer">
+                    <a href="https://notion.so" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Otter.ai</h3>
+                    <span class="deal-badge">600 MIN FREE</span>
+                </div>
+                <p>600 minutes of transcription free every month.</p>
+                <div class="deal-card-footer">
+                    <a href="https://otter.ai" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Grammarly</h3>
+                    <span class="deal-badge">60% OFF</span>
+                </div>
+                <p>Free tier + 60% off Premium annual (vs monthly).</p>
+                <div class="deal-card-footer">
+                    <a href="https://grammarly.com" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+            <div class="deal-card">
+                <div class="deal-card-header">
+                    <h3>Perplexity</h3>
+                    <span class="deal-badge">FREE TIER</span>
+                </div>
+                <p>Unlimited basic searches free. Best AI research tool.</p>
+                <div class="deal-card-footer">
+                    <a href="https://perplexity.ai" class="deal-link" target="_blank">Get Deal →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Free Tiers Section -->
+<section class="free-tier-section" id="free">
+    <div class="container">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#92400e" stroke-width="2" style="width:28px;height:28px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            Best Free Tiers (Actually Useful)
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card free-card">
+                <h3>ChatGPT</h3>
+                <p>GPT-3.5 unlimited + limited GPT-4o access. General AI use.</p>
+                <a href="/tools/chatgpt/" class="deal-link">Learn More →</a>
+            </div>
+            <div class="deal-card free-card">
+                <h3>Claude</h3>
+                <p>Claude 3.5 Sonnet with daily limits. Best for writing quality.</p>
+                <a href="/tools/claude/" class="deal-link">Learn More →</a>
+            </div>
+            <div class="deal-card free-card">
+                <h3>Leonardo AI</h3>
+                <p>150 images per day free. Excellent Midjourney alternative.</p>
+                <a href="/tools/leonardo-ai/" class="deal-link">Learn More →</a>
+            </div>
+            <div class="deal-card free-card">
+                <h3>Codeium</h3>
+                <p>Unlimited AI code completions. Works in any IDE.</p>
+                <a href="/tools/codeium/" class="deal-link">Learn More →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Student Section -->
+<section class="student-section" id="students">
+    <div class="container">
+        <h2>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1e40af" stroke-width="2" style="width:28px;height:28px;"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            Student Discounts
+        </h2>
+        <div class="deals-grid">
+            <div class="deal-card" style="background:white;border-color:#3b82f6;">
+                <h3>GitHub Copilot</h3>
+                <p><strong>100% FREE</strong> - Verify with .edu email or GitHub Student Pack.</p>
+            </div>
+            <div class="deal-card" style="background:white;border-color:#3b82f6;">
+                <h3>Notion</h3>
+                <p><strong>Free Pro Plan</strong> - Full features with .edu email verification.</p>
+            </div>
+            <div class="deal-card" style="background:white;border-color:#3b82f6;">
+                <h3>Canva</h3>
+                <p><strong>Free Pro Plan</strong> - All premium features for students.</p>
+            </div>
+            <div class="deal-card" style="background:white;border-color:#3b82f6;">
+                <h3>Grammarly</h3>
+                <p><strong>50% OFF Premium</strong> - Student discount on annual plans.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tips Section -->
+<section class="tips-section">
+    <div class="container">
+        <h2 style="text-align:center;margin-bottom:var(--space-8);">Money-Saving Tips</h2>
+        <div class="tips-grid">
+            <div class="tip-card">
+                <h3>
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    When to Go Annual
+                </h3>
+                <ul>
+                    <li>Used monthly for 2+ months</li>
+                    <li>Core to your workflow</li>
+                    <li>Discount is 20%+ (usually 30-50%)</li>
+                </ul>
+            </div>
+            <div class="tip-card">
+                <h3>
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    Stay Monthly If
+                </h3>
+                <ul>
+                    <li>Still testing the tool</li>
+                    <li>AI tools evolving fast</li>
+                    <li>Your needs might change</li>
+                </ul>
+            </div>
+            <div class="tip-card">
+                <h3>
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    Watch Out For
+                </h3>
+                <ul>
+                    <li>"Lifetime deals" - often scams</li>
+                    <li>Auto-renewal at full price</li>
+                    <li>Feature limits on free tiers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="deals-cta">
+    <div class="container">
+        <h2>Found a Deal We Missed?</h2>
+        <p>Help the community save money. Let us know about deals we should add.</p>
+        <a href="/contact/" class="btn btn-primary btn-lg">Submit a Deal</a>
+    </div>
+</section>
+
+<p style="text-align:center;padding:var(--space-6);color:var(--color-text-tertiary);font-size:var(--text-sm);">
+    Last updated: {{ now.Format "January 2, 2006" }}
+</p>
+{{ end }}
