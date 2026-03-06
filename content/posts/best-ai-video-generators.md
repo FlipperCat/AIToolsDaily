@@ -1,6 +1,6 @@
 ---
 title: "8 Best AI Video Generators in 2024 (Tested & Ranked)"
-date: 2026-01-23
+date: 2024-01-23
 updated: 2026-02-01
 categories: ["Lists"]
 tags: ["ai video", "video generation", "content creation", "ai tools"]

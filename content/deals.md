@@ -9,7 +9,7 @@ tags: ["deals", "discounts", "free-trials", "savings"]
 
 Bookmark this page. I update it weekly with the best AI tool deals.
 
-## Current Deals (February 2026)
+## Current Deals (March 2026)
 
 ### Writing Tools
 
@@ -133,6 +133,6 @@ I negotiate exclusive discounts with AI tools. Subscribe to get:
 
 ---
 
-*Last updated: February 18, 2026*
+*Last updated: March 5, 2026*
 
 *Found a deal I missed? [Contact me](/contact/) and I'll add it.*

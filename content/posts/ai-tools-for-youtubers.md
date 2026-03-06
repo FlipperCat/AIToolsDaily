@@ -1,5 +1,6 @@
 ---
 title: "AI Tools for YouTubers: What Actually Saves Time (2025 Guide)"
+description: "AI tools that actually help YouTubers: scripts, thumbnails, editing, shorts. Skip the hype - here's what working creators use."
 date: 2025-04-11
 updated: 2026-02-25
 categories: ["Industry Guides"]

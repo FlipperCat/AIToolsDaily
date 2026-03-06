@@ -1,9 +1,19 @@
 ---
 title: "AI Image Generation Explained Simply"
+description: "How AI creates images from text prompts. DALL-E, Midjourney, and Stable Diffusion explained for beginners - no technical knowledge needed."
 date: 2025-03-02
 updated: 2026-01-07
 categories: ["Guides"]
 tags: ["beginner", "guide", "image generation", "ai art"]
+faqs:
+  - question: "What is the best AI image generator for beginners?"
+    answer: "DALL-E and Bing Image Creator are the best for beginners because they're free, easy to use, and produce high-quality results. Just type a description and click generate - no technical setup required."
+  - question: "Can I use AI-generated images commercially?"
+    answer: "It depends on the tool. Paid tiers of DALL-E and Midjourney typically grant commercial usage rights, but free tools often don't. Always check the specific terms of service before using AI images for business."
+  - question: "Why do AI images sometimes have weird hands?"
+    answer: "AI struggles with hands because human hands have complex, variable positions and proportions. The training data contains hands in countless configurations, making it hard for AI to learn consistent patterns. This is improving but remains a known limitation."
+  - question: "How detailed should my image description be?"
+    answer: "More detail generally gives better results. Include subject, appearance, setting, style, and quality modifiers. A good formula is: [SUBJECT] + [APPEARANCE] + [CONTEXT] + [STYLE] + [QUALITY]. Example: 'A fluffy orange cat on a sunny windowsill, photorealistic, professional photography.'"
 affiliate_disclosure: true
 ---
 

@@ -32,8 +32,8 @@ cons:
   - "UI can be confusing"
 best_for: ["Developers", "Technical Founders", "DevOps", "API Integrations"]
 alternatives: ["n8n", "Zapier", "Make"]
-updated: 2026-01-21
 updated: 2026-02-17
+description: "Pipedream review: Developer-first automation with real code and generous free tier. From $19/mo. Best for developers building integrations."
 ---
 
 Pipedream is the automation platform built for developers. Write real code, access APIs directly, and get a generous free tier that rivals paid plans elsewhere.

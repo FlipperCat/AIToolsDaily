@@ -1,6 +1,8 @@
 ---
-title: "Contact"
+title: "Contact Us"
 date: 2024-07-31
+updated: 2026-03-05
+description: "Contact AI Tools Daily: Questions, tool suggestions, corrections, or partnership inquiries. We respond to all messages."
 ---
 
 # Contact Us

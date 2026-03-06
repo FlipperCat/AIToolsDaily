@@ -1,6 +1,6 @@
 ---
 title: "8 Best AI Video Editors in 2025 (Tested & Compared)"
-date: 2024-07-07
+date: 2025-07-07
 updated: 2026-01-10
 categories: ["Lists"]
 tags: ["video-editing", "content-creation", "AI-tools", "automation", "video-production"]

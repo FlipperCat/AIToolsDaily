@@ -1,6 +1,6 @@
 ---
 title: "AI for Accountants: Handle 3x More Clients (2025 Guide)"
-date: 2024-05-30
+date: 2025-05-30
 updated: 2026-01-26
 categories: ["Guides"]
 tags: ["accounting", "ai", "bookkeeping", "tax", "automation"]

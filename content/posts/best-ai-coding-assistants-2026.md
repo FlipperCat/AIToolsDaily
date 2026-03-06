@@ -1,5 +1,6 @@
 ---
 title: "Best AI Coding Assistants 2024: GitHub Copilot vs Cursor vs Alternatives"
+description: "Compare GitHub Copilot, Cursor, Codeium, and other AI coding assistants. Features, pricing, and which one is best for your workflow."
 date: 2024-04-10
 updated: 2026-02-25
 categories: ["Lists"]

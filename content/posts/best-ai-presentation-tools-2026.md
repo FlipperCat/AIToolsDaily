@@ -1,6 +1,6 @@
 ---
 title: "10 Best AI Presentation Tools in 2024 (Tested & Ranked)"
-date: 2023-06-02
+date: 2024-06-02
 updated: 2026-02-03
 categories: ["Lists"]
 tags: ["ai presentations", "productivity", "design", "presentation tools"]

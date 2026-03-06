@@ -1,6 +1,7 @@
 ---
 title: "AI Tools for Writers: The Complete 2025 Guide"
-date: 2026-01-23
+description: "Every AI writing tool you need: drafting, editing, research, and publishing. The complete toolkit for professional writers in 2025."
+date: 2025-01-23
 updated: 2026-01-08
 categories: ["Lists"]
 tags: ["ai writing", "writing tools", "chatgpt", "claude", "content creation"]

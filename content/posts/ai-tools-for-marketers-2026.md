@@ -1,6 +1,6 @@
 ---
 title: "AI Tools for Marketers: What's Actually Worth Using in 2024"
-date: 2026-02-13
+date: 2024-02-13
 updated: 2026-01-26
 categories: ["Industry Tools"]
 tags: ["marketing", "ai tools", "digital marketing", "content marketing", "automation"]

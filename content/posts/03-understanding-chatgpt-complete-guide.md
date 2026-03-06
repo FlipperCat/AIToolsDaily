@@ -1,9 +1,10 @@
 ---
-title: "Understanding ChatGPT: Complete Beginner's Guide (2025)"
+title: "Understanding ChatGPT: Complete Beginner's Guide (2026)"
 date: 2025-08-18
-updated: 2026-02-23
+updated: 2026-03-05
 categories: ["Guides"]
 tags: ["beginner", "guide", "chatgpt", "tutorial"]
+description: "Complete ChatGPT guide for beginners: What it is, how to use it, and tips for better prompts. Free tier available, Plus at $20/mo."
 affiliate_disclosure: true
 faqs:
   - question: "What is ChatGPT used for?"

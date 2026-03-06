@@ -32,8 +32,8 @@ cons:
   - "Less capable for non-AWS code"
 best_for: ["AWS Developers", "Cloud Engineers", "Enterprise Teams", "Security-Conscious Developers"]
 alternatives: ["GitHub Copilot", "Codeium", "Tabnine"]
-updated: 2026-02-10
 updated: 2026-02-17
+description: "Amazon CodeWhisperer review: Free AI coding assistant with AWS expertise. Includes security scanning. Best for AWS developers and cloud engineers."
 ---
 
 Amazon CodeWhisperer is AWS's answer to GitHub Copilot. It's free for individuals and offers unique features like security scanning and deep AWS service knowledge.

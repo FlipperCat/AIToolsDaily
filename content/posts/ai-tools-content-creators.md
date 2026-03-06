@@ -1,6 +1,6 @@
 ---
 title: "Best AI Tools for Content Creators in 2025 (Complete Guide)"
-date: 2023-06-25
+date: 2025-06-25
 updated: 2026-01-16
 categories: ["Lists"]
 tags: ["content creation", "ai tools", "youtube", "social media", "blogging"]

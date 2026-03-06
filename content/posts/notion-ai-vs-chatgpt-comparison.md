@@ -1,7 +1,7 @@
 ---
 title: "Notion AI vs ChatGPT: Which Should You Use? (2025)"
 description: "I use both Notion AI and ChatGPT daily. Here's when to use each and whether Notion AI is worth the extra cost."
-date: 2026-01-20
+date: 2025-01-20
 categories: ["Comparisons"]
 tags: ["notion", "chatgpt", "ai writing", "productivity", "note-taking"]
 affiliate_disclosure: true

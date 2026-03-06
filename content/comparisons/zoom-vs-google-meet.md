@@ -4,6 +4,7 @@ date: 2024-09-06
 updated: 2026-02-05
 categories: ["Comparisons"]
 tags: ["zoom", "google-meet", "video-conferencing", "meetings"]
+description: "Zoom vs Google Meet comparison (2026): Zoom for features, Google Meet for Workspace integration. Feature and pricing breakdown inside."
 affiliate_disclosure: true
 ---
 

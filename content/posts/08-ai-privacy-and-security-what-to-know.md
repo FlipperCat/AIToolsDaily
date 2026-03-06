@@ -4,6 +4,15 @@ date: 2024-03-25
 updated: 2026-02-05
 categories: ["Guides"]
 tags: ["beginner", "guide", "privacy", "security"]
+faqs:
+  - question: "Does ChatGPT store my conversations?"
+    answer: "Yes, OpenAI stores conversations by default. Free tier data may be used for model training. Paid ChatGPT Plus users can disable conversation history in settings, which prevents training use. Always check each tool's privacy settings."
+  - question: "Is it safe to paste sensitive information into AI tools?"
+    answer: "No. Never paste passwords, API keys, financial details, medical records, or confidential client data into AI tools. These inputs go to company servers where employees might access them or they could be exposed in a data breach."
+  - question: "Which AI tool is most private?"
+    answer: "Claude (Anthropic) is generally considered more privacy-focused and doesn't use your data for training. Running local AI models like Stable Diffusion or Ollama offers complete privacy since nothing leaves your computer."
+  - question: "Can my employer see what I ask AI tools?"
+    answer: "If you're using work accounts or work devices, possibly yes. Enterprise versions of AI tools often include admin monitoring. For personal privacy, use personal accounts on personal devices, and consider a VPN for additional security."
 affiliate_disclosure: true
 ---
 

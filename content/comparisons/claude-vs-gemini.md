@@ -4,6 +4,7 @@ date: 2025-05-23
 updated: 2026-02-23
 categories: ["Comparisons"]
 tags: ["claude", "gemini", "ai comparison", "google", "anthropic"]
+description: "Claude vs Gemini comparison (2026): Claude for writing, Gemini for research with search. Feature and pricing breakdown inside."
 affiliate_disclosure: true
 faqs:
   - question: "Is Claude or Gemini better for writing?"

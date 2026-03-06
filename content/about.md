@@ -1,9 +1,9 @@
 ---
 title: "About AI Tools Daily"
 date: 2023-08-31
+updated: 2026-03-05
+description: "AI Tools Daily: Independent AI tool reviews since 2023. 680+ articles, 50+ tools tested. No pay-for-play. We test everything we review."
 ---
-
-Impact-Site-Verification: 81a9ba7f-f99d-4648-ae8d-041dc70af1c4
 
 # About AI Tools Daily
 
@@ -19,7 +19,7 @@ We actually use the tools we write about. We test workflows, compare alternative
 
 ## What We Cover
 
-**400+ In-Depth Articles** covering:
+**680+ In-Depth Articles** covering:
 
 - **AI Productivity Tools** — ChatGPT, Claude, Gemini, Perplexity, and the rest
 - **AI Writing & Content** — From drafts to final copy, we've tested them all
@@ -51,7 +51,7 @@ AI moves fast. We regularly update reviews when tools change. Check the "Updated
 
 | Metric | Count |
 |--------|-------|
-| Articles Published | 400+ |
+| Articles Published | 680+ |
 | AI Tools Reviewed | 50+ |
 | Years of Coverage | 3 |
 | Tutorials & Guides | 100+ |

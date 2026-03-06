@@ -1,5 +1,6 @@
 ---
 title: "Best AI Scheduling Tools for Busy Professionals"
+description: "AI scheduling tools that manage your calendar, book meetings, and protect your focus time. Reclaim hours of calendar management every week."
 date: 2023-03-20
 updated: 2026-01-11
 categories: ["Lists"]

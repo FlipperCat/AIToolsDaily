@@ -32,8 +32,8 @@ cons:
   - "Search quality varies"
 best_for: ["Privacy-Conscious Users", "Developers", "Multi-Purpose Searchers"]
 alternatives: ["Perplexity", "ChatGPT", "DuckDuckGo"]
-updated: 2026-01-31
 updated: 2026-02-17
+description: "You.com review: Customizable AI search with specialized modes for coding and writing. From $15/mo. Best for privacy-conscious developers."
 ---
 
 You.com offers a customizable search experience with multiple AI-powered modes for different tasks. It's particularly strong for developers and privacy-conscious users.

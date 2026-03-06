@@ -1,6 +1,6 @@
 ---
 title: "9 Best AI Automation Tools in 2025 (Tested & Ranked)"
-date: 2026-02-22
+date: 2025-02-22
 updated: 2026-01-16
 categories: ["Lists"]
 tags: ["ai automation", "productivity", "workflow", "tools"]

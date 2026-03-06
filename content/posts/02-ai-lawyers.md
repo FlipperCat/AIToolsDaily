@@ -1,6 +1,6 @@
 ---
 title: "AI for Lawyers: Add 8+ Billable Hours Weekly (2024 Guide)"
-date: 2023-06-10
+date: 2024-06-10
 updated: 2026-01-20
 categories: ["Guides"]
 tags: ["legal", "ai", "contract-analysis", "legal-tech", "automation"]

@@ -1,6 +1,8 @@
 ---
 title: "Privacy Policy"
 date: 2023-10-27
+updated: 2026-03-05
+description: "AI Tools Daily privacy policy: How we collect, use, and protect your data. We use privacy-focused analytics and never sell your information."
 ---
 
 # Privacy Policy

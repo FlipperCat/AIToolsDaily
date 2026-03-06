@@ -1,5 +1,6 @@
 ---
 title: "AI for Podcasters: Audio Tools Complete Guide"
+description: "The best AI tools for podcast editing, transcription, show notes, and growth. Complete guide to streamlining your podcast production."
 date: 2023-08-27
 updated: 2026-01-30
 categories: ["Guides"]

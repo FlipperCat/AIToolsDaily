@@ -4,6 +4,15 @@ date: 2024-09-07
 updated: 2026-02-04
 categories: ["Workflows"]
 tags: ["automation", "workflow", "data-management", "ai-tools", "disaster-recovery"]
+faqs:
+  - question: "How often should I backup my data?"
+    answer: "Critical databases should have hourly incremental backups and daily full backups. Files and documents can be backed up continuously with cloud sync or daily. Code repositories should be mirrored daily. Adjust based on how much data loss you can tolerate."
+  - question: "Where should I store my backups?"
+    answer: "Follow the 3-2-1 rule: 3 copies of data, on 2 different types of media, with 1 copy offsite. Combine cloud storage (AWS S3, Google Drive) with local copies. Never store backups only in the same location as your primary data."
+  - question: "How do I know if my backups actually work?"
+    answer: "Test restores regularly - weekly for critical systems, monthly for others. Automated backup verification should check file integrity, data completeness, and restore speed. A backup you've never tested might not work when you need it."
+  - question: "What's the difference between RTO and RPO?"
+    answer: "RPO (Recovery Point Objective) is how much data you can afford to lose - if RPO is 1 hour, you need hourly backups. RTO (Recovery Time Objective) is how quickly you need to recover - if RTO is 4 hours, your restore process must complete within 4 hours."
 affiliate_disclosure: true
 ---
 

@@ -32,8 +32,8 @@ cons:
   - "Pro subscription needed for best models"
 best_for: ["Researchers", "Students", "Journalists", "Knowledge Workers"]
 alternatives: ["ChatGPT", "You.com", "Gemini"]
-updated: 2026-02-04
 updated: 2026-02-17
+description: "Perplexity AI review: Real-time search with cited sources. Free tier available, Pro at $20/mo. Best for research, fact-checking, and staying current."
 ---
 
 Perplexity reimagines search for the AI era. Ask questions in natural language and get comprehensive answers with sources—not just a list of blue links.

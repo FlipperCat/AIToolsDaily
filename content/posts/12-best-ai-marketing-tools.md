@@ -1,7 +1,7 @@
 ---
 title: "12 Best AI Marketing Tools in 2025 (Tested & Ranked)"
 description: "Top AI marketing tools for campaigns, content, and analytics. AI copywriting, email marketing, ad optimization. Best marketing AI in 2026."
-date: 2026-02-05
+date: 2025-02-05
 categories: ["Lists"]
 tags: ["marketing", "marketing-automation", "content-creation", "advertising", "business-tools"]
 affiliate_disclosure: true

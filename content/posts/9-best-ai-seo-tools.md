@@ -1,6 +1,6 @@
 ---
 title: "9 Best AI SEO Tools in 2024 (Tested for Rankings)"
-date: 2025-11-19
+date: 2024-11-19
 updated: 2026-01-07
 categories: ["Lists"]
 tags: ["SEO", "marketing", "content-optimization", "keyword-research", "digital-marketing"]

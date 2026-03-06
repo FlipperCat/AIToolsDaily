@@ -1,6 +1,7 @@
 ---
 title: "Essential AI Tools for Startups in 2024 (Founder's Guide)"
-date: 2025-02-17
+description: "A founder's guide to AI tools: what to use at each stage, how to avoid tool bloat, and which tools actually move the needle."
+date: 2024-02-17
 updated: 2026-02-17
 categories: ["Lists"]
 tags: ["startups", "ai tools", "entrepreneurship", "productivity"]

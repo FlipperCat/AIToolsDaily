@@ -1,5 +1,6 @@
 ---
 title: "AI for Developers: Coding Tools Complete Guide"
+description: "AI coding assistants, code review tools, and automation for developers. Ship better code faster with the right AI development toolkit."
 date: 2026-01-18
 updated: 2026-01-14
 categories: ["Guides"]

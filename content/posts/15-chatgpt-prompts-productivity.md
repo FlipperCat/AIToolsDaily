@@ -4,6 +4,15 @@ date: 2025-08-15
 description: "Copy-paste ChatGPT prompts for everyday work tasks - emails, summaries, research, and more. Tested prompts that deliver useful results."
 categories: ["Tips"]
 tags: ["ChatGPT", "prompts", "productivity", "AI tips", "time saving"]
+faqs:
+  - question: "Why don't generic ChatGPT prompts work well?"
+    answer: "Generic prompts get generic responses. AI needs specific context: who the audience is, what format you want, how long it should be, and what tone to use. Detailed prompts produce dramatically better results than vague ones."
+  - question: "How can I make ChatGPT match my writing style?"
+    answer: "Include examples of your writing in the prompt, specify tone explicitly, or ask ChatGPT to analyze a sample of your writing first. The prompt 'Improve this text while keeping my voice' works well for editing."
+  - question: "What's the best ChatGPT prompt for emails?"
+    answer: "For replies: 'Write a reply that addresses all their questions, matches their email length, uses a professional but warm tone, and ends with a clear next step.' Always include the original email for context."
+  - question: "Should I use ChatGPT for all my work tasks?"
+    answer: "Use ChatGPT for drafts, research summaries, and routine communications. Keep creative direction, strategic decisions, and personal relationships human. AI accelerates execution but shouldn't replace your judgment and expertise."
 ---
 
 Most ChatGPT prompts are useless. Generic instructions get generic results.

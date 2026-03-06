@@ -4,6 +4,15 @@ description: "Beginner's guide to how AI tools work behind the scenes. Simple ex
 date: 2025-12-17
 categories: ["Guides"]
 tags: ["beginner", "guide", "how it works", "ai technology"]
+faqs:
+  - question: "Is AI actually intelligent?"
+    answer: "No, not in the human sense. AI is sophisticated pattern matching - it finds patterns in training data and uses them to generate outputs. It has no consciousness, understanding, or genuine reasoning ability. It's incredibly useful, but not truly intelligent."
+  - question: "Why does AI sometimes make things up (hallucinate)?"
+    answer: "AI generates text by predicting likely next words based on patterns, not by checking facts. When patterns suggest plausible-sounding information that doesn't exist, AI confidently states it anyway. Always verify important facts from AI outputs."
+  - question: "What are tokens and why do they matter?"
+    answer: "Tokens are word pieces that AI uses to process language. 'Hello world' is 2 tokens, while complex words might be multiple tokens. Pricing is often per-token, so understanding tokens helps estimate costs. Roughly 1,000 tokens equals 750 words."
+  - question: "Why are bigger AI models better?"
+    answer: "Bigger models have more 'parameters' (learned patterns), allowing them to recognize more nuances and generate better outputs. However, bigger also means slower and more expensive. Modern approach: use smaller models for routine tasks, bigger ones when quality matters."
 affiliate_disclosure: true
 ---
 

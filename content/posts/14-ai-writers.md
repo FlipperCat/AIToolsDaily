@@ -1,5 +1,6 @@
 ---
 title: "AI for Writers: Complete Writing Stack Guide"
+description: "The complete AI toolkit for professional writers. From drafting to editing to publishing - every tool you need to write better and faster."
 date: 2023-02-07
 updated: 2025-12-29
 categories: ["Guides"]

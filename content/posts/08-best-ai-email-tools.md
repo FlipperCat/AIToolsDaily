@@ -1,5 +1,6 @@
 ---
 title: "8 Best AI Email Tools in 2024"
+description: "The 8 best AI email tools for writing, organizing, and automating your inbox. Compare features, pricing, and find the right tool for you."
 date: 2025-08-11
 updated: 2025-12-30
 categories: ["Lists"]

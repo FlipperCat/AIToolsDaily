@@ -1,6 +1,6 @@
 ---
 title: "7 ChatGPT Alternatives That Are Actually Free (2025)"
-date: 2024-02-08
+date: 2025-02-08
 updated: 2026-02-24
 categories: ["Lists"]
 tags: ["chatgpt", "ai chatbots", "free tools", "claude", "gemini", "alternatives"]

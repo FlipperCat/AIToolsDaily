@@ -1,6 +1,6 @@
 ---
 title: "8 Best AI HR Tools in 2025 (Hire 50% Faster)"
-date: 2023-01-21
+date: 2025-01-21
 updated: 2026-02-21
 categories: ["Lists"]
 tags: ["HR", "recruiting", "talent-management", "human-resources", "business-tools"]

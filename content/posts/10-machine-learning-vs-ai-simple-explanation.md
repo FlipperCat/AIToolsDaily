@@ -4,6 +4,15 @@ date: 2025-11-23
 updated: 2026-01-03
 categories: ["Guides"]
 tags: ["beginner", "guide", "machine learning", "ai"]
+faqs:
+  - question: "What is the difference between AI and machine learning?"
+    answer: "AI is the broad goal of making software act intelligently. Machine learning is one method to achieve that goal by having systems learn from data. All machine learning is AI, but not all AI uses machine learning."
+  - question: "Is ChatGPT machine learning or AI?"
+    answer: "ChatGPT is both. It's an AI tool that uses machine learning (specifically deep learning with neural networks) to generate responses. The terms overlap - ChatGPT is AI built using machine learning techniques."
+  - question: "Do I need to understand the difference to use AI tools?"
+    answer: "No. As a user, the distinction doesn't affect how you interact with tools like ChatGPT or DALL-E. Understanding helps with informed conversations about AI, but isn't required for effective everyday use."
+  - question: "Which is better: AI or machine learning?"
+    answer: "This is like asking whether 'transportation' or 'cars' is better. Machine learning is a type of AI, not an alternative. Modern AI tools almost all use machine learning because it's the most effective current approach."
 affiliate_disclosure: true
 ---
 

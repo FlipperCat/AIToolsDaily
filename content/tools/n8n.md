@@ -33,8 +33,8 @@ cons:
   - "Less polished UI"
 best_for: ["Developers", "Technical Teams", "Privacy-Conscious Users", "Startups"]
 alternatives: ["Zapier", "Make", "Pipedream"]
-updated: 2026-02-05
 updated: 2026-02-17
+description: "n8n review: Open-source automation platform with self-hosting option. Free to self-host. Best for developers who value data privacy."
 ---
 
 n8n is the automation tool for those who want control. Self-host it for free, keep your data on your servers, and customize workflows with JavaScript when the UI isn't enough.

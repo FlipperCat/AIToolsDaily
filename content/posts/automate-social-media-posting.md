@@ -1,6 +1,7 @@
 ---
 title: "How to Automate Social Media Posting (2025 Guide)"
-date: 2024-12-07
+description: "Step-by-step guide to automating your social media. Set up AI-powered scheduling, content creation, and cross-posting in under an hour."
+date: 2025-12-07
 updated: 2026-02-08
 categories: ["Tutorials"]
 tags: ["social media", "automation", "scheduling", "content creation"]

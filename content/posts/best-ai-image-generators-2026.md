@@ -1,6 +1,7 @@
 ---
 title: "Best AI Image Generators 2024: Midjourney vs DALL-E vs Stable Diffusion"
-date: 2023-01-29
+description: "Compare the best AI image generators: Midjourney, DALL-E 3, Stable Diffusion, and more. Find the right tool for your creative needs."
+date: 2024-01-29
 updated: 2026-02-19
 categories: ["Lists"]
 tags: ["ai-art", "image-generation", "midjourney", "dall-e", "stable-diffusion", "best-of"]

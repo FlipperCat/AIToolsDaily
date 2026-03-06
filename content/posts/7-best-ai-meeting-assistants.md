@@ -1,6 +1,6 @@
 ---
 title: "7 Best AI Meeting Assistants in 2025 (Save 5+ Hours/Week)"
-date: 2023-12-04
+date: 2025-12-04
 updated: 2026-01-31
 categories: ["Lists"]
 tags: ["meeting-tools", "productivity", "transcription", "collaboration", "workplace"]

@@ -32,8 +32,8 @@ cons:
   - "Not for deep research"
 best_for: ["Fact-Checkers", "Science Communicators", "Students", "Curious Learners"]
 alternatives: ["Elicit", "Perplexity", "Semantic Scholar"]
-updated: 2026-02-23
 updated: 2026-02-17
+description: "Consensus review: AI search engine for scientific research with yes/no consensus meters. From $8.99/mo. Best for fact-checkers and students."
 ---
 
 Consensus answers your questions using only peer-reviewed research. It's the fastest way to find what science actually says about a topic.

@@ -1,6 +1,6 @@
 ---
 title: "10 Best AI Research Tools in 2025 (Read 100 Papers in Hours)"
-date: 2023-10-25
+date: 2025-10-25
 updated: 2025-12-31
 categories: ["Lists"]
 tags: ["research", "academic", "literature", "data-analysis", "science"]

@@ -32,8 +32,8 @@ cons:
   - "Sales-driven pricing"
 best_for: ["Enterprise", "IT Teams", "Salesforce Users", "Large Organizations"]
 alternatives: ["Tray.io", "MuleSoft", "Zapier Enterprise"]
-updated: 2026-01-25
 updated: 2026-02-17
+description: "Workato review: Enterprise iPaaS with 1000+ connectors and AI recipe building. Custom pricing. Best for large organizations and IT teams."
 ---
 
 Workato is a leader in enterprise integration platforms (iPaaS). With over 1,000 connectors and AI-powered recipe building, it handles the most complex enterprise automation needs.

@@ -32,8 +32,8 @@ cons:
   - "Learning curve for workflows"
 best_for: ["Academic Researchers", "PhD Students", "Scientists", "Policy Analysts"]
 alternatives: ["Consensus", "Semantic Scholar", "Connected Papers"]
-updated: 2026-01-08
 updated: 2026-02-17
+description: "Elicit review: AI research assistant for academic paper search and analysis. From $10/mo. Best for researchers and PhD students."
 ---
 
 Elicit is the AI research assistant built specifically for academic work. It searches papers, extracts key findings, and helps you understand the research landscape.

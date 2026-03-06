@@ -32,8 +32,8 @@ cons:
   - "Basic AI summarization"
 best_for: ["Product Teams", "UX Researchers", "Recruiters", "Distributed Teams"]
 alternatives: ["Otter.ai", "Grain", "Fireflies.ai"]
-updated: 2025-12-30
 updated: 2026-02-17
+description: "tl;dv review: Meeting recording with AI highlights and shareable clips. From $25/mo. Best for product teams and UX researchers."
 ---
 
 tl;dv focuses on making meeting content shareable and actionable. Record meetings, let AI identify key moments, and share clips with teammates who couldn't attend.

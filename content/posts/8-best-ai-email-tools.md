@@ -1,6 +1,6 @@
 ---
 title: "8 Best AI Email Tools in 2024 (Inbox Zero in Minutes)"
-date: 2025-08-01
+date: 2024-08-01
 updated: 2025-12-31
 categories: ["Lists"]
 tags: ["email-tools", "productivity", "workplace-tools", "communication", "automation"]

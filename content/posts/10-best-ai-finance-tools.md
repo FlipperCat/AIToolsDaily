@@ -1,6 +1,7 @@
 ---
 title: "10 Best AI Finance Tools in 2024 (Automate Your Books)"
-date: 2025-04-11
+description: "Top 10 AI finance tools for bookkeeping, expense tracking, and financial management. Automate your accounting and save hours every week."
+date: 2024-04-11
 updated: 2026-01-06
 categories: ["Lists"]
 tags: ["finance", "accounting", "bookkeeping", "financial-management", "business-tools"]

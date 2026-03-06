@@ -1,6 +1,6 @@
 ---
 title: "AI for Freelancers: Double Your Hourly Rate (2025 Guide)"
-date: 2024-10-20
+date: 2025-10-20
 updated: 2026-01-05
 categories: ["Guides"]
 tags: ["freelancing", "ai", "productivity", "automation", "business"]

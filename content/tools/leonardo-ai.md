@@ -32,8 +32,8 @@ cons:
   - "Less artistic than Midjourney"
 best_for: ["Game Developers", "Concept Artists", "Designers", "Indie Developers"]
 alternatives: ["Midjourney", "Stable Diffusion", "Adobe Firefly"]
-updated: 2026-01-20
 updated: 2026-02-17
+description: "Leonardo AI review: AI image generator with specialized models for game assets. From $12/mo. Best for game developers and concept artists."
 ---
 
 Leonardo AI bridges the gap between easy-to-use web tools and powerful open-source solutions. It offers Stable Diffusion quality with a user-friendly interface and specialized models for production work.

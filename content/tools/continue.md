@@ -32,8 +32,8 @@ cons:
   - "Model costs if using APIs"
 best_for: ["Privacy-Focused Developers", "Open Source Enthusiasts", "Self-Hosters", "Experimenters"]
 alternatives: ["GitHub Copilot", "Codeium", "Cursor"]
-updated: 2026-01-24
 updated: 2026-02-17
+description: "Continue review: Open-source AI coding assistant supporting any LLM. Free and self-hostable. Best for privacy-focused developers."
 ---
 
 Continue is the open-source alternative that puts you in control. Use any AI model—local or cloud—and customize exactly how your coding assistant works.

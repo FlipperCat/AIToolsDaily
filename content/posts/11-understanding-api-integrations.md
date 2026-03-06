@@ -4,6 +4,15 @@ date: 2023-11-24
 updated: 2026-02-02
 categories: ["Guides"]
 tags: ["beginner", "guide", "api", "integration"]
+faqs:
+  - question: "What is an API in simple terms?"
+    answer: "An API is a way for software to talk to other software automatically. Like a waiter between you and a kitchen - you don't cook, you tell the waiter what you want, they communicate with the kitchen, and bring back your food."
+  - question: "Do I need to code to use APIs?"
+    answer: "No. Tools like Zapier, Make, and IFTTT use APIs behind the scenes without requiring code. You connect apps visually, and the tool handles the technical API communication automatically."
+  - question: "What is an API key and why should I protect it?"
+    answer: "An API key is like a password that identifies your account to a service. If someone gets your key, they can use the service as you - potentially running up charges or accessing your data. Never share keys publicly or commit them to GitHub."
+  - question: "Why do APIs have rate limits?"
+    answer: "Rate limits prevent abuse, keep servers stable, and encourage paid upgrades. Common limits are '100 requests per minute' or '1,000 per day.' Going over limits results in blocked requests until the limit resets."
 affiliate_disclosure: true
 ---
 

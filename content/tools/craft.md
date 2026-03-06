@@ -32,8 +32,8 @@ cons:
   - "Team features limited"
 best_for: ["Apple Users", "Writers", "Personal Knowledge Management", "Designers"]
 alternatives: ["Notion", "Obsidian", "Bear"]
-updated: 2026-02-13
 updated: 2026-02-17
+description: "Craft review: Beautiful native note-taking app with AI writing assistance. From $5/mo. Best for Apple users and writers who value design."
 ---
 
 Craft is what happens when Apple design philosophy meets note-taking. It's the most beautiful document app available, now enhanced with AI assistance.

@@ -1,6 +1,8 @@
 ---
 title: "Terms of Service"
 date: 2024-01-15
+updated: 2026-03-05
+description: "AI Tools Daily terms of service: Content usage, affiliate disclosure, disclaimers, and user guidelines. Read before using our site."
 ---
 
 # Terms of Service

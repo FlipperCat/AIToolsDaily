@@ -53,6 +53,9 @@
             <div class="article-content">
                 {{ .Content }}
 
+                <!-- FAQ Section (if article has FAQs) -->
+                {{ partial "faq-section.html" . }}
+
                 {{ if .Params.affiliate_disclosure }}
                 <div class="affiliate-disclosure">
                     <strong>Disclosure:</strong> This post contains affiliate links. If you click through and make a purchase, we may earn a commission at no extra cost to you. We only recommend tools we genuinely believe in.

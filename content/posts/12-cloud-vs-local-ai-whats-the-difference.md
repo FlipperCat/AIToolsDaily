@@ -4,6 +4,15 @@ date: 2025-08-30
 updated: 2026-02-14
 categories: ["Guides"]
 tags: ["beginner", "guide", "cloud", "local"]
+faqs:
+  - question: "Should I use cloud or local AI?"
+    answer: "Most beginners should start with cloud AI (ChatGPT, DALL-E) because it's easier, requires no setup, and offers the best models. Consider local AI only when you need complete privacy, unlimited usage, or work offline frequently."
+  - question: "What hardware do I need for local AI?"
+    answer: "Local AI typically requires a good GPU ($300-2,000+), adequate RAM (16GB minimum), and storage space. Without dedicated hardware, local models run slowly or not at all. Cloud AI works on any device with internet."
+  - question: "Is local AI more private than cloud AI?"
+    answer: "Yes, significantly. Local AI processes everything on your computer - no data leaves your device. Cloud AI sends your inputs to company servers where they may be stored, viewed by employees, or used for training."
+  - question: "Which is cheaper: cloud or local AI?"
+    answer: "It depends on usage. Cloud is cheaper for occasional use (free tiers or low monthly fees). Local becomes cheaper for high-volume users - after the initial hardware investment, running costs are just electricity."
 affiliate_disclosure: true
 ---
 

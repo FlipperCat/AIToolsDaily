@@ -1,6 +1,6 @@
 ---
 title: "10 Best AI Image Generators in 2024"
-date: 2025-01-25
+date: 2024-01-25
 updated: 2026-01-14
 categories: ["Lists"]
 tags: ["image-generation", "AI-art", "creative-tools", "DALL-E", "Midjourney"]

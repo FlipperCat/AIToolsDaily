@@ -1,5 +1,6 @@
 ---
 title: "AI for Photographers: Editing Automation Complete Guide"
+description: "AI photography tools that automate editing, culling, and retouching. Save hours on post-production and take on more clients."
 date: 2023-12-08
 updated: 2026-01-24
 categories: ["Guides"]

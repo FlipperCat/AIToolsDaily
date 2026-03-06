@@ -1,6 +1,6 @@
 ---
 title: "AI for Small Business: The Complete 2024 Guide"
-date: 2026-01-05
+date: 2024-01-05
 updated: 2026-02-25
 categories: ["Guides"]
 tags: ["small business", "ai tools", "productivity", "automation", "entrepreneurship"]

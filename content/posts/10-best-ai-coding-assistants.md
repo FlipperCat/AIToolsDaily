@@ -1,6 +1,6 @@
 ---
 title: "10 Best AI Coding Assistants in 2025 (Write Code 10x Faster)"
-date: 2024-07-06
+date: 2025-07-06
 updated: 2026-01-22
 categories: ["Lists"]
 tags: ["coding", "development", "ai-assistants", "programming", "productivity"]

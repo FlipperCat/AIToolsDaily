@@ -32,8 +32,8 @@ cons:
   - "Export times"
 best_for: ["Podcasters", "Video Creators", "Course Creators", "Marketing Teams"]
 alternatives: ["Adobe Premiere", "CapCut", "Riverside"]
-updated: 2026-02-13
 updated: 2026-02-17
+description: "Descript review: Edit video by editing text with AI transcription and voice cloning. From $15/mo. Best for podcasters and video creators."
 ---
 
 Descript transforms video editing. Instead of a complex timeline, you edit a text transcript—and the video follows. It's the most innovative approach to video editing in years.

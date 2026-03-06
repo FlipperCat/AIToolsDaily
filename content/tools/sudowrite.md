@@ -32,8 +32,8 @@ cons:
   - "Can sometimes produce clichés"
 best_for: ["Novelists", "Screenwriters", "Creative Writers", "Hobbyist Authors"]
 alternatives: ["NovelAI", "ChatGPT", "Jasper"]
-updated: 2025-12-28
 updated: 2026-02-17
+description: "Sudowrite review: AI writing assistant built for fiction with Story Engine. From $19/mo. Best for novelists and creative writers."
 ---
 
 Sudowrite is the AI writing tool that understands storytelling. Built by writers for writers, it focuses on the unique challenges of fiction writing rather than generic content generation.

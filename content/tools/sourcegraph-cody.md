@@ -32,8 +32,8 @@ cons:
   - "Enterprise focus"
 best_for: ["Enterprise Teams", "Large Codebases", "Platform Engineers", "Developer Experience Teams"]
 alternatives: ["Cursor", "GitHub Copilot", "Continue"]
-updated: 2025-12-31
 updated: 2026-02-17
+description: "Sourcegraph Cody review: AI coding assistant with enterprise-grade codebase understanding. From $9/mo. Best for large codebases and teams."
 ---
 
 Cody combines Sourcegraph's powerful code search with AI to create an assistant that truly understands your codebase—not just the file you're editing.

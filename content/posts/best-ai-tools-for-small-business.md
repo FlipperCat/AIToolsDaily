@@ -1,5 +1,6 @@
 ---
 title: "Best AI Tools for Small Business (2024): Save 20+ Hours Per Week"
+description: "The essential AI toolkit for small business owners. Automate marketing, customer service, and admin tasks to save 20+ hours weekly."
 date: 2024-08-07
 updated: 2026-02-25
 categories: ["Lists"]
