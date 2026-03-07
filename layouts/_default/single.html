@@ -1,51 +1,45 @@
 {{ define "main" }}
+<!-- Article Hero Section -->
+<section class="article-hero">
+    <div class="article-hero-bg"></div>
+    <div class="container article-hero-content">
+        {{ partial "breadcrumb.html" . }}
+        {{ with .Params.categories }}
+        <a href="/categories/{{ index . 0 | urlize }}/" class="article-hero-category">{{ index . 0 }}</a>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+        <div class="article-hero-meta">
+            <span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                {{ .Date.Format "January 2, 2006" }}
+            </span>
+            <span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                {{ .ReadingTime }} min read
+            </span>
+            {{ if .Params.updated }}
+            <span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                </svg>
+                Updated: {{ .Params.updated }}
+            </span>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
 <article class="article">
     <div class="container">
-        <!-- Breadcrumb Navigation -->
-        {{ partial "breadcrumb.html" . }}
-
-        <!-- Featured Image - Dynamic SVG based on article title -->
-        {{ $imageUrl := partial "article-image.html" (dict "page" . "width" 1200 "height" 600) }}
-        <div class="article-featured-image" style="margin-bottom:var(--space-8);border-radius:var(--radius-xl);overflow:hidden;aspect-ratio:2/1;">
-            <img src="{{ $imageUrl | safeURL }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover;" loading="eager">
-        </div>
-
-        <!-- Article Header -->
-        <header class="article-header">
-            {{ with .Params.categories }}
-            <a href="/categories/{{ index . 0 | urlize }}/" class="article-category">{{ index . 0 }}</a>
-            {{ end }}
-
-            <h1>{{ .Title }}</h1>
-
-            <div class="article-meta">
-                <span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                    </svg>
-                    {{ .Date.Format "January 2, 2006" }}
-                </span>
-                <span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="12 6 12 12 16 14"></polyline>
-                    </svg>
-                    {{ .ReadingTime }} min read
-                </span>
-                {{ if .Params.updated }}
-                <span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                    </svg>
-                    Updated: {{ .Params.updated }}
-                </span>
-                {{ end }}
-            </div>
-        </header>
 
         <!-- Article Layout with Sidebar -->
         <div class="article-layout" style="display:grid;grid-template-columns:1fr 280px;gap:var(--space-12);align-items:start;">
@@ -148,6 +142,93 @@
 </article>
 
 <style>
+    /* Article Hero Section */
+    .article-hero {
+        background: linear-gradient(135deg, var(--color-accent) 0%, #8b5cf6 50%, #ec4899 100%);
+        padding: var(--space-12) 0 var(--space-16);
+        position: relative;
+        overflow: hidden;
+        margin-bottom: var(--space-8);
+    }
+
+    .article-hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        animation: float 20s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    .article-hero-content {
+        position: relative;
+        z-index: 1;
+        color: white;
+    }
+
+    .article-hero-content .breadcrumb {
+        margin-bottom: var(--space-4);
+    }
+
+    .article-hero-content .breadcrumb a,
+    .article-hero-content .breadcrumb span {
+        color: rgba(255,255,255,0.8);
+    }
+
+    .article-hero-content .breadcrumb a:hover {
+        color: white;
+    }
+
+    .article-hero-category {
+        display: inline-block;
+        background: rgba(255,255,255,0.2);
+        color: white;
+        padding: var(--space-1) var(--space-3);
+        border-radius: var(--radius-full);
+        font-size: var(--text-sm);
+        font-weight: 500;
+        text-decoration: none;
+        margin-bottom: var(--space-4);
+        backdrop-filter: blur(5px);
+    }
+
+    .article-hero-category:hover {
+        background: rgba(255,255,255,0.3);
+    }
+
+    .article-hero h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-weight: 800;
+        margin-bottom: var(--space-4);
+        text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+        line-height: 1.2;
+        max-width: 900px;
+    }
+
+    .article-hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-4);
+        color: rgba(255,255,255,0.9);
+        font-size: var(--text-sm);
+    }
+
+    .article-hero-meta span {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+    }
+
+    .article-hero-meta svg {
+        opacity: 0.8;
+    }
+
     /* Responsive sidebar */
     @media (max-width: 1024px) {
         .article-layout {
