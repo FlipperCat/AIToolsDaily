@@ -1,8 +1,9 @@
 ---
 title: "What is AI? A Simple Explanation for Beginners (2026)"
+slug: "what-is-ai-simple-explanation"
 date: 2024-07-14
 updated: 2026-03-05
-categories: ["Guides"]
+categories: ["Posts"]
 tags: ["beginner", "guide", "artificial intelligence", "what is ai"]
 description: "What is AI explained simply: no jargon, just clarity. Learn how artificial intelligence works and what it can do for you in 5 minutes."
 affiliate_disclosure: true
