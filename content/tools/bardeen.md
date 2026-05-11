@@ -1,7 +1,7 @@
 ---
 title: "Bardeen"
 type: "tool"
-description: "AI-powered browser automation tool that scrapes, automates, and connects web apps without code."
+description: "Bardeen is an AI Chrome extension that scrapes sites, fills forms, and connects 100+ web apps without code, ideal for sales, recruiting, and research."
 website: "https://bardeen.ai"
 affiliate_link: "https://bardeen.ai"
 logo: "/images/tools/bardeen.svg"

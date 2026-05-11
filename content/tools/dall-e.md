@@ -1,7 +1,7 @@
 ---
 title: "DALL-E 3"
 type: "tool"
-description: "OpenAI's latest image generator with exceptional prompt understanding and ChatGPT integration."
+description: "DALL-E 3 is OpenAI's image generator inside ChatGPT, turning natural-language prompts into accurate visuals with readable text for marketers and designers."
 website: "https://openai.com/dall-e-3"
 affiliate_link: "https://chat.openai.com"
 logo: "/images/tools/dall-e.svg"

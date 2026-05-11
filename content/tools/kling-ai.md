@@ -1,7 +1,7 @@
 ---
 title: "Kling AI"
 type: "tool"
-description: "Chinese AI video generation tool creating high-quality videos from text and images with advanced motion control."
+description: "Kling AI generates up to 2-minute videos from text or images with precise camera and motion control, a fast Runway and Pika rival for video creators."
 website: "https://www.kling.ai"
 affiliate_link: "https://www.kling.ai"
 logo: "/images/tools/kling-ai.svg"

@@ -30,7 +30,7 @@ cons:
   - "Credits limited on lower tiers"
 best_for: ["Content Creators", "Audiobook Producers", "Video Creators"]
 alternatives: ["Murf", "Play.ht", "WellSaid Labs"]
-description: "ElevenLabs offers the most realistic AI voice synthesis and cloning. Create natural-sounding speech in 29+ languages."
+description: "ElevenLabs is the leading AI text-to-speech and voice cloning platform with emotional, multi-language voices for creators, audiobooks, and dubbing."
 ---
 
 ElevenLabs has become the industry standard for realistic AI voice synthesis, offering unmatched quality and versatility.

@@ -1,7 +1,7 @@
 ---
 title: "Stable Audio"
 type: "tool"
-description: "Stability AI's text-to-audio and sound effect generation platform for creating original music and audio content."
+description: "Stable Audio by Stability AI generates original royalty-free music and sound effects from text prompts, with commercial-use rights for content creators."
 website: "https://www.stableaudio.com"
 affiliate_link: "https://www.stableaudio.com"
 logo: "/images/tools/stable-audio.svg"

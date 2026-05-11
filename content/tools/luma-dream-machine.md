@@ -30,7 +30,7 @@ cons:
   - "Queue times at peak"
 best_for: ["Content Creators", "Filmmakers", "Social Media"]
 alternatives: ["Runway", "Pika", "Kling"]
-description: "Luma Dream Machine generates high-quality videos from text or images. Known for fast generation and realistic motion."
+description: "Luma Dream Machine is a fast AI video generator that turns text or images into clips with realistic motion and camera controls for short-form content."
 ---
 
 Luma Dream Machine is a fast, high-quality AI video generator known for realistic motion and quick turnaround.

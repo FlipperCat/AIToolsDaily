@@ -1,7 +1,7 @@
 ---
 title: "Remove.bg"
 type: "tool"
-description: "Instant background removal from images using AI, with no manual editing required for most photos."
+description: "Remove.bg removes image backgrounds in seconds with AI, exporting transparent PNGs at full resolution for e-commerce, product, and design workflows."
 website: "https://www.remove.bg"
 affiliate_link: "https://www.remove.bg"
 logo: "/images/tools/remove-bg.svg"

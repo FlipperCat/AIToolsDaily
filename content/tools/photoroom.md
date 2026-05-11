@@ -1,7 +1,7 @@
 ---
 title: "PhotoRoom"
 type: "tool"
-description: "All-in-one photo editor with AI background removal, replacement, and professional editing capabilities for creators."
+description: "PhotoRoom combines AI background removal, replacement, generation, and shadow tools in one app, optimized for e-commerce sellers and product photographers."
 website: "https://www.photoroom.com"
 affiliate_link: "https://www.photoroom.com"
 logo: "/images/tools/photoroom.svg"

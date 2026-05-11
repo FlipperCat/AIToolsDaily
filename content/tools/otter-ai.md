@@ -1,7 +1,7 @@
 ---
 title: "Otter.ai"
 type: "tool"
-description: "AI meeting assistant that transcribes, summarizes, and captures action items from conversations."
+description: "Otter.ai is an AI meeting assistant that joins Zoom, Meet, and Teams calls to transcribe, identify speakers, and pull action items for remote teams."
 website: "https://otter.ai"
 affiliate_link: "https://otter.ai"
 logo: "/images/tools/otter-ai.svg"

@@ -1,7 +1,7 @@
 ---
 title: "QuillBot"
 type: "tool"
-description: "AI paraphrasing and summarization tool for rewriting content in different styles and tones."
+description: "QuillBot is an AI paraphrasing, summarizer, and citation tool with 7 rewrite modes plus grammar and plagiarism checks for students and writers."
 website: "https://quillbot.com"
 affiliate_link: "https://quillbot.com"
 logo: "/images/tools/quillbot.svg"

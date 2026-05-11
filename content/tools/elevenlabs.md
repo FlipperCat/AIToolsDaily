@@ -1,7 +1,7 @@
 ---
 title: "ElevenLabs"
 type: "tool"
-description: "Industry-leading AI voice generation and cloning platform for realistic text-to-speech."
+description: "ElevenLabs delivers the most lifelike AI text-to-speech and voice cloning in 29+ languages, built for audiobook, podcast, and video creators."
 website: "https://elevenlabs.io"
 affiliate_link: "https://elevenlabs.io"
 logo: "/images/tools/elevenlabs.svg"

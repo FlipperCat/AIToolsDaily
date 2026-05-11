@@ -1,7 +1,7 @@
 ---
 title: "Tray.io"
 type: "tool"
-description: "Enterprise automation platform with AI-powered workflow building and robust governance features."
+description: "Tray.io is an enterprise iPaaS with the Merlin AI assistant, 600+ connectors, and full governance for ops, RevOps, and IT teams in large organizations."
 website: "https://tray.io"
 affiliate_link: "https://tray.io"
 logo: "/images/tools/tray-io.svg"

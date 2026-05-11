@@ -1,7 +1,7 @@
 ---
 title: "CapCut"
 type: "tool"
-description: "Free video editing application with powerful AI features for creating professional content on desktop and mobile."
+description: "CapCut is a free desktop and mobile video editor packed with AI auto-captions, background removal, and effects built for TikTok and YouTube creators."
 website: "https://www.capcut.com"
 affiliate_link: "https://www.capcut.com"
 logo: "/images/tools/capcut.svg"

@@ -1,7 +1,7 @@
 ---
 title: "Soundraw"
 type: "tool"
-description: "AI music generation platform for creators to generate royalty-free music with full customization and commercial rights."
+description: "Soundraw is an AI music generator letting YouTubers and podcasters pick genre, mood, and instruments to make royalty-free tracks with commercial rights."
 website: "https://www.soundraw.io"
 affiliate_link: "https://www.soundraw.io"
 logo: "/images/tools/soundraw.svg"
