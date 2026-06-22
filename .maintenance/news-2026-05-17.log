@@ -1,0 +1,33 @@
+2026-05-17 00:40:11,150 INFO === news_publisher start at 2026-05-17T00:40:11 ===
+2026-05-17 00:40:11,206 INFO Dedup window: 1 slugs from past 30 days
+2026-05-17 00:40:11,553 INFO HackerNews: 30 stories fetched
+2026-05-17 00:40:11,686 WARNING Reddit r/artificial fetch failed: HTTP Error 403: Blocked
+2026-05-17 00:40:11,926 INFO RSS venturebeat: 7 stories fetched
+2026-05-17 00:40:12,008 INFO RSS techcrunch: 20 stories fetched
+2026-05-17 00:40:12,104 INFO RSS wired: 10 stories fetched
+2026-05-17 00:40:12,213 INFO RSS arstechnica: 20 stories fetched
+2026-05-17 00:40:12,214 INFO Total stories collected: 87
+2026-05-17 00:40:12,220 INFO Top 5 candidates by score:
+2026-05-17 00:40:12,220 INFO   16.05 [rss:techcrunch] The haves and have nots of the AI gold rush
+2026-05-17 00:40:12,220 INFO   15.66 [rss:techcrunch] OpenAI co-founder Greg Brockman takes charge of product strategy
+2026-05-17 00:40:12,220 INFO   15.45 [hackernews] Frontier AI has broken the open CTF format
+2026-05-17 00:40:12,220 INFO   15.28 [rss:arstechnica] The US is betting on AI to catch insider trading in prediction markets
+2026-05-17 00:40:12,220 INFO   15.15 [rss:wired] Some Asexuals Are Using AI Companions for Intimacy Without the Sex
+2026-05-17 00:40:12,220 INFO Chosen story: [rss:techcrunch] The haves and have nots of the AI gold rush
+2026-05-17 00:40:12,221 INFO Generated article '2026-05-17-the-haves-and-have-nots-of-the-ai-gold-rush' (688 words)
+2026-05-17 00:40:12,221 INFO --dry-run: skipping write. Preview first 600 chars:
+---
+title: "The haves and have nots of the AI gold rush"
+date: 2026-05-17
+updated: 2026-05-17
+categories: ["News"]
+tags: ["ai-news"]
+affiliate_disclosure: false
+source_url: "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/"
+source_name: "techcrunch.com"
+auto_generated: true
+faqs:
+  - question: "Where did this story originally come from?"
+    answer: "The story was reported at techcrunch.com. We've linked the original source so you can read the full report rather than relying on a summary."
+  - question: "What does this mean for builders today?"
+    answer: "Most s

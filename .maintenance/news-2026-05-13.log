@@ -1,0 +1,150 @@
+2026-05-13 00:21:24,450 INFO === news_publisher start at 2026-05-13T00:21:24 ===
+2026-05-13 00:21:24,467 INFO Dedup window: 0 slugs from past 30 days
+2026-05-13 00:21:24,864 INFO HackerNews: 30 stories fetched
+2026-05-13 00:21:25,344 INFO Reddit r/artificial: 5 stories fetched
+2026-05-13 00:21:25,632 INFO RSS venturebeat: 7 stories fetched
+2026-05-13 00:21:25,727 INFO RSS techcrunch: 20 stories fetched
+2026-05-13 00:21:25,817 WARNING RSS theverge fetch failed: HTTP Error 404: Not Found
+2026-05-13 00:21:25,818 INFO Total stories collected: 62
+2026-05-13 00:21:25,819 INFO Top 5 candidates by score:
+2026-05-13 00:21:25,819 INFO   14.62 [hackernews] If AI writes your code, why use Python?
+2026-05-13 00:21:25,820 INFO   13.56 [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:21:25,820 INFO   13.42 [rss:techcrunch] Medicare’s new payment model is built for AI, and most of the tech world has no idea
+2026-05-13 00:21:25,820 INFO   13.41 [hackernews] I let AI build a tool to help me figure out what was waking me up at night
+2026-05-13 00:21:25,820 INFO   12.89 [rss:techcrunch] Musk mulled handing OpenAI to his children, Altman testifies
+2026-05-13 00:21:25,820 INFO Chosen story: [hackernews] If AI writes your code, why use Python?
+2026-05-13 00:21:25,820 INFO Generated article '2026-05-13-if-ai-writes-your-code-why-use-python' (343 words)
+2026-05-13 00:21:25,820 WARNING Article only 343 words (minimum 650) — proceeding but flagging.
+2026-05-13 00:21:25,820 INFO --dry-run: skipping write. Preview first 600 chars:
+---
+title: "If AI writes your code, why use Python?"
+date: 2026-05-13
+updated: 2026-05-13
+categories: ["News"]
+tags: ["ai-news"]
+affiliate_disclosure: false
+source_url: "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"
+source_name: "medium.com"
+auto_generated: true
+faqs:
+  - question: "Where did this story originally come from?"
+    answer: "The story was reported at medium.com. We've linked the original source so you can read the full report rather than relying on a summary."
+  - question: "What does this mean for builders today?"
+    answer: "Most stories like
+2026-05-13 00:23:04,729 INFO === news_publisher start at 2026-05-13T00:23:04 ===
+2026-05-13 00:23:04,747 INFO Dedup window: 0 slugs from past 30 days
+2026-05-13 00:23:05,140 INFO HackerNews: 30 stories fetched
+2026-05-13 00:23:05,622 INFO Reddit r/artificial: 5 stories fetched
+2026-05-13 00:23:05,855 INFO RSS venturebeat: 7 stories fetched
+2026-05-13 00:23:05,918 INFO RSS techcrunch: 20 stories fetched
+2026-05-13 00:23:06,004 INFO RSS wired: 10 stories fetched
+2026-05-13 00:23:06,114 INFO RSS arstechnica: 20 stories fetched
+2026-05-13 00:23:06,114 INFO Total stories collected: 92
+2026-05-13 00:23:06,117 INFO Top 5 candidates by score:
+2026-05-13 00:23:06,117 INFO   16.59 [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:23:06,117 INFO   16.42 [rss:techcrunch] Medicare’s new payment model is built for AI, and most of the tech world has no idea
+2026-05-13 00:23:06,117 INFO   16.40 [rss:wired] Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says
+2026-05-13 00:23:06,117 INFO   16.22 [rss:arstechnica] The newest AI boom pitch: Host a mini data center at your home
+2026-05-13 00:23:06,117 INFO   15.89 [rss:techcrunch] Musk mulled handing OpenAI to his children, Altman testifies
+2026-05-13 00:23:06,118 INFO Chosen story: [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:23:06,118 INFO Generated article '2026-05-13-amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools' (607 words)
+2026-05-13 00:23:06,118 WARNING Article only 607 words (minimum 650) — proceeding but flagging.
+2026-05-13 00:23:06,118 INFO --dry-run: skipping write. Preview first 600 chars:
+---
+title: "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools"
+date: 2026-05-13
+updated: 2026-05-13
+categories: ["News"]
+tags: ["ai-news"]
+affiliate_disclosure: false
+source_url: "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/"
+source_name: "arstechnica.com"
+auto_generated: true
+faqs:
+  - question: "Where did this story originally come from?"
+    answer: "The story was reported at arstechnica.com. We've linked the original source so you can read the full report rather than relying on a summary."
+  - question: "What does
+2026-05-13 00:23:32,771 INFO === news_publisher start at 2026-05-13T00:23:32 ===
+2026-05-13 00:23:32,788 INFO Dedup window: 0 slugs from past 30 days
+2026-05-13 00:23:33,172 INFO HackerNews: 30 stories fetched
+2026-05-13 00:23:33,700 INFO Reddit r/artificial: 5 stories fetched
+2026-05-13 00:23:33,995 INFO RSS venturebeat: 7 stories fetched
+2026-05-13 00:23:34,070 INFO RSS techcrunch: 20 stories fetched
+2026-05-13 00:23:34,154 INFO RSS wired: 10 stories fetched
+2026-05-13 00:23:34,271 INFO RSS arstechnica: 20 stories fetched
+2026-05-13 00:23:34,271 INFO Total stories collected: 92
+2026-05-13 00:23:34,275 INFO Top 5 candidates by score:
+2026-05-13 00:23:34,275 INFO   16.59 [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:23:34,275 INFO   16.42 [rss:techcrunch] Medicare’s new payment model is built for AI, and most of the tech world has no idea
+2026-05-13 00:23:34,275 INFO   16.40 [rss:wired] Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says
+2026-05-13 00:23:34,275 INFO   16.22 [rss:arstechnica] The newest AI boom pitch: Host a mini data center at your home
+2026-05-13 00:23:34,275 INFO   15.89 [rss:techcrunch] Musk mulled handing OpenAI to his children, Altman testifies
+2026-05-13 00:23:34,275 INFO Chosen story: [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:23:34,276 INFO Generated article '2026-05-13-amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools' (721 words)
+2026-05-13 00:23:34,276 INFO --dry-run: skipping write. Preview first 600 chars:
+---
+title: "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools"
+date: 2026-05-13
+updated: 2026-05-13
+categories: ["News"]
+tags: ["ai-news"]
+affiliate_disclosure: false
+source_url: "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/"
+source_name: "arstechnica.com"
+auto_generated: true
+faqs:
+  - question: "Where did this story originally come from?"
+    answer: "The story was reported at arstechnica.com. We've linked the original source so you can read the full report rather than relying on a summary."
+  - question: "What does
+2026-05-13 00:23:39,568 INFO === news_publisher start at 2026-05-13T00:23:39 ===
+2026-05-13 00:23:39,595 INFO Dedup window: 0 slugs from past 30 days
+2026-05-13 00:23:40,098 INFO HackerNews: 30 stories fetched
+2026-05-13 00:23:40,649 INFO Reddit r/artificial: 5 stories fetched
+2026-05-13 00:23:40,952 INFO RSS venturebeat: 7 stories fetched
+2026-05-13 00:23:41,056 INFO RSS techcrunch: 20 stories fetched
+2026-05-13 00:23:41,159 INFO RSS wired: 10 stories fetched
+2026-05-13 00:23:41,421 INFO RSS arstechnica: 20 stories fetched
+2026-05-13 00:23:41,421 INFO Total stories collected: 92
+2026-05-13 00:23:41,426 INFO Top 5 candidates by score:
+2026-05-13 00:23:41,427 INFO   16.59 [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:23:41,427 INFO   16.42 [rss:techcrunch] Medicare’s new payment model is built for AI, and most of the tech world has no idea
+2026-05-13 00:23:41,427 INFO   16.40 [rss:wired] Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says
+2026-05-13 00:23:41,427 INFO   16.22 [rss:arstechnica] The newest AI boom pitch: Host a mini data center at your home
+2026-05-13 00:23:41,427 INFO   15.89 [rss:techcrunch] Musk mulled handing OpenAI to his children, Altman testifies
+2026-05-13 00:23:41,427 INFO Chosen story: [hackernews] Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:23:41,428 INFO Generated article '2026-05-13-amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools' (721 words)
+2026-05-13 00:23:41,429 INFO Wrote: C:\Users\altst\aitoolsdaily\content\news\2026-05-13-amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools.md
+2026-05-13 00:23:41,429 INFO --no-commit: leaving file uncommitted.
+2026-05-13 00:25:50,391 INFO === news_publisher start at 2026-05-13T00:25:50 ===
+2026-05-13 00:25:50,409 INFO Dedup window: 1 slugs from past 30 days
+2026-05-13 00:25:50,771 INFO HackerNews: 30 stories fetched
+2026-05-13 00:25:51,261 INFO Reddit r/artificial: 5 stories fetched
+2026-05-13 00:25:51,527 INFO RSS venturebeat: 7 stories fetched
+2026-05-13 00:25:51,596 INFO RSS techcrunch: 20 stories fetched
+2026-05-13 00:25:51,693 INFO RSS wired: 10 stories fetched
+2026-05-13 00:25:51,780 INFO RSS arstechnica: 20 stories fetched
+2026-05-13 00:25:51,781 INFO Total stories collected: 92
+2026-05-13 00:25:51,782 INFO Skipping near-duplicate: Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:25:51,791 INFO Skipping near-duplicate: Amazon employees are "tokenmaxxing" due to pressure to use AI tools
+2026-05-13 00:25:51,792 INFO Top 5 candidates by score:
+2026-05-13 00:25:51,792 INFO   16.42 [rss:techcrunch] Medicare’s new payment model is built for AI, and most of the tech world has no idea
+2026-05-13 00:25:51,792 INFO   16.39 [rss:wired] Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says
+2026-05-13 00:25:51,792 INFO   16.21 [rss:arstechnica] The newest AI boom pitch: Host a mini data center at your home
+2026-05-13 00:25:51,792 INFO   15.89 [rss:techcrunch] Musk mulled handing OpenAI to his children, Altman testifies
+2026-05-13 00:25:51,792 INFO   15.85 [rss:techcrunch] Anthropic warns investors against secondary platforms offering access to its shares
+2026-05-13 00:25:51,792 INFO Chosen story: [rss:techcrunch] Medicare’s new payment model is built for AI, and most of the tech world has no idea
+2026-05-13 00:25:51,793 INFO Generated article '2026-05-13-medicare-s-new-payment-model-is-built-for-ai-and-most-of-the-tech' (770 words)
+2026-05-13 00:25:51,793 INFO --dry-run: skipping write. Preview first 600 chars:
+---
+title: "Medicare’s new payment model is built for AI, and most of the tech world has no idea"
+date: 2026-05-13
+updated: 2026-05-13
+categories: ["News"]
+tags: ["ai-agents", "model-release", "ai-news"]
+affiliate_disclosure: false
+source_url: "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/"
+source_name: "techcrunch.com"
+auto_generated: true
+faqs:
+  - question: "Where did this story originally come from?"
+    answer: "The story was reported at techcrunch.com. We've linked the original source so you can read the full report 
